@@ -148,24 +148,29 @@ footer {
   font-size: 0.875rem;
   margin-top: 2rem;
 }
-
-footer button {
-  background-color: transparent;
-  border: 1px solid #00b4d8;
-  color: #00b4d8;
-  padding: 15px;
-  border-radius: 15px;
+#volverBtn {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  color: #667eea;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold;
   cursor: pointer;
-  font-size: 0.875rem;
-  text-decoration: underline;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 1000;
 }
 
-footer button:hover {
-  background-color: #00b4d8;
-  color: #fff;
+#volverBtn:hover {
+  background: #667eea;
+  color: white;
+  transform: translateX(-50%) scale(1.05);
 }
-
 /* 📱 Media Queries */
 @media (max-width: 1024px) {
   #equiposContainer {

@@ -1,98 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alineación del Equipo</title>
-
-  <!-- CSS del campo -->
-  <link rel="stylesheet" href="./../css/jugadores_campo.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jugadores del Equipo</title>
+  <link rel="stylesheet" href="./../css/jugadores_campo.css">
+  <style>
+   
+  </style>
 </head>
-
 <body>
-
   <header>
-    <h1 id="tituloEquipo">Alineación</h1>
-    <p>Arrastra jugadores en el campo o selecciona uno para ver detalles</p>
+    <h1 id="tituloEquipo">Jugadores</h1>
+    <p>Selecciona un jugador para ver detalles</p>
   </header>
 
-  <!-- Contenedor del campo -->
-  <div class="field-container">
-    <div id="footballField" class="football-field"></div>
+  <div id="jugadoresContainer" class="jugadores-grid">
+    <div class="loading">Cargando jugadores</div>
   </div>
 
-  <!-- Banco de suplentes -->
-  <section>
-    <h2 class="banco-title">Banco</h2>
-    <div id="benchContainer" class="bench"></div>
-  </section>
-
-  <footer>
-    <button id="volverBtn">⬅ Volver</button>
-  </footer>
+  <button id="volverBtn">⬅ Volver</button>
 
   <script>
     const params = new URLSearchParams(window.location.search);
     const nombreEquipo = params.get("equipo");
 
-    // Referencias importantes (se usan en makeDraggable)
-    const contenedorCampo = document.getElementById("footballField");
-    const bench = document.getElementById("benchContainer");
-    let draggedCard = null; // Jugador arrastrado
+    const contenedor = document.getElementById("jugadoresContainer");
+    const titulo = document.getElementById("tituloEquipo");
 
-    // makeDraggable debe conocer el contenedor del campo; lo definimos aquí
-    function makeDraggable(card) {
-      card.draggable = true;
-
-      card.addEventListener("dragstart", (e) => {
-        // mover la card al campo si está en el banco (o en otro sitio)
-        if (!contenedorCampo.contains(card)) {
-          // calcular posición del mouse relativa al campo
-          const rect = contenedorCampo.getBoundingClientRect();
-          const x = e.clientX - rect.left;
-          const y = e.clientY - rect.top;
-
-          // pasar la card al campo y ponerla absolute
-          contenedorCampo.appendChild(card);
-          card.style.position = "absolute";
-          card.style.left = (x) + "px";
-          card.style.top = (y) + "px";
-        } else {
-          // si ya estaba en el campo, asegurar position absolute
-          card.style.position = "absolute";
-        }
-
-        // evitar ghost image por defecto (mejor control del puntero)
-        const img = new Image();
-        img.src = 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
-        if (e.dataTransfer) e.dataTransfer.setDragImage(img, 0, 0);
-
-        draggedCard = card;
-        card.classList.add("dragging");
-        console.log("Arrastrando a:", card.dataset.nombre || card.querySelector("span")?.textContent);
-      });
-
-      card.addEventListener("dragend", () => {
-        draggedCard = null;
-        card.classList.remove("dragging");
-      });
-    }
-
-    // cargamos datos y construimos UI
     fetch("./../data/data.json")
       .then(res => res.json())
       .then(data => {
-        const titulo = document.getElementById("tituloEquipo");
-
-        // Buscar equipo
         const equipo = data.equipos.find(e => e.nombre === nombreEquipo);
 
         if (!equipo) {
-          contenedorCampo.innerHTML = "<p>No se encontró el equipo.</p>";
+          contenedor.innerHTML = '<div class="mensaje">⚠️ No se encontró el equipo</div>';
           return;
         }
 
-        titulo.textContent = equipo.nombre + " - Alineación";
+        titulo.textContent = equipo.nombre + " - Jugadores";
 
         const jugadoresIds = equipo.jugadores || [];
         const jugadores = jugadoresIds
@@ -100,100 +46,39 @@
           .filter(Boolean);
 
         if (!jugadores.length) {
-          contenedorCampo.innerHTML = "<p>El equipo no tiene jugadores registrados.</p>";
+          contenedor.innerHTML = '<div class="mensaje">Este equipo no tiene jugadores registrados</div>';
           return;
         }
 
-        // Posiciones base 4-3-3 (puedes ajustar)
-        const layout = {
-          "POR": { top: "88%", left: "50%" },
+        contenedor.innerHTML = '';
 
-          "DFC": [
-            { top: "70%", left: "35%" },
-            { top: "70%", left: "65%" }
-          ],
-          "LI": { top: "70%", left: "20%" },
-          "LD": { top: "70%", left: "80%" },
-
-          "MC": [
-            { top: "50%", left: "30%" },
-            { top: "50%", left: "50%" },
-            { top: "50%", left: "70%" }
-          ],
-
-          "EI": { top: "30%", left: "25%" },
-          "DC": { top: "25%", left: "50%" },
-          "ED": { top: "30%", left: "75%" }
-        };
-
-        jugadores.forEach(j => {
+        jugadores.forEach((j, index) => {
           const card = document.createElement("div");
           card.classList.add("player-card");
-
-          // guardar nombre en dataset para logs/eventos
-          card.dataset.nombre = j.nombre;
+          card.style.animationDelay = `${index * 0.1}s`;
 
           card.innerHTML = `
-            <img src="${j.imagen_url || '../assets/img/default_player.png'}" />
-            <span>${j.nombre}</span>
+            <img src="${j.imagen_url || '../assets/img/default_player.png'}" alt="${j.nombre}" />
+            <h4>${j.nombre}</h4>
+            <small>${j.posiciones ? j.posiciones.join(", ") : "Sin posición"}</small>
           `;
 
-          // Hacer draggable (usa contenedorCampo desde el scope)
-          makeDraggable(card);
-
-          // Posicionar según layout o mandar al banco
-          const pos = j.posiciones?.[0];
-          if (pos && layout[pos]) {
-            if (Array.isArray(layout[pos])) {
-              const assign = layout[pos].shift();
-              // usar porcentajes (strings) directamente
-              card.style.top = assign.top;
-              card.style.left = assign.left;
-            } else {
-              card.style.top = layout[pos].top;
-              card.style.left = layout[pos].left;
-            }
-            // aseguramos que la card esté en el campo
-            contenedorCampo.appendChild(card);
-            card.style.position = "absolute";
-          } else {
-            bench.appendChild(card);
-            // si está en el banco, lo dejamos con position static (estilo CSS)
-            card.style.position = "static";
-          }
-
-          // Clic → detalle del jugador
           card.addEventListener("click", () => {
             const q = new URLSearchParams({ jugador: j.id }).toString();
             window.location.href = `jugador_detalle_fu.html?${q}`;
           });
-        });
 
-        // dragover para mover la card con el mouse
-        contenedorCampo.addEventListener("dragover", (e) => {
-          e.preventDefault();
-          if (!draggedCard) return;
-
-          const rect = contenedorCampo.getBoundingClientRect();
-          const x = e.clientX - rect.left;
-          const y = e.clientY - rect.top;
-
-          // centrar el icono (opcional): restamos la mitad del ancho/alto si quieres centrar
-          const w = draggedCard.offsetWidth;
-          const h = draggedCard.offsetHeight;
-          draggedCard.style.left = (x - w / 2) + "px";
-          draggedCard.style.top = (y - h / 2) + "px";
+          contenedor.appendChild(card);
         });
       })
-      .catch(err => {
-        console.error("Error cargando data.json:", err);
+      .catch(error => {
+        contenedor.innerHTML = '<div class="mensaje">❌ Error al cargar los datos</div>';
+        console.error('Error:', error);
       });
 
-    // volver
     document.getElementById("volverBtn").addEventListener("click", () => {
       window.history.back();
     });
   </script>
-
 </body>
 </html>
