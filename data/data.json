@@ -509,7 +509,40 @@
         100007,
         100008,
         100009,
-        100010
+        100010,
+        100011,
+        100012,
+        100013,
+        100014,
+        100015,
+        100016,
+        100017,
+        100018,
+        100019,
+        100020,
+        100021,
+        100022,
+        100023,
+        100024,
+        100025,
+        100026,
+        100027,
+        100028,
+        100029,
+        100030,
+        100031,
+        100032,
+        100033,
+        100034,
+        100035,
+        100036,
+        100037,
+        100038,
+        100039,
+        100040,
+        100041,
+        100042,
+        100043
     ]
     },
     {
@@ -2818,6 +2851,7 @@
       "id": 100001,
       "nombre": "Nico Williams",
       "fecha_nacimiento": "12-07-2002",
+      "lugar_nacimiento": "Pamplona",
       "nacionalidad": "España",
       "numero_camiseta": "10",
       "posiciones": [
@@ -2856,10 +2890,11 @@
       "id": 100002,
       "nombre": "Aymeric Laporte",
       "fecha_nacimiento": "27-05-1994",
+      "lugar_nacimiento": "Agen",
       "nacionalidad": "España",
       "numero_camiseta": "14",
       "posiciones": [
-        "Defensa Central"
+        "Lateral izquierdo"
       ],
 
       "estado": "activo", 
@@ -2894,6 +2929,7 @@
       "id": 100003,
       "nombre": "Iñaki Williams",
       "fecha_nacimiento": "15-06-1994",
+      "lugar_nacimiento": "Bilbao",
       "nacionalidad": "Ghana",
       "numero_camiseta": "9",
       "posiciones": [
@@ -2932,6 +2968,7 @@
       "id": 100004,
       "nombre": "Oihan Sancet",
       "fecha_nacimiento": "25-04-2000",
+      "lugar_nacimiento": "Pamplona",
       "nacionalidad": "España",
       "numero_camiseta": "8",
       "posiciones": [
@@ -2970,6 +3007,7 @@
       "id": 100005,
       "nombre": "Unai Simón",
       "fecha_nacimiento": "11-06-1997",
+      "lugar_nacimiento": "Vitoria-Gasteiz",
       "nacionalidad": "España",
       "numero_camiseta": "1",
       "posiciones": [
@@ -3008,6 +3046,7 @@
       "id": 100006,
       "nombre": "Selton Sánchez",
       "fecha_nacimiento": "20-02-2007",
+      "lugar_nacimiento": "Durango",
       "nacionalidad": "España",
       "numero_camiseta": "14",
       "posiciones": [
@@ -3046,6 +3085,7 @@
       "id": 100007,
       "nombre": "Maroan Sannadi",
       "fecha_nacimiento": "01-02-2001",
+      "lugar_nacimiento": "Vitoria-Gasteiz",
       "nacionalidad": "Marruecos",
       "numero_camiseta": "21",
       "posiciones": [
@@ -3084,6 +3124,7 @@
       "id": 100008,
       "nombre": "Álex Padilla",
       "fecha_nacimiento": "01-09-2003",
+      "lugar_nacimiento": "Zarautz",
       "nacionalidad": "México",
       "numero_camiseta": "27",
       "posiciones": [
@@ -3122,14 +3163,15 @@
       "id": 100009,
       "nombre": "Yeray Álvarez",
       "fecha_nacimiento": "24-01-1995",
+      "lugar_nacimiento": "Barakaldo",
       "nacionalidad": "España",
       "numero_camiseta": "5",
       "posiciones": [
-        "Defensa Central"
+        "Lateral izquierdo"
       ],
 
       "estado": "activo", 
-      "altura": "1.82",
+      "altura": "1.81",
       "peso": "",
 
       "equipos_historial": [
@@ -3160,10 +3202,1064 @@
       "id": 100010,
       "nombre": "Robert Navarro",
       "fecha_nacimiento": "12-04-2002",
+      "lugar_nacimiento": "Barcelona",
       "nacionalidad": "España",
       "numero_camiseta": "23",
       "posiciones": [
-        "Defensa Central"
+        "Lateral izquierdo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.71",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/563137-1567246327.jpg?lm=1"
+    },
+    {
+      "id": 100011,
+      "nombre": "Alejandro Rego",
+      "fecha_nacimiento": "11-06-2003",
+      "lugar_nacimiento": "Bilbao",
+      "nacionalidad": "España",
+      "numero_camiseta": "30",
+      "posiciones": [
+        "Mediocentro"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.92",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834491-1709677367.png?lm=1"
+    },
+    {
+      "id": 100012,
+      "nombre": "Jesús Areso",
+      "fecha_nacimiento": "02-07-1999",
+      "lugar_nacimiento": "Cascante",
+      "nacionalidad": "España",
+      "numero_camiseta": "12",
+      "posiciones": [
+        "Lateral derecho"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.82",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/488626-1675800186.jpg?lm=1"
+    },
+    {
+      "id": 100013,
+      "nombre": "Gorka Guruzeta",
+      "fecha_nacimiento": "12-09-1996",
+      "lugar_nacimiento": "Donostia-San Sebastián",
+      "nacionalidad": "España",
+      "numero_camiseta": "11",
+      "posiciones": [
+        "Delantero centro"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.88",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/340205-1709676375.png?lm=1"
+    },
+    {
+      "id": 100014,
+      "nombre": "Mikel Jauregizar",
+      "fecha_nacimiento": "13-11-2003",
+      "lugar_nacimiento": "Bermeo",
+      "nacionalidad": "España",
+      "numero_camiseta": "18",
+      "posiciones": [
+        "Mediocentro"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.77",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/938729-1709675994.png?lm=1"
+    },
+    {
+      "id": 100015,
+      "nombre": "Álex Berenguer",
+      "fecha_nacimiento": "04-07-1995",
+      "lugar_nacimiento": "Barañain",
+      "nacionalidad": "España",
+      "numero_camiseta": "7",
+      "posiciones": [
+        "Extremo izquierdo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.75",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/338425-1709676212.png?lm=1"
+    },
+    {
+      "id": 100016,
+      "nombre": "Urko Izeta",
+      "fecha_nacimiento": "29-09-1999",
+      "lugar_nacimiento": "Aia",
+      "nacionalidad": "España",
+      "numero_camiseta": "25",
+      "posiciones": [
+        "Delantero centro"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.75",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/610622-1709678226.png?lm=1"
+    },
+    {
+      "id": 100017,
+      "nombre": "Dani Vivian",
+      "fecha_nacimiento": "05-07-1999",
+      "lugar_nacimiento": "Vitoria-Gasteiz",
+      "nacionalidad": "España",
+      "numero_camiseta": "3",
+      "posiciones": [
+        "Lateral izquierdo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.81",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/524000-1709674998.png?lm=1"
+    },
+    {
+      "id": 100018,
+      "nombre": "Aitor Paredes",
+      "fecha_nacimiento": "29-04-2000",
+      "lugar_nacimiento": "Bilbao",
+      "nacionalidad": "España",
+      "numero_camiseta": "4",
+      "posiciones": [
+        "Lateral izquierdo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.81",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/591916-1709675052.png?lm=1"
+    },
+    {
+      "id": 100019,
+      "nombre": "Yuri Berchiche",
+      "fecha_nacimiento": "10-02-1990",
+      "lugar_nacimiento": "Zarautz",
+      "nacionalidad": "España",
+      "numero_camiseta": "17",
+      "posiciones": [
+        "Lateral izquierdo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.81",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/61812-1709675167.png?lm=1"
+    },
+    {
+      "id": 100020,
+      "nombre": "Unai Gómez",
+      "fecha_nacimiento": "25-05-2003",
+      "lugar_nacimiento": "Bermeo",
+      "nacionalidad": "España",
+      "numero_camiseta": "20",
+      "posiciones": [
+        "Mediocentro ofensivo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.83",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834752-1709676122.png?lm=1"
+    },
+    {
+      "id": 100021,
+      "nombre": "Beñat Prados",
+      "fecha_nacimiento": "08-02-2001",
+      "lugar_nacimiento": "Pamplona",
+      "nacionalidad": "España",
+      "numero_camiseta": "24",
+      "posiciones": [
+        "Mediocentro"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.80",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/625047-1709675858.png?lm=1"
+    },
+    {
+      "id": 100022,
+      "nombre": "Adama Boiro",
+      "fecha_nacimiento": "22-06-2002",
+      "lugar_nacimiento": "Dakar, Senegal",
+      "nacionalidad": "España",
+      "numero_camiseta": "19",
+      "posiciones": [
+        "Lateral izquierdo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.83",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/710671-1709677000.png?lm=1"
+    },
+    {
+      "id": 100023,
+      "nombre": "Nico Serrano",
+      "fecha_nacimiento": "05-03-2003",
+      "lugar_nacimiento": "Pamplona",
+      "nacionalidad": "España",
+      "numero_camiseta": "22",
+      "posiciones": [
+        "Extremo izquierdo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.76",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/668183-1731352737.png?lm=1"
+    },
+    {
+      "id": 100024,
+      "nombre": "Unai Vencedor",
+      "fecha_nacimiento": "15-11-2000",
+      "lugar_nacimiento": "Bilbao",
+      "nacionalidad": "España",
+      "numero_camiseta": "12",
+      "posiciones": [
+        "Mediocentro"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.76",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/610083-1671998817.png?lm=1"
+    },
+    {
+      "id": 100025,
+      "nombre": "Iñigo Lekue",
+      "fecha_nacimiento": "04-05-1993",
+      "lugar_nacimiento": "Bilbao",
+      "nacionalidad": "España",
+      "numero_camiseta": "15",
+      "posiciones": [
+        "Lateral derecho"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.80",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/255501-1709675295.png?lm=1"
+    },
+    {
+      "id": 100026,
+      "nombre": "Jon de Luis",
+      "fecha_nacimiento": "05-08-2003",
+      "lugar_nacimiento": "Berbinzana",
+      "nacionalidad": "España",
+      "numero_camiseta": "3",
+      "posiciones": [
+        "Defensa central"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.86",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/905015-1709676835.png?lm=1"
+    },
+    {
+      "id": 100027,
+      "nombre": "Mikel Vesga",
+      "fecha_nacimiento": "08-04-1993",
+      "lugar_nacimiento": "Vitoria-Gasteiz",
+      "nacionalidad": "España",
+      "numero_camiseta": "6",
+      "posiciones": [
+        "Pivote"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.91",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/300168-1709675412.png?lm=1"
+    },
+    {
+      "id": 100028,
+      "nombre": "Álvaro Djaló",
+      "fecha_nacimiento": "16-08-1999",
+      "lugar_nacimiento": "Madrid",
+      "nacionalidad": "Guinea-Bissau",
+      "numero_camiseta": "14",
+      "posiciones": [
+        "Extremo izquierdo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.75",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/671649-1762259842.jpg?lm=1"
+    },
+    {
+      "id": 100029,
+      "nombre": "Andoni Gorosabel",
+      "fecha_nacimiento": "04-08-1996",
+      "lugar_nacimiento": "Arrasate",
+      "nacionalidad": "España",
+      "numero_camiseta": "2",
+      "posiciones": [
+        "Lateral derecho"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.74",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/289255-1739190147.jpeg?lm=1"
+    },
+    {
+      "id": 100030,
+      "nombre": "Unai Egiluz",
+      "fecha_nacimiento": "19-03-2002",
+      "lugar_nacimiento": "Durango",
+      "nacionalidad": "España",
+      "numero_camiseta": "29",
+      "posiciones": [
+        "Defensa central"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.86",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834485-1709676798.png?lm=1"
+    },
+    {
+      "id": 100031,
+      "nombre": "Julen Agirrezabala",
+      "fecha_nacimiento": "26-12-2000",
+      "lugar_nacimiento": "Donostia-San Sebastián",
+      "nacionalidad": "España",
+      "numero_camiseta": "25",
+      "posiciones": [
+        "Portero"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.87",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/625014-1709674945.png?lm=1"
+    },
+    {
+      "id": 100032,
+      "nombre": "Iñigo Ruiz de Galarreta",
+      "fecha_nacimiento": "06-08-1993",
+      "lugar_nacimiento": "Donostia-San Sebastián",
+      "nacionalidad": "España",
+      "numero_camiseta": "16",
+      "posiciones": [
+        "Mediocentro"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.75",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/126751-1709675810.png?lm=1"
+    },
+    {
+      "id": 100033,
+      "nombre": "Hugo Rincón",
+      "fecha_nacimiento": "27-01-2003",
+      "lugar_nacimiento": "Valtierra",
+      "nacionalidad": "España",
+      "numero_camiseta": "2",
+      "posiciones": [
+        "Lateral derecho"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.83",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834487-1709677097.png?lm=1"
+    },
+    {
+      "id": 100034,
+      "nombre": "Mikel Santos",
+      "fecha_nacimiento": "01-11-2004",
+      "lugar_nacimiento": "Bilbao",
+      "nacionalidad": "España",
+      "numero_camiseta": "13",
+      "posiciones": [
+        "Portero"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.82",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1056956-1709678933.png?lm=1"
+    },
+    {
+      "id": 100035,
+      "nombre": "Aingeru Olabarrieta",
+      "fecha_nacimiento": "14-11-2005",
+      "lugar_nacimiento": "Luiaondo",
+      "nacionalidad": "España",
+      "numero_camiseta": "15",
+      "posiciones": [
+        "Extremo derecho"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.82",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1056971-1709678151.png?lm=1"
+    },
+    {
+      "id": 100036,
+      "nombre": "Ibon Sánchez",
+      "fecha_nacimiento": "08-03-2004",
+      "lugar_nacimiento": "Getxo",
+      "nacionalidad": "España",
+      "numero_camiseta": "10",
+      "posiciones": [
+        "Mediocentro ofensivo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.77",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/938730-1709678063.png?lm=1"
+    },
+    {
+      "id": 100037,
+      "nombre": "Adrián Pérez",
+      "fecha_nacimiento": "25-10-2006",
+      "lugar_nacimiento": "Bilbao",
+      "nacionalidad": "España",
+      "numero_camiseta": "22",
+      "posiciones": [
+        "Mediocentro ofensivo"
       ],
 
       "estado": "activo", 
@@ -3192,7 +4288,241 @@
         }
       },
 
-      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/563137-1567246327.jpg?lm=1"
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1162017-1731353883.png?lm=1"
+    },
+    {
+      "id": 100038,
+      "nombre": "Beñat Gerenabarrena",
+      "fecha_nacimiento": "29-03-2003",
+      "lugar_nacimiento": "Lekeitio",
+      "nacionalidad": "España",
+      "numero_camiseta": "15",
+      "posiciones": [
+        "Mediocentro"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.73",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/709214-1709677208.png?lm=1"
+    },
+    {
+      "id": 100039,
+      "nombre": "Iker Varela",
+      "fecha_nacimiento": "01-03-2003",
+      "lugar_nacimiento": "Barakaldo",
+      "nacionalidad": "España",
+      "numero_camiseta": "7",
+      "posiciones": [
+        "Extremo izquierdo"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.88",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834492-1709678194.png?lm=1"
+    },
+    {
+      "id": 100040,
+      "nombre": "Iker Monreal",
+      "fecha_nacimiento": "03-07-2005",
+      "lugar_nacimiento": "Iruña",
+      "nacionalidad": "España",
+      "numero_camiseta": "28",
+      "posiciones": [
+        "Defensa central"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.85",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1124051-1731353342.png?lm=1"
+    },
+    {
+      "id": 100041,
+      "nombre": "Oier Gastesi",
+      "fecha_nacimiento": "30-10-2003",
+      "lugar_nacimiento": "Altsau",
+      "nacionalidad": "España",
+      "numero_camiseta": "1",
+      "posiciones": [
+        "Portero"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.90",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/938722-1709676754.png?lm=1"
+    },
+    {
+      "id": 100042,
+      "nombre": "Ander Izagirre",
+      "fecha_nacimiento": "28-06-2003",
+      "lugar_nacimiento": "Amorebieta-Etxano",
+      "nacionalidad": "España",
+      "numero_camiseta": "14",
+      "posiciones": [
+        "Defensa central"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.85",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1189292-1731350634.png?lm=1"
+    },
+    {
+      "id": 100043,
+      "nombre": "Asier Hierro",
+      "fecha_nacimiento": "06-05-2005",
+      "lugar_nacimiento": "Basauri",
+      "nacionalidad": "España",
+      "numero_camiseta": "7",
+      "posiciones": [
+        "Delantero centro"
+      ],
+
+      "estado": "activo", 
+      "altura": "1.90",
+      "peso": "",
+
+      "equipos_historial": [
+        {
+          "equipo_id": "",
+          "desde": "",
+          "hasta": "",
+          "camiseta": "",
+          "liga": null
+        }
+      ],
+
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1056970-1709678306.png?lm=1"
     }
   ]
 }

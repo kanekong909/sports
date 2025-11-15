@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header>
+ <header>
     <h1 id="tituloEquipo">Jugadores</h1>
     <p>Selecciona un jugador para ver detalles</p>
   </header>
@@ -47,105 +47,13 @@
         <p><strong>Partidos (club):</strong> <span id="modalPartidosClub"></span></p>
         <p><strong>Goles (club):</strong> <span id="modalGolesClub"></span></p>
         <p><strong>Asistencias (club):</strong> <span id="modalAsistClub"></span></p>
-
         <p><strong>Partidos (selección):</strong> <span id="modalPartidosSel"></span></p>
         <p><strong>Goles (selección):</strong> <span id="modalGolesSel"></span></p>
       </div>
     </div>
   </div>
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const nombreEquipo = params.get("equipo");
-
-    const contenedor = document.getElementById("jugadoresContainer");
-    const titulo = document.getElementById("tituloEquipo");
-
-    fetch("./../data/data.json")
-      .then(res => res.json())
-      .then(data => {
-        const equipo = data.equipos.find(e => e.nombre === nombreEquipo);
-
-        if (!equipo) {
-          contenedor.innerHTML = '<div class="mensaje">⚠️ No se encontró el equipo</div>';
-          return;
-        }
-
-        titulo.textContent = equipo.nombre + " - Jugadores";
-
-        const jugadoresIds = equipo.jugadores || [];
-        const jugadores = jugadoresIds
-          .map(id => data.jugadores.find(j => j.id === id))
-          .filter(Boolean);
-
-        if (!jugadores.length) {
-          contenedor.innerHTML = '<div class="mensaje">Este equipo no tiene jugadores registrados</div>';
-          return;
-        }
-
-        contenedor.innerHTML = '';
-
-        jugadores.forEach((j, index) => {
-          const card = document.createElement("div");
-          card.classList.add("player-card");
-          card.style.animationDelay = `${index * 0.1}s`;
-
-          card.innerHTML = `
-            <img src="${j.imagen_url || '../assets/img/default_player.png'}" alt="${j.nombre}" />
-            <h4>${j.nombre}</h4>
-            <small>${j.posiciones ? j.posiciones.join(", ") : "Sin posición"}</small>
-          `;
-
-          card.addEventListener("click", () => {
-            abrirModal(j);
-          });
-
-          contenedor.appendChild(card);
-        });
-      })
-      .catch(error => {
-        contenedor.innerHTML = '<div class="mensaje">❌ Error al cargar los datos</div>';
-        console.error('Error:', error);
-      });
-
-    const modal = document.getElementById("playerModal");
-    const closeModal = document.getElementById("closeModal");
-
-    function abrirModal(j) {
-      document.getElementById("modalImg").src = j.imagen_url || "../assets/img/default_player.png";
-      document.getElementById("modalNombre").textContent = j.nombre;
-      document.getElementById("modalPos").textContent = j.posiciones?.join(", ") || "Sin posición";
-
-      document.getElementById("modalNac").textContent = j.nacionalidad || "N/A";
-      document.getElementById("modalFecha").textContent = j.fecha_nacimiento || "N/A";
-      document.getElementById("modalNum").textContent = j.numero_camiseta || "N/A";
-      document.getElementById("modalEstado").textContent = j.estado || "N/A";
-      document.getElementById("modalAltura").textContent = j.altura || "N/A";
-      document.getElementById("modalPeso").textContent = j.peso || "N/A";
-
-      document.getElementById("modalPartidosClub").textContent = j.estadisticas?.club?.partidos ?? "0";
-      document.getElementById("modalGolesClub").textContent = j.estadisticas?.club?.goles ?? "0";
-      document.getElementById("modalAsistClub").textContent = j.estadisticas?.club?.asistencias ?? "0";
-
-      document.getElementById("modalPartidosSel").textContent = j.estadisticas?.seleccion?.partidos ?? "0";
-      document.getElementById("modalGolesSel").textContent = j.estadisticas?.seleccion?.goles ?? "0";
-
-      modal.classList.remove("hidden");
-    }
-
-    closeModal.addEventListener("click", () => {
-      modal.classList.add("hidden");
-    });
-
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) modal.classList.add("hidden");
-    });
-
-    // Boton de volver
-    document.getElementById("volverBtn").addEventListener("click", () => {
-      window.history.back();
-    });
-  </script>
+  <script src="./../js/jugadores_fu.js"></script>
 </body>
 
 </html>

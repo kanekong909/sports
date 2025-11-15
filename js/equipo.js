@@ -35,6 +35,9 @@ fetch("./../data/data.json")
     const equipos = liga.equipos
       .map((id) => data.equipos.find((eq) => eq.id === id))
       .filter(Boolean);
+    
+    // Mostrar total de equipos
+    document.getElementById("totalEquipos").textContent = `Equipos: ${equipos.length}`;
 
     if (!equipos.length) {
       contenedor.innerHTML =
@@ -68,19 +71,24 @@ const buscador = document.getElementById("buscadorEquipos");
 
 buscador.addEventListener("input", () => {
   const texto = buscador.value.toLowerCase().trim();
-
   const cards = document.querySelectorAll("#equiposContainer .card");
 
-  cards.forEach((card) => {
-    const nombre = card.querySelector("h2").textContent.toLowerCase();
+  let visibles = 0;
 
+  cards.forEach(card => {
+    const nombre = card.querySelector("h2").textContent.toLowerCase();
     if (nombre.includes(texto)) {
       card.style.display = "";
+      visibles++;
     } else {
       card.style.display = "none";
     }
   });
+
+  document.getElementById("totalEquipos").textContent =
+    `Equipos: ${visibles}`;
 });
+
 
 document.getElementById("volverBtn").addEventListener("click", function () {
   window.location.href = "./futbol.html";
