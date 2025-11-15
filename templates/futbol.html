@@ -15,6 +15,11 @@
     <p>Selecciona una liga para ver sus equipos</p>
   </header>
 
+  <!-- Buscador -->
+  <div class="buscador-container">
+    <input type="text" id="buscadorLigas" placeholder="Buscar liga o país...">
+  </div>
+
   <main class="contenedor-cards" id="ligasContainer">
     <!-- Las ligas se cargarán aquí dinámicamente -->
   </main>
@@ -27,118 +32,149 @@
   </footer>
 
   <script>
+
+    // ————————————————
+    // FUNCION PARA CREAR UNA CARD (para no repetir código)
+    // ————————————————
+    function crearCardLiga(liga) {
+      const card = document.createElement("div");
+      card.classList.add("card");
+
+      card.innerHTML = `
+        <img src="${liga.imagen_url || '../assets/img/default_league.png'}" alt="${liga.nombre}" />
+        <div class="card-info">
+          <h2>${liga.nombre}</h2>
+          <p>${liga.pais || 'País desconocido'}</p>
+        </div>
+      `;
+
+      card.addEventListener("click", () => {
+        const query = new URLSearchParams({ liga: liga.nombre }).toString();
+        window.location.href = `equipo.html?${query}`;
+      });
+
+      return card;
+    }
+
+    // ————————————————
+    // CARGA INICIAL DE LIGAS
+    // ————————————————
     fetch('./../data/data.json')
       .then(response => response.json())
       .then(data => {
+
         const contenedor = document.getElementById('ligasContainer');
         const seccionContinentes = document.querySelector('.continente');
         contenedor.innerHTML = '';
-        if (seccionContinentes) {
-          seccionContinentes.innerHTML = '';
-        }
+        if (seccionContinentes) seccionContinentes.innerHTML = '';
 
-        // Buscar el deporte Fútbol dentro del array
+        // Buscar Fútbol
         const futbol = data.deportes.find(
           d => d.nombre.toLowerCase() === 'fútbol' || d.nombre.toLowerCase() === 'futbol'
         );
 
         if (!futbol || !futbol.ligas) {
           contenedor.innerHTML = '<p>No se encontraron ligas de fútbol.</p>';
-          if (seccionContinentes) {
-            seccionContinentes.innerHTML = '<p>No se encontraron continentes disponibles.</p>';
-          }
           return;
         }
 
-        // 🔥 TOMAR SOLO LAS LIGAS PRINCIPALES
+        // Guardar todas las ligas para el buscador
+        window.__todasLasLigas = futbol.ligas;
+
+        // Tomar solo las ligas principales
         const ligasPrincipales = futbol.ligas.filter(l =>
           futbol.ligas_principales.includes(l.id)
         );
 
-        // 🔥 MOSTRAR SOLO LAS LIGAS PRINCIPALES
+        // Guardar para restaurar
+        window.__ligasPrincipales = ligasPrincipales;
+
+        // Mostrar ligas principales
         ligasPrincipales.forEach(liga => {
-          const card = document.createElement('div');
-          card.classList.add('card');
-          card.dataset.liga = liga.nombre;
-
-          card.innerHTML = `
-            <img src="${liga.imagen_url || '../assets/img/default_league.png'}" alt="${liga.nombre}" />
-            <div class="card-info">
-              <h2>${liga.nombre}</h2>
-              <p>${liga.pais || 'País desconocido'}</p>
-            </div>
-          `;
-
-          card.addEventListener('click', () => {
-            const query = new URLSearchParams({ liga: liga.nombre }).toString();
-            window.location.href = `equipo.html?${query}`;
-          });
-
-          contenedor.appendChild(card);
+          contenedor.appendChild(crearCardLiga(liga));
         });
 
-        // 🔥 SECCIÓN DE CONTINENTES (NO CAMBIA)
-        if (seccionContinentes && Array.isArray(futbol.continentes)) {
+        // SECCION DE CONTINENTES
+        if (Array.isArray(futbol.continentes)) {
           futbol.continentes.forEach(continente => {
-            if (!continente || !Array.isArray(continente.ligas) || !continente.ligas.length) {
-              return;
-            }
+            if (!continente.ligas?.length) return;
 
-            const wrapper = document.createElement('div');
-            wrapper.classList.add('continente-item');
+            const wrapper = document.createElement("div");
+            wrapper.classList.add("continente-item");
 
-            const titulo = document.createElement('h2');
+            const titulo = document.createElement("h2");
             titulo.textContent = continente.nombre;
             wrapper.appendChild(titulo);
 
-            const listaLigas = document.createElement('div');
-            listaLigas.classList.add('ligas-continente');
+            const listaLigas = document.createElement("div");
+            listaLigas.classList.add("ligas-continente");
 
-            continente.ligas.forEach(ligaId => {
-              const ligaAsociada = futbol.ligas.find(item => item.id === ligaId);
+            continente.ligas.forEach(id => {
+              const ligaAsociada = futbol.ligas.find(x => x.id === id);
               if (!ligaAsociada) return;
 
-              const ligaElemento = document.createElement('button');
-              ligaElemento.type = 'button';
-              ligaElemento.classList.add('liga-item');
+              const btn = document.createElement("button");
+              btn.classList.add("liga-item");
 
-              const logoLiga = document.createElement('img');
-              logoLiga.src = ligaAsociada.imagen_url || '../assets/img/default_league.png';
-              logoLiga.alt = ligaAsociada.nombre;
-              logoLiga.classList.add('liga-item-logo');
+              btn.innerHTML = `
+                <img src="${ligaAsociada.imagen_url}" class="liga-item-logo">
+                <span>${ligaAsociada.nombre}</span>
+              `;
 
-              const nombreLiga = document.createElement('span');
-              nombreLiga.textContent = ligaAsociada.nombre;
-
-              ligaElemento.appendChild(logoLiga);
-              ligaElemento.appendChild(nombreLiga);
-
-              ligaElemento.addEventListener('click', () => {
-                const query = new URLSearchParams({ liga: ligaAsociada.nombre }).toString();
-                window.location.href = `equipo.html?${query}`;
+              btn.addEventListener("click", () => {
+                const q = new URLSearchParams({ liga: ligaAsociada.nombre }).toString();
+                window.location.href = `equipo.html?${q}`;
               });
 
-              listaLigas.appendChild(ligaElemento);
+              listaLigas.appendChild(btn);
             });
 
-            if (!listaLigas.children.length) return;
-
-            wrapper.appendChild(listaLigas);
-            seccionContinentes.appendChild(wrapper);
+            if (listaLigas.children.length) {
+              wrapper.appendChild(listaLigas);
+              seccionContinentes.appendChild(wrapper);
+            }
           });
-
-          if (!seccionContinentes.children.length) {
-            seccionContinentes.innerHTML = '<p>No se encontraron continentes disponibles.</p>';
-          }
         }
+
       })
       .catch(error => console.error('Error al cargar las ligas:', error));
 
+    // ————————————————
+    // BUSCADOR DE TODAS LAS LIGAS (NO SOLO PRINCIPALES)
+    // ————————————————
+    const buscador = document.getElementById("buscadorLigas");
+
+    buscador.addEventListener("input", () => {
+      const texto = buscador.value.toLowerCase();
+      const contenedor = document.getElementById("ligasContainer");
+
+      // Si está vacío → volver a mostrar solo las principales
+      if (texto.trim() === "") {
+        contenedor.innerHTML = "";
+        window.__ligasPrincipales.forEach(liga => {
+          contenedor.appendChild(crearCardLiga(liga));
+        });
+        return;
+      }
+
+      // Buscar en todas las ligas
+      const resultados = window.__todasLasLigas.filter(liga =>
+        liga.nombre.toLowerCase().includes(texto) ||
+        liga.pais.toLowerCase().includes(texto)
+      );
+
+      // Pintar resultados
+      contenedor.innerHTML = "";
+      resultados.forEach(liga => contenedor.appendChild(crearCardLiga(liga)));
+    });
+
+    // Volver al inicio
     document.getElementById('volverBtn').addEventListener('click', () => {
       window.location.href = '../index.html';
     });
 
   </script>
+
 
 </body>
 

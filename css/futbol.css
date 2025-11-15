@@ -47,6 +47,27 @@ header p {
   font-size: clamp(0.9rem, 2vw, 1rem);
 }
 
+.buscador-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#buscadorLigas {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  outline: none;
+}
+
+#buscadorLigas:focus {
+  border-color: #0077ff;
+}
+
 /* 🔹 Contenedor de ligas */
 #ligasContainer {
   display: grid;
