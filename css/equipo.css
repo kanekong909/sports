@@ -118,6 +118,39 @@ header p {
   transition: transform 0.3s ease;
 }
 
+/* Buscador */
+.buscador-contenedor {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+#buscadorEquipos {
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: 0.3s ease;
+}
+
+#buscadorEquipos::placeholder {
+  color: #ddd;
+}
+
+#buscadorEquipos:focus {
+  transform: scale(1.03);
+  background: rgba(255,255,255,0.25);
+}
+
+
 .card:hover img {
   transform: scale(1.05);
 }
