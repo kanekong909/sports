@@ -62,12 +62,12 @@
           card.dataset.liga = liga.nombre;
 
           card.innerHTML = `
-        <img src="${liga.imagen_url || '../assets/img/default_league.png'}" alt="${liga.nombre}" />
-        <div class="card-info">
-          <h2>${liga.nombre}</h2>
-          <p>${liga.pais || 'País desconocido'}</p>
-        </div>
-      `;
+            <img src="${liga.imagen_url || '../assets/img/default_league.png'}" alt="${liga.nombre}" />
+            <div class="card-info">
+              <h2>${liga.nombre}</h2>
+              <p>${liga.pais || 'País desconocido'}</p>
+            </div>
+          `;
 
           card.addEventListener('click', () => {
             const query = new URLSearchParams({ liga: liga.nombre }).toString();
