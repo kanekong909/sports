@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divisiones NFL</title>
+  <link rel="stylesheet" href="./../css/fa.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1 id="tituloConferencia">Conferencia</h1>
+    <p>Selecciona una división</p>
+  </header>
+
+  <section id="divisionesContainer" class="continente"></section>
+
+  <footer>
+    <button id="volverBtn">⬅ Volver</button>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const nombreConferencia = params.get("conferencia");
+
+    fetch('./../data/data.json')
+      .then(res => res.json())
+      .then(data => {
+
+        // Buscar fútbol americano
+        const nflData = data.deportes.find(d =>
+          d.nombre.toLowerCase() === "futbol americano" ||
+          d.nombre.toLowerCase() === "fútbol americano"
+        );
+
+        const contenedor = document.getElementById("divisionesContainer");
+        const titulo = document.getElementById("tituloConferencia");
+
+        titulo.textContent = nombreConferencia;
+
+        if (!nflData) {
+          contenedor.innerHTML = "<p>No se encontró información de Fútbol Americano.</p>";
+          return;
+        }
+
+        // Acceder a la liga NFL
+        const ligaNFL = nflData.ligas?.[0];
+        if (!ligaNFL) {
+          contenedor.innerHTML = "<p>No se encontró información de la NFL.</p>";
+          return;
+        }
+
+        // Acceder a conferencias
+        const conferencia = ligaNFL.conferencias.find(c => c.nombre === nombreConferencia);
+
+        if (!conferencia) {
+          contenedor.innerHTML = `<p>No se encontró la conferencia "${nombreConferencia}".</p>`;
+          return;
+        }
+
+        // Renderizar divisiones
+        conferencia.divisiones.forEach(div => {
+          const divCard = document.createElement("div");
+          divCard.classList.add("continente-item");
+
+          divCard.innerHTML = `
+            <h2>${div.nombre}</h2>
+            <button class="liga-item">${div.nombre}</button>
+          `;
+
+          divCard.querySelector("button").addEventListener("click", () => {
+            const query = new URLSearchParams({
+              conferencia: nombreConferencia,
+              division: div.nombre
+            }).toString();
+
+            window.location.href = `equipos_fa.html?${query}`;
+          });
+
+          contenedor.appendChild(divCard);
+        });
+
+      });
+
+    document.getElementById("volverBtn").addEventListener("click", () => {
+      window.history.back();
+    });
+  </script>
+
+</body>
+</html>

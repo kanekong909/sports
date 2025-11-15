@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jugadores del Equipo</title>
+  <link rel="stylesheet" href="./../css/futbol.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1 id="tituloEquipo">Jugadores</h1>
+    <p>Selecciona un jugador para ver detalles</p>
+  </header>
+
+  <main class="contenedor-cards" id="jugadoresContainer"></main>
+
+  <footer>
+    <button id="volverBtn">⬅ Volver</button>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const nombreEquipo = params.get("equipo");
+
+    fetch("./../data/data.json")
+      .then(res => res.json())
+      .then(data => {
+        const contenedor = document.getElementById("jugadoresContainer");
+        const titulo = document.getElementById("tituloEquipo");
+
+        // Buscar equipo dentro de data.equipos
+        const equipo = data.equipos.find(e => e.nombre === nombreEquipo);
+
+        if (!equipo) {
+          contenedor.innerHTML = `<p>No se encontró el equipo "${nombreEquipo}".</p>`;
+          return;
+        }
+
+        titulo.textContent = equipo.nombre + " - Jugadores";
+
+        // Listado de IDs de jugadores del equipo
+        const jugadoresIds = equipo.jugadores || [];
+
+        if (!jugadoresIds.length) {
+          contenedor.innerHTML = "<p>Este equipo no tiene jugadores registrados.</p>";
+          return;
+        }
+
+        jugadoresIds.forEach(id => {
+          const jugador = data.jugadores.find(j => j.id === id);
+          if (!jugador) return;
+
+          const card = document.createElement("div");
+          card.classList.add("card");
+
+          card.innerHTML = `
+            <img src="${jugador.imagen_url || '../assets/img/default_player.png'}" alt="${jugador.nombre}">
+            <div class="card-info">
+              <h2>${jugador.nombre}</h2>
+              <p>${jugador.posiciones?.join(', ') || 'Sin posición asignada'}</p>
+              <p>#${jugador.numero_camiseta || 'Sin número'}</p>
+            </div>
+          `;
+
+          // Click → Ir a la página jugador_detalle.html
+          card.addEventListener("click", () => {
+            const query = new URLSearchParams({ jugador: jugador.id }).toString();
+            window.location.href = `jugador_detalle.html?${query}`;
+          });
+
+          contenedor.appendChild(card);
+        });
+      })
+      .catch(err => console.error("Error cargando jugadores:", err));
+
+    document.getElementById("volverBtn").addEventListener("click", () => {
+      window.history.back();
+    });
+  </script>
+
+</body>
+</html>

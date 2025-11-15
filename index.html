@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos - Proyecto Deportes</title>
+    <script defer src="./js/main.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+    <h1>Elige tu deporte favorito</h1>
+  </header>
+
+  <main class="contenedor-cards">
+    <div class="card" data-deporte="Fútbol">
+      <img src="./assets/img/futbol.png" alt="Fútbol" />
+      <div class="card-info">
+        <h2>Fútbol</h2>
+        <p>Explora las ligas y equipos más populares del mundo.</p>
+      </div>
+    </div>
+
+    <div class="card" data-deporte="Baloncesto">
+      <img src="../assets/img/Baloncesto.png" alt="Baloncesto" />
+      <div class="card-info">
+        <h2>Baloncesto</h2>
+        <p>Descubre la NBA y las principales ligas del planeta.</p>
+      </div>
+    </div>
+
+    <div class="card" data-deporte="fa">
+      <img src="./assets/img/fa.png" alt="Fútbol Americano" />
+      <div class="card-info">
+        <h2>Fútbol Americano</h2>
+        <p>Vive la emoción de la NFL y sus equipos legendarios.</p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Ejemplo: redirigir según el deporte seleccionado
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('click', () => {
+        const deporte = card.dataset.deporte
+          .toLowerCase()
+          .normalize("NFD")        // elimina acentos
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/\s+/g, '-');   // reemplaza espacios por guiones
+
+        window.location.href = `./templates/${deporte}.html`;
+      });
+    });
+
+  </script>
+</body>
+</html>

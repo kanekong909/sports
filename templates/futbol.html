@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ligas de Fútbol</title>
+  <link rel="stylesheet" href="./../css/futbol.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Ligas de Fútbol</h1>
+    <p>Selecciona una liga para ver sus equipos</p>
+  </header>
+
+  <main class="contenedor-cards" id="ligasContainer">
+    <!-- Las ligas se cargarán aquí dinámicamente -->
+  </main>
+
+  <section class="continente">
+  </section>
+
+  <footer>
+    <button id="volverBtn">⬅ Volver al inicio</button>
+  </footer>
+
+  <script>
+    fetch('./../data/data.json')
+      .then(response => response.json())
+      .then(data => {
+        const contenedor = document.getElementById('ligasContainer');
+        const seccionContinentes = document.querySelector('.continente');
+        contenedor.innerHTML = '';
+        if (seccionContinentes) {
+          seccionContinentes.innerHTML = '';
+        }
+
+        // Buscar el deporte Fútbol dentro del array
+        const futbol = data.deportes.find(
+          d => d.nombre.toLowerCase() === 'fútbol' || d.nombre.toLowerCase() === 'futbol'
+        );
+
+        if (!futbol || !futbol.ligas) {
+          contenedor.innerHTML = '<p>No se encontraron ligas de fútbol.</p>';
+          if (seccionContinentes) {
+            seccionContinentes.innerHTML = '<p>No se encontraron continentes disponibles.</p>';
+          }
+          return;
+        }
+
+        // 🔥 TOMAR SOLO LAS LIGAS PRINCIPALES
+        const ligasPrincipales = futbol.ligas.filter(l =>
+          futbol.ligas_principales.includes(l.id)
+        );
+
+        // 🔥 MOSTRAR SOLO LAS LIGAS PRINCIPALES
+        ligasPrincipales.forEach(liga => {
+          const card = document.createElement('div');
+          card.classList.add('card');
+          card.dataset.liga = liga.nombre;
+
+          card.innerHTML = `
+        <img src="${liga.imagen_url || '../assets/img/default_league.png'}" alt="${liga.nombre}" />
+        <div class="card-info">
+          <h2>${liga.nombre}</h2>
+          <p>${liga.pais || 'País desconocido'}</p>
+        </div>
+      `;
+
+          card.addEventListener('click', () => {
+            const query = new URLSearchParams({ liga: liga.nombre }).toString();
+            window.location.href = `equipo.html?${query}`;
+          });
+
+          contenedor.appendChild(card);
+        });
+
+        // 🔥 SECCIÓN DE CONTINENTES (NO CAMBIA)
+        if (seccionContinentes && Array.isArray(futbol.continentes)) {
+          futbol.continentes.forEach(continente => {
+            if (!continente || !Array.isArray(continente.ligas) || !continente.ligas.length) {
+              return;
+            }
+
+            const wrapper = document.createElement('div');
+            wrapper.classList.add('continente-item');
+
+            const titulo = document.createElement('h2');
+            titulo.textContent = continente.nombre;
+            wrapper.appendChild(titulo);
+
+            const listaLigas = document.createElement('div');
+            listaLigas.classList.add('ligas-continente');
+
+            continente.ligas.forEach(ligaId => {
+              const ligaAsociada = futbol.ligas.find(item => item.id === ligaId);
+              if (!ligaAsociada) return;
+
+              const ligaElemento = document.createElement('button');
+              ligaElemento.type = 'button';
+              ligaElemento.classList.add('liga-item');
+
+              const logoLiga = document.createElement('img');
+              logoLiga.src = ligaAsociada.imagen_url || '../assets/img/default_league.png';
+              logoLiga.alt = ligaAsociada.nombre;
+              logoLiga.classList.add('liga-item-logo');
+
+              const nombreLiga = document.createElement('span');
+              nombreLiga.textContent = ligaAsociada.nombre;
+
+              ligaElemento.appendChild(logoLiga);
+              ligaElemento.appendChild(nombreLiga);
+
+              ligaElemento.addEventListener('click', () => {
+                const query = new URLSearchParams({ liga: ligaAsociada.nombre }).toString();
+                window.location.href = `equipo.html?${query}`;
+              });
+
+              listaLigas.appendChild(ligaElemento);
+            });
+
+            if (!listaLigas.children.length) return;
+
+            wrapper.appendChild(listaLigas);
+            seccionContinentes.appendChild(wrapper);
+          });
+
+          if (!seccionContinentes.children.length) {
+            seccionContinentes.innerHTML = '<p>No se encontraron continentes disponibles.</p>';
+          }
+        }
+      })
+      .catch(error => console.error('Error al cargar las ligas:', error));
+
+    document.getElementById('volverBtn').addEventListener('click', () => {
+      window.location.href = '../index.html';
+    });
+
+  </script>
+
+</body>
+
+</html>

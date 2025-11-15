@@ -1,0 +1,198 @@
+{
+    "deportes": [
+        {
+            "id": 1,
+            "nombre": "Futbol",
+            "ligas": [
+                {
+                    "id": 1,
+                    "nombre": "La Liga",
+                    "pais": "España",
+                    "imagen_url": "https://assets.laliga.com/assets/logos/LL_RGB_h_color/LL_RGB_h_color.png",
+                    "equipos": [
+                        1011,
+                        1012,
+                        1013,
+                        1014,
+                        1015,
+                        1016,
+                        1017,
+                        1018,
+                        1019,
+                        1020,
+                        1021,
+                        1022,
+                        1023,
+                        1024,
+                        1025,
+                        1026,
+                        1027,
+                        1028,
+                        1029,
+                        1030,
+                        1031
+                ]
+                },
+                {
+                    "id": 2,
+                    "nombre": "Premier League",
+                    "pais": "Inglaterra",
+                    "imagen_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+                    "equipos": [
+                        2001,
+                        2002,
+                        2003,
+                        2004,
+                        2005,
+                        2006,
+                        2007,
+                        2008,
+                        2009,
+                        2010,
+                        2011,
+                        2012,
+                        2013,
+                        2014,
+                        2015,
+                        2016,
+                        2017,
+                        2018,
+                        2019,
+                        2020
+                ]
+                },
+                {
+                "id": 3,
+                "nombre": "Bundesliga",
+                "pais": "Alemania",
+                "continente": "Europa",
+                "imagen_url": "https://a2.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F10.png",
+                "equipos": [
+                    3001,
+                    3002,
+                    3003,
+                    3004,
+                    3005,
+                    3006,
+                    3007,
+                    3008,
+                    3009,
+                    3010,
+                    3011,
+                    3012,
+                    3013,
+                    3014,
+                    3015,
+                    3016,
+                    3017,
+                    3018
+                ]
+                },
+                {
+                "id": 4,
+                "nombre": "Ligue 1",
+                "pais": "Francia",
+                "imagen_url": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/9.png",
+                "equipos": [
+                    4001,
+                    4002,
+                    4003,
+                    4004,
+                    4005,
+                    4006,
+                    4007,
+                    4008,
+                    4009,
+                    4010,
+                    4011,
+                    4012,
+                    4013,
+                    4014,
+                    4015,
+                    4016,
+                    4017,
+                    4018
+                ]
+                },
+                {
+                "id": 5,
+                "nombre": "Serie A",
+                "pais": "Italia",
+                "imagen_url": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F12.png",
+                "equipos": [
+                    5001,
+                    5002,
+                    5003,
+                    5004,
+                    5005,
+                    5006,
+                    5007,
+                    5008,
+                    5009,
+                    5010,
+                    5012,
+                    5013,
+                    5014,
+                    5015,
+                    5016,
+                    5017,
+                    5019,
+                    5020
+                ]
+                },
+                {
+                "id": 6,
+                "nombre": "Champions League",
+                "pais": "Europa",
+                "imagen_url": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2.png",
+                "equipos": [
+
+                ]
+                },
+                {
+                "id": 7,
+                "nombre": "Europa League",
+                "pais": "Europa",
+                "imagen_url": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png",
+                "equipos": []
+                },
+                {
+                "id": 8,
+                "nombre": "Copa Libertadores",
+                "pais": "Sudamérica",
+                "imagen_url": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F58.png",
+                "equipos": []
+                },
+                {
+                "id": 9,
+                "nombre": "Eredivisie",
+                "pais": "Países Bajos",
+                "imagen_url": "https://europeanleagues.com/wp-content/uploads/EREDIVISIE_LOGO_560x560.png",
+                "equipos": [
+                    6001,
+                    6002,
+                    6003,
+                    6004,
+                    6005,
+                    6006,
+                    6007,
+                    6008,
+                    6009,
+                    6010,
+                    6011,
+                    6012,
+                    6013,
+                    6014,
+                    6015,
+                    6016,
+                    6017,
+                    6018
+                ]
+                }
+        ],
+            "ligas_principales": [
+                1, 2, 3, 4, 5, 6, 7, 8, 9
+            ]
+        }
+    ]
+}

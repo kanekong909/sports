@@ -1,0 +1,222 @@
+/* 🎯 Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🌌 Fondo general */
+body {
+  min-height: 100vh;
+  background: #000;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(0, 140, 255, 0.14), transparent 55%),
+    radial-gradient(circle at 80% 80%, rgba(0, 100, 200, 0.12), transparent 60%),
+    radial-gradient(circle at 50% 50%, rgba(0, 120, 255, 0.1), transparent 70%);
+  background-size: 200% 200%;
+  animation: bgMove 15s ease-in-out infinite alternate;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
+/* 🔹 Encabezado */
+header {
+  text-align: center;
+  margin: 2rem auto 1rem;
+  max-width: 1100px;
+}
+
+header h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  color: #00b4d8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header p {
+  color: #ccc;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  margin-top: 0.4rem;
+}
+
+/* 📦 Contenedores principales */
+.contenedor-cards,
+#conferenciasContainer,
+#divisionesContainer,
+#equiposContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.7rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+/* 🟦 Cards generales */
+.card {
+  background: linear-gradient(135deg, #0a2463 0%, #3c6eeb 50%, #537fe7 100%);
+  border-radius: 18px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 18px rgba(0, 140, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 160, 255, 0.45);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 12px;
+  padding: 0.8rem;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.3), rgba(0,0,0,0.1));
+}
+
+.card-info h2 {
+  margin-top: 0.7rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.card-info p {
+  color: rgba(255,255,255,0.85);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* 🗂 Bloques tipo "continente" (para conferencia y divisiones) */
+.continente-item {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1.2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 180, 255, 0.35);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 20px rgba(0, 140, 255, 0.25);
+  transition: 0.3s ease;
+}
+
+.continente-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 180, 255, 0.4);
+}
+
+.continente-item h2 {
+  color: #00b4d8;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+/* 🔘 Botón de división */
+.liga-item {
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #0077b6, #0096c7);
+  color: #fff;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.liga-item:hover {
+  background: #00b4d8;
+  transform: translateX(6px);
+  box-shadow: 0 8px 20px rgba(0, 180, 216, 0.4);
+}
+
+/* 🏈 Logo título (si se usa en otras vistas) */
+.logo-titulo {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.logo-titulo img {
+  width: 120px;
+  padding: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #ffffff, #d4d4d46b);
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.15);
+}
+
+.logo-titulo p {
+  margin-top: 0.7rem;
+  color: #ddd;
+  font-size: 1rem;
+}
+
+/* Conferencia */
+.card.afc {
+  border-left: 6px solid #c20c0c;
+}
+
+.card.nfc {
+  border-left: 6px solid #0c4ac2;
+}
+
+
+/* 🔙 Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+footer button {
+  background: none;
+  border: 1px solid #00b4d8;
+  color: #00b4d8;
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 0.95rem;
+}
+
+footer button:hover {
+  background: #00b4d8;
+  color: #fff;
+  transform: scale(1.06);
+}
+
+/* 📱 Responsividad */
+@media (max-width: 768px) {
+  .card img {
+    height: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contenedor-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card img {
+    height: 120px;
+  }
+}
+
+@media (max-width: 360px) {
+  .contenedor-cards {
+    grid-template-columns: 1fr;
+  }
+}

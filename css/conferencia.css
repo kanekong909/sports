@@ -1,0 +1,138 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Fondo */
+body {
+  min-height: 100vh;
+  background: #000;
+  background-image:
+    radial-gradient(circle at 30% 20%, rgba(0, 110, 255, 0.12), transparent 50%),
+    radial-gradient(circle at 70% 80%, rgba(0, 80, 255, 0.10), transparent 50%);
+  padding: 1rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+header h1 {
+  color: #4ea8de;
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  text-transform: uppercase;
+}
+
+header p {
+  margin-top: .5rem;
+  color: #bbb;
+}
+
+/* Logo + descripción */
+.logo-titulo {
+  margin: 1.5rem auto 2.5rem;
+  text-align: center;
+}
+
+.logo-titulo img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  padding: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center,
+      #ffffffd5 0%,
+      rgba(255,255,255,0.55) 45%,
+      rgba(255,255,255,0.25) 75%,
+      transparent 100%
+  );
+}
+
+.logo-titulo p {
+  color: #ccc;
+  margin-top: .8rem;
+}
+
+/* GRID equipos */
+#equiposContainer {
+  max-width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+/* CARD equipo */
+.card {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  transition: .3s;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(100, 100, 255, 0.25);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(100, 100, 255, 0.4);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  padding: .8rem;
+  border-radius: 10px;
+
+  background: radial-gradient(circle at center,
+      rgba(255,255,255,.4) 0%,
+      rgba(255,255,255,.15) 45%,
+      rgba(0,0,0,.1) 70%,
+      transparent 100%);
+}
+
+.card h2 {
+  margin-top: .7rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: .9rem;
+  opacity: .85;
+  margin-top: .3rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+footer button {
+  padding: .9rem 1.5rem;
+  border-radius: 12px;
+  background: none;
+  border: 1px solid #4ea8de;
+  color: #4ea8de;
+  cursor: pointer;
+  transition: .3s;
+}
+
+footer button:hover {
+  background: #4ea8de;
+  color: #000;
+}
+
+/* Responsivo */
+@media(max-width: 480px) {
+  #equiposContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
