@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jugadores del Equipo</title>
   <link rel="stylesheet" href="./../css/jugadores_campo.css">
   <style>
-   
+
   </style>
 </head>
+
 <body>
   <header>
     <h1 id="tituloEquipo">Jugadores</h1>
@@ -20,6 +22,37 @@
   </div>
 
   <button id="volverBtn">⬅ Volver</button>
+
+  <div id="playerModal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+
+      <div class="modal-header">
+        <img id="modalImg" src="" alt="Jugador" />
+        <h2 id="modalNombre"></h2>
+        <p id="modalPos"></p>
+      </div>
+
+      <div class="modal-info">
+        <p><strong>Nacionalidad:</strong> <span id="modalNac"></span></p>
+        <p><strong>Fecha de nacimiento:</strong> <span id="modalFecha"></span></p>
+        <p><strong>Número:</strong> <span id="modalNum"></span></p>
+        <p><strong>Estado:</strong> <span id="modalEstado"></span></p>
+        <p><strong>Altura:</strong> <span id="modalAltura"></span></p>
+        <p><strong>Peso:</strong> <span id="modalPeso"></span></p>
+      </div>
+
+      <div class="modal-extra">
+        <h3>Estadísticas</h3>
+        <p><strong>Partidos (club):</strong> <span id="modalPartidosClub"></span></p>
+        <p><strong>Goles (club):</strong> <span id="modalGolesClub"></span></p>
+        <p><strong>Asistencias (club):</strong> <span id="modalAsistClub"></span></p>
+
+        <p><strong>Partidos (selección):</strong> <span id="modalPartidosSel"></span></p>
+        <p><strong>Goles (selección):</strong> <span id="modalGolesSel"></span></p>
+      </div>
+    </div>
+  </div>
 
   <script>
     const params = new URLSearchParams(window.location.search);
@@ -64,8 +97,7 @@
           `;
 
           card.addEventListener("click", () => {
-            const q = new URLSearchParams({ jugador: j.id }).toString();
-            window.location.href = `jugador_detalle_fu.html?${q}`;
+            abrirModal(j);
           });
 
           contenedor.appendChild(card);
@@ -76,9 +108,44 @@
         console.error('Error:', error);
       });
 
+    const modal = document.getElementById("playerModal");
+    const closeModal = document.getElementById("closeModal");
+
+    function abrirModal(j) {
+      document.getElementById("modalImg").src = j.imagen_url || "../assets/img/default_player.png";
+      document.getElementById("modalNombre").textContent = j.nombre;
+      document.getElementById("modalPos").textContent = j.posiciones?.join(", ") || "Sin posición";
+
+      document.getElementById("modalNac").textContent = j.nacionalidad || "N/A";
+      document.getElementById("modalFecha").textContent = j.fecha_nacimiento || "N/A";
+      document.getElementById("modalNum").textContent = j.numero_camiseta || "N/A";
+      document.getElementById("modalEstado").textContent = j.estado || "N/A";
+      document.getElementById("modalAltura").textContent = j.altura || "N/A";
+      document.getElementById("modalPeso").textContent = j.peso || "N/A";
+
+      document.getElementById("modalPartidosClub").textContent = j.estadisticas?.club?.partidos ?? "0";
+      document.getElementById("modalGolesClub").textContent = j.estadisticas?.club?.goles ?? "0";
+      document.getElementById("modalAsistClub").textContent = j.estadisticas?.club?.asistencias ?? "0";
+
+      document.getElementById("modalPartidosSel").textContent = j.estadisticas?.seleccion?.partidos ?? "0";
+      document.getElementById("modalGolesSel").textContent = j.estadisticas?.seleccion?.goles ?? "0";
+
+      modal.classList.remove("hidden");
+    }
+
+    closeModal.addEventListener("click", () => {
+      modal.classList.add("hidden");
+    });
+
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) modal.classList.add("hidden");
+    });
+
+    // Boton de volver
     document.getElementById("volverBtn").addEventListener("click", () => {
       window.history.back();
     });
   </script>
 </body>
+
 </html>
