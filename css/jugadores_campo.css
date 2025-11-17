@@ -16,7 +16,7 @@
   --text: #f8fafc;
   --text-muted: #94a3b8;
   --accent: #14b8a6;
-  --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-1: linear-gradient(135deg, #272728 0%, #764ba2 100%);
   --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
@@ -28,8 +28,6 @@ body {
   background: var(--dark);
   color: var(--text);
   min-height: 100vh;
-  /* padding: 1rem; */
-  /* position: relative; */
   overflow-x: hidden;
 }
 
@@ -59,13 +57,21 @@ header p {
   font-weight: 400;
 }
 
+/* Contenedor principal */
+#jugadoresContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 100px; /* Espacio para el botón volver */
+  padding: 0 20px;
+}
+
 /* Secciones de categorías */
 .categoria-seccion {
   margin-bottom: 3rem;
   width: 100%;
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+  border-bottom: 1px solid #9f9f9fcc;
+  padding: 5px 0;
 }
 
 .categoria-titulo {
@@ -73,14 +79,15 @@ header p {
   font-weight: 700;
   color: var(--text);
   padding: 1rem 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 0 1rem 1.5rem 1rem;
   background: var(--dark-light);
   border-radius: 1rem;
   border-left: 4px solid var(--primary);
   box-shadow: var(--card-shadow);
   position: relative;
   overflow: hidden;
-  font-size: 15px;
+  font-size: 1.5rem;
+  width: 250px;
 }
 
 .categoria-titulo::before {
@@ -98,35 +105,80 @@ header p {
   0% {
     transform: translateX(-100%);
   }
-
   100% {
     transform: translateX(100%);
   }
 }
 
-/* Grid de jugadores */
-.jugadores-grid {
-  max-width: 1400px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+/* Contenedor con scroll horizontal */
+.scroll-horizontal {
+  display: flex;
   gap: 1.5rem;
-  /* padding: 0 1rem; */
-  margin: 0 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 1.5rem;
+  scroll-behavior: smooth;
+  
+  /* Estilos para la barra de scroll */
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--dark-light);
+}
+
+/* Estilos personalizados para navegadores webkit (Chrome, Safari) */
+.scroll-horizontal::-webkit-scrollbar {
+  height: 10px;
+}
+
+.scroll-horizontal::-webkit-scrollbar-track {
+  background: var(--dark-light);
+  border-radius: 10px;
+  margin: 0 1rem;
+}
+
+.scroll-horizontal::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.scroll-horizontal::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
+
+/* Tarjetas de jugadores en scroll horizontal */
+.scroll-horizontal .player-card {
+  min-width: 220px;
+  max-width: 220px;
+  flex-shrink: 0;
 }
 
 @media (max-width: 768px) {
-  .jugadores-grid {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    gap: 1rem;
-    padding: 0 5px;
+  .scroll-horizontal .player-card {
+    min-width: 180px;
+    max-width: 180px;
+  }
+  
+  .categoria-titulo {
+    font-size: 1.3rem;
+    padding: 0.9rem 1.2rem;
   }
 }
 
 @media (max-width: 480px) {
-  .jugadores-grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 0.8rem;
-    padding: 0 0.5rem;
+  .scroll-horizontal {
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .scroll-horizontal .player-card {
+    min-width: 160px;
+    max-width: 160px;
+  }
+  
+  .categoria-titulo {
+    font-size: 1.1rem;
+    padding: 0.8rem 1rem;
+    margin: 0 0.5rem 1rem 0.5rem;
   }
 }
 
@@ -328,7 +380,6 @@ header p {
     opacity: 0;
     transform: scale(0.9) translateY(30px);
   }
-
   to {
     opacity: 1;
     transform: scale(1) translateY(0);
@@ -457,6 +508,16 @@ header p {
   font-family: 'Space Grotesk', sans-serif;
 }
 
+/* Bandera en el modal */
+.flag-icon {
+  width: 24px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 /* Estadísticas */
 .modal-extra {
   padding: 2rem;
@@ -516,7 +577,7 @@ header p {
   font-family: 'Space Grotesk', sans-serif;
 }
 
-/* Scrollbar */
+/* Scrollbar del modal */
 .modal-content::-webkit-scrollbar {
   width: 8px;
 }
@@ -540,7 +601,6 @@ header p {
     opacity: 0;
     transform: translateY(-20px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -552,34 +612,8 @@ header p {
     opacity: 0;
     transform: translateY(20px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-/* Escalonar animaciones de tarjetas */
-.player-card:nth-child(1) {
-  animation-delay: 0.05s;
-}
-
-.player-card:nth-child(2) {
-  animation-delay: 0.1s;
-}
-
-.player-card:nth-child(3) {
-  animation-delay: 0.15s;
-}
-
-.player-card:nth-child(4) {
-  animation-delay: 0.2s;
-}
-
-.player-card:nth-child(5) {
-  animation-delay: 0.25s;
-}
-
-.player-card:nth-child(6) {
-  animation-delay: 0.3s;
 }

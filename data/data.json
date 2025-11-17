@@ -145,9 +145,7 @@
           "nombre": "Champions League",
           "pais": "Europa",
           "imagen_url": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2.png",
-          "equipos": [
-
-          ]
+          "equipos": []
         },
         {
           "id": 7,
@@ -294,7 +292,15 @@
         }
       ],
       "ligas_principales": [
-        1, 2, 3, 4, 5, 6, 7, 8, 9
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
       ],
       "continentes": [
         {
@@ -330,6 +336,225 @@
             16
           ]
         }
+      ],
+      "selecciones": [
+        { "id": 1,  "nombre": "Albania",                     "codigo_fifa": "ALB", "continente": "Europa", "confederacion": "UEFA", "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/77/Albania_National_Football_Team_crest.png" },
+        { "id": 2,  "nombre": "Alemania",                    "codigo_fifa": "GER", "continente": "Europa", "confederacion": "UEFA", "imagen": "https://e00-especiales-marca.uecdn.es/eurocopa/images/escudos/ale.png" },
+        { "id": 3,  "nombre": "Andorra",                     "codigo_fifa": "AND", "continente": "Europa", "confederacion": "UEFA", "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/bf/FC_Andorra_logo_team.png" },
+        { "id": 4,  "nombre": "Armenia",                     "codigo_fifa": "ARM", "continente": "Europa", "confederacion": "UEFA", "imagen": "https://escudosdefutbolyequipaciones.com/images_esc3/UEFA/ARMENIA/escudos_min/MIN_ESC_SELECCI%D3N%20DE%20ARMENIA.png" },
+        { "id": 5,  "nombre": "Austria",                     "codigo_fifa": "AUT", "continente": "Europa", "confederacion": "UEFA", "imagen": "https://e00-especiales-marca.uecdn.es/eurocopa/images/escudos/aus.png" },
+        { "id": 6,  "nombre": "Azerbaiyán",                  "codigo_fifa": "AZE", "continente": "Europa", "confederacion": "UEFA", "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqE44dGUp3FSsXTrar1aEULRjLmeJTKiFNM0iMrKPyLpOFkIHflGRFjFwfxvKq63cwKLKi_pjmEIdIBcDtyRALRqv8XS4EQpdqjQK0CjmlKzsiSaSWOHyApWoxctPISeSoYfs6iZCwUAY/s1600/Azerbaiyan.png" },
+        { "id": 7,  "nombre": "Bélgica",                     "codigo_fifa": "BEL", "continente": "Europa", "confederacion": "UEFA", "imagen": "https://e00-especiales-marca.uecdn.es/eurocopa/images/escudos/bel.png" },
+        { "id": 8,  "nombre": "Bielorrusia",                 "codigo_fifa": "BLR", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 9,  "nombre": "Bosnia y Herzegovina",        "codigo_fifa": "BIH", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 10, "nombre": "Bulgaria",                    "codigo_fifa": "BUL", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 11, "nombre": "Croacia",                     "codigo_fifa": "CRO", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 12, "nombre": "Chipre",                      "codigo_fifa": "CYP", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 13, "nombre": "Chequia",                     "codigo_fifa": "CZE", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 14, "nombre": "Dinamarca",                   "codigo_fifa": "DEN", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 15, "nombre": "Escocia",                     "codigo_fifa": "SCO", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 16, "nombre": "Eslovaquia",                  "codigo_fifa": "SVK", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 17, "nombre": "Eslovenia",                   "codigo_fifa": "SVN", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 18, "nombre": "España",                      "codigo_fifa": "ESP", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 19, "nombre": "Estonia",                     "codigo_fifa": "EST", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 20, "nombre": "Finlandia",                   "codigo_fifa": "FIN", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 21, "nombre": "Francia",                     "codigo_fifa": "FRA", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 22, "nombre": "Georgia",                     "codigo_fifa": "GEO", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 23, "nombre": "Gibraltar",                   "codigo_fifa": "GIB", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 24, "nombre": "Grecia",                      "codigo_fifa": "GRE", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 25, "nombre": "Hungría",                     "codigo_fifa": "HUN", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 26, "nombre": "Irlanda",                     "codigo_fifa": "IRL", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 27, "nombre": "Irlanda del Norte",           "codigo_fifa": "NIR", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 28, "nombre": "Islandia",                    "codigo_fifa": "ISL", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 29, "nombre": "Israel",                      "codigo_fifa": "ISR", "continente": "Asia",   "confederacion": "UEFA", "imagen": "" },
+        { "id": 30, "nombre": "Italia",                      "codigo_fifa": "ITA", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 31, "nombre": "Kazajistán",                  "codigo_fifa": "KAZ", "continente": "Asia",   "confederacion": "UEFA", "imagen": "" },
+        { "id": 32, "nombre": "Kosovo",                      "codigo_fifa": "KVX", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 33, "nombre": "Letonia",                     "codigo_fifa": "LVA", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 34, "nombre": "Liechtenstein",               "codigo_fifa": "LIE", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 35, "nombre": "Lituania",                    "codigo_fifa": "LTU", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 36, "nombre": "Luxemburgo",                  "codigo_fifa": "LUX", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 37, "nombre": "Macedonia del Norte",         "codigo_fifa": "MKD", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 38, "nombre": "Malta",                       "codigo_fifa": "MLT", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 39, "nombre": "Moldavia",                    "codigo_fifa": "MDA", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 40, "nombre": "Montenegro",                  "codigo_fifa": "MNE", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 41, "nombre": "Noruega",                     "codigo_fifa": "NOR", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 42, "nombre": "Países Bajos",                "codigo_fifa": "NED", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 43, "nombre": "Polonia",                     "codigo_fifa": "POL", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 44, "nombre": "Portugal",                    "codigo_fifa": "POR", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 45, "nombre": "Rumania",                     "codigo_fifa": "ROU", "continente": "Europa", "confederacion": "UEFA", "imagen": ""},
+        { "id": 46, "nombre": "Rusia",                       "codigo_fifa": "RUS", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 47, "nombre": "San Marino",                  "codigo_fifa": "SMR", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 48, "nombre": "Serbia",                      "codigo_fifa": "SRB", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 49, "nombre": "Suecia",                      "codigo_fifa": "SWE", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 50, "nombre": "Suiza",                       "codigo_fifa": "SUI", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 51, "nombre": "Turquía",                     "codigo_fifa": "TUR", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 52, "nombre": "Ucrania",                     "codigo_fifa": "UKR", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 53, "nombre": "Gales",                       "codigo_fifa": "WAL", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 54, "nombre": "Islas Feroe",                 "codigo_fifa": "FRO", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 55, "nombre": "Inglaterra",                  "codigo_fifa": "ENG", "continente": "Europa", "confederacion": "UEFA", "imagen": "" },
+        { "id": 56, "nombre": "Argentina",  "codigo_fifa": "ARG", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://cdn.worldvectorlogo.com/logos/argentina-national-football-team-logo.svg" },
+        { "id": 57, "nombre": "Brasil",      "codigo_fifa": "BRA", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Logo_Brasil.png" },
+        { "id": 58, "nombre": "Uruguay",     "codigo_fifa": "URU", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/68/Selecci%C3%B3n_de_f%C3%BAtbol_de_Uruguay.png" },
+        { "id": 59, "nombre": "Chile",       "codigo_fifa": "CHI", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Logo_de_la_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png" },
+        { "id": 60, "nombre": "Colombia",    "codigo_fifa": "COL", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Escudo_de_la_Federaci%C3%B3n_Colombiana_de_F%C3%BAtbol.png" },
+        { "id": 61, "nombre": "Perú",        "codigo_fifa": "PER", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Logotipo_de_la_Federaci%C3%B3n_Peruana_de_F%C3%BAtbol.svg/607px-Logotipo_de_la_Federaci%C3%B3n_Peruana_de_F%C3%BAtbol.svg.png" },
+        { "id": 62, "nombre": "Paraguay",    "codigo_fifa": "PAR", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Escudo_APF_actual.png" },
+        { "id": 63, "nombre": "Venezuela",   "codigo_fifa": "VEN", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Logo_escudo_FVF%2C_2023.svg/1736px-Logo_escudo_FVF%2C_2023.svg.png" },
+        { "id": 64, "nombre": "Bolivia",     "codigo_fifa": "BOL", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/330px-Flag_of_Bolivia.svg.png" },
+        { "id": 65, "nombre": "Ecuador",     "codigo_fifa": "ECU", "continente": "Sudamérica", "confederacion": "CONMEBOL", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Logo_de_la_Federaci%C3%B3n_Ecuatoriana_de_F%C3%BAtbol_%282%29.svg/1668px-Logo_de_la_Federaci%C3%B3n_Ecuatoriana_de_F%C3%BAtbol_%282%29.svg.png" },
+        { "id": 66, "nombre": "Estados Unidos",              "codigo_fifa": "USA", "continente": "Norteamérica", "confederacion": "CONCACAF", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/United_States_Soccer_Federation_logo_2016.svg/1495px-United_States_Soccer_Federation_logo_2016.svg.png" },
+        { "id": 67, "nombre": "México",                     "codigo_fifa": "MEX", "continente": "Norteamérica", "confederacion": "CONCACAF", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/330px-Flag_of_Mexico.svg.png" },
+        { "id": 68, "nombre": "Canadá",                     "codigo_fifa": "CAN", "continente": "Norteamérica", "confederacion": "CONCACAF", "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDT9usaSRV1ESeDuqRb__s9A4GA6IaeGuHww&s" },
+
+        { "id": 69, "nombre": "Costa Rica",                 "codigo_fifa": "CRC", "continente": "Centroamérica", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 70, "nombre": "Honduras",                   "codigo_fifa": "HON", "continente": "Centroamérica", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 71, "nombre": "Panamá",                     "codigo_fifa": "PAN", "continente": "Centroamérica", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 72, "nombre": "El Salvador",                "codigo_fifa": "SLV", "continente": "Centroamérica", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 73, "nombre": "Guatemala",                  "codigo_fifa": "GUA", "continente": "Centroamérica", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 74, "nombre": "Nicaragua",                  "codigo_fifa": "NCA", "continente": "Centroamérica", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 75, "nombre": "Belice",                     "codigo_fifa": "BLZ", "continente": "Centroamérica", "confederacion": "CONCACAF", "imagen": "" },
+
+        { "id": 76, "nombre": "Jamaica",                    "codigo_fifa": "JAM", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 77, "nombre": "Haití",                      "codigo_fifa": "HAI", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 78, "nombre": "Trinidad y Tobago",          "codigo_fifa": "TRI", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 79, "nombre": "Cuba",                       "codigo_fifa": "CUB", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 80, "nombre": "República Dominicana",       "codigo_fifa": "DOM", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 81, "nombre": "Puerto Rico",                "codigo_fifa": "PUR", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 82, "nombre": "Curazao",                    "codigo_fifa": "CUW", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 83, "nombre": "Aruba",                      "codigo_fifa": "ARU", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 84, "nombre": "Surinam",                    "codigo_fifa": "SUR", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 85, "nombre": "Guyana",                     "codigo_fifa": "GUY", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+
+        { "id": 86, "nombre": "Granada",                    "codigo_fifa": "GRN", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 87, "nombre": "San Cristóbal y Nieves",     "codigo_fifa": "SKN", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 88, "nombre": "Antigua y Barbuda",          "codigo_fifa": "ATG", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 89, "nombre": "Barbados",                   "codigo_fifa": "BRB", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 90, "nombre": "Santa Lucía",                "codigo_fifa": "LCA", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 91, "nombre": "San Vicente y las Granadinas","codigo_fifa": "VIN","continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+
+        { "id": 92, "nombre": "Islas Caimán",               "codigo_fifa": "CAY", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 93, "nombre": "Bermudas",                   "codigo_fifa": "BER", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 94, "nombre": "Islas Vírgenes Estadounidenses","codigo_fifa": "VIR","continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 95, "nombre": "Islas Vírgenes Británicas",  "codigo_fifa": "VGB", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 96, "nombre": "Montserrat",                 "codigo_fifa": "MSR", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 97, "nombre": "Anguila",                    "codigo_fifa": "AIA", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 98, "nombre": "Islas Turcas y Caicos",      "codigo_fifa": "TCA", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+
+        { "id": 99, "nombre": "Dominica",                   "codigo_fifa": "DMA", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 100,"nombre": "Martinica",                  "codigo_fifa": "MTQ", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 101,"nombre": "Guadalupe",                  "codigo_fifa": "GLP", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "" },
+        { "id": 102, "nombre": "Argelia",                  "codigo_fifa": "ALG", "continente": "África", "confederacion": "CAF", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/330px-Flag_of_Algeria.svg.png" },
+        { "id": 103, "nombre": "Angola",                   "codigo_fifa": "ANG", "continente": "África", "confederacion": "CAF", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/330px-Flag_of_Angola.svg.png" },
+        { "id": 104, "nombre": "Benín",                    "codigo_fifa": "BEN", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 105, "nombre": "Botsuana",                 "codigo_fifa": "BOT", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 106, "nombre": "Burkina Faso",             "codigo_fifa": "BFA", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 107, "nombre": "Burundi",                  "codigo_fifa": "BDI", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 108, "nombre": "Cabo Verde",               "codigo_fifa": "CPV", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 109, "nombre": "Camerún",                  "codigo_fifa": "CMR", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 110, "nombre": "República Centroafricana", "codigo_fifa": "CTA", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 111, "nombre": "Chad",                     "codigo_fifa": "CHA", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 112, "nombre": "Comoras",                  "codigo_fifa": "COM", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 113, "nombre": "Congo",                    "codigo_fifa": "CGO", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 114, "nombre": "República Democrática del Congo", "codigo_fifa": "COD", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 115, "nombre": "Costa de Marfil",          "codigo_fifa": "CIV", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 116, "nombre": "Egipto",                   "codigo_fifa": "EGY", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 117, "nombre": "Eritrea",                  "codigo_fifa": "ERI", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 118, "nombre": "Esuatini",                 "codigo_fifa": "SWZ", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 119, "nombre": "Etiopía",                  "codigo_fifa": "ETH", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 120, "nombre": "Gabón",                    "codigo_fifa": "GAB", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 121, "nombre": "Gambia",                   "codigo_fifa": "GAM", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 122, "nombre": "Ghana",                    "codigo_fifa": "GHA", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 123, "nombre": "Guinea",                   "codigo_fifa": "GUI", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 124, "nombre": "Guinea-Bisáu",             "codigo_fifa": "GNB", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 125, "nombre": "Guinea Ecuatorial",        "codigo_fifa": "EQG", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 126, "nombre": "Kenia",                    "codigo_fifa": "KEN", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 127, "nombre": "Lesoto",                   "codigo_fifa": "LES", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 128, "nombre": "Liberia",                  "codigo_fifa": "LBR", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 129, "nombre": "Libia",                    "codigo_fifa": "LBY", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 130, "nombre": "Madagascar",               "codigo_fifa": "MAD", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 131, "nombre": "Malaui",                   "codigo_fifa": "MWI", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 132, "nombre": "Mali",                     "codigo_fifa": "MLI", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 133, "nombre": "Marruecos",                "codigo_fifa": "MAR", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 134, "nombre": "Mauritania",               "codigo_fifa": "MTN", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 135, "nombre": "Mauricio",                 "codigo_fifa": "MRI", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 136, "nombre": "Mozambique",               "codigo_fifa": "MOZ", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 137, "nombre": "Namibia",                  "codigo_fifa": "NAM", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 138, "nombre": "Níger",                    "codigo_fifa": "NIG", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 139, "nombre": "Nigeria",                  "codigo_fifa": "NGA", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 140, "nombre": "Ruanda",                   "codigo_fifa": "RWA", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 141, "nombre": "Santo Tomé y Príncipe",    "codigo_fifa": "STP", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 142, "nombre": "Senegal",                  "codigo_fifa": "SEN", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 143, "nombre": "Seychelles",               "codigo_fifa": "SEY", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 144, "nombre": "Sierra Leona",             "codigo_fifa": "SLE", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 145, "nombre": "Somalia",                  "codigo_fifa": "SOM", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 146, "nombre": "Sudáfrica",                "codigo_fifa": "RSA", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 147, "nombre": "Sudán",                    "codigo_fifa": "SDN", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 148, "nombre": "Sudán del Sur",            "codigo_fifa": "SSD", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 149, "nombre": "Tanzania",                 "codigo_fifa": "TAN", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 150, "nombre": "Togo",                     "codigo_fifa": "TOG", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 151, "nombre": "Túnez",                    "codigo_fifa": "TUN", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 152, "nombre": "Uganda",                   "codigo_fifa": "UGA", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 153, "nombre": "Zambia",                   "codigo_fifa": "ZAM", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 154, "nombre": "Zimbabue",                 "codigo_fifa": "ZIM", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 155, "nombre": "Yibuti",                   "codigo_fifa": "DJI", "continente": "África", "confederacion": "CAF", "imagen": "" },
+        { "id": 156, "nombre": "Afganistán",               "codigo_fifa": "AFG", "continente": "Asia", "confederacion": "AFC", "imagen": "https://upload.wikimedia.org/wikipedia/en/4/4e/Afghanistan_Football_Federation_logo.png" },
+        { "id": 157, "nombre": "Arabia Saudita",            "codigo_fifa": "KSA", "continente": "Asia", "confederacion": "AFC", "imagen": "https://a.espncdn.com/photo/2022/0708/r1033871_536x536_1-1.png" },
+        { "id": 158, "nombre": "Australia",                 "codigo_fifa": "AUS", "continente": "Oceanía", "confederacion": "AFC", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Australia_national_football_team_badge.svg/250px-Australia_national_football_team_badge.svg.png" },
+        { "id": 159, "nombre": "Baréin",                    "codigo_fifa": "BHR", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 160, "nombre": "Bangladés",                 "codigo_fifa": "BAN", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 161, "nombre": "Birmania (Myanmar)",        "codigo_fifa": "MYA", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 162, "nombre": "Brunéi",                    "codigo_fifa": "BRU", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 163, "nombre": "Bután",                     "codigo_fifa": "BHU", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 164, "nombre": "Camboya",                   "codigo_fifa": "CAM", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 165, "nombre": "Catar",                     "codigo_fifa": "QAT", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 166, "nombre": "China",                     "codigo_fifa": "CHN", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 167, "nombre": "Corea del Norte",           "codigo_fifa": "PRK", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 168, "nombre": "Corea del Sur",             "codigo_fifa": "KOR", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 169, "nombre": "Filipinas",                 "codigo_fifa": "PHI", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 170, "nombre": "Guam",                      "codigo_fifa": "GUM", "continente": "Oceanía", "confederacion": "AFC", "imagen": "" },
+        { "id": 171, "nombre": "Hong Kong",                 "codigo_fifa": "HKG", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 172, "nombre": "India",                     "codigo_fifa": "IND", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 173, "nombre": "Indonesia",                 "codigo_fifa": "IDN", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 174, "nombre": "Irak",                      "codigo_fifa": "IRQ", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 175, "nombre": "Irán",                      "codigo_fifa": "IRN", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 176, "nombre": "Japón",                     "codigo_fifa": "JPN", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 177, "nombre": "Jordania",                  "codigo_fifa": "JOR", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 178, "nombre": "Kazajistán",                "codigo_fifa": "KAZ", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 179, "nombre": "Kirgizistán",               "codigo_fifa": "KGZ", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 180, "nombre": "Kuwait",                    "codigo_fifa": "KUW", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 181, "nombre": "Laos",                      "codigo_fifa": "LAO", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 182, "nombre": "Líbano",                    "codigo_fifa": "LIB", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 183, "nombre": "Macao",                     "codigo_fifa": "MAC", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 184, "nombre": "Malasia",                   "codigo_fifa": "MAS", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 185, "nombre": "Maldivas",                  "codigo_fifa": "MDV", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 186, "nombre": "Mongolia",                  "codigo_fifa": "MNG", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 187, "nombre": "Nepal",                     "codigo_fifa": "NEP", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 188, "nombre": "Omán",                      "codigo_fifa": "OMA", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 189, "nombre": "Pakistán",                  "codigo_fifa": "PAK", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 190, "nombre": "Palestina",                 "codigo_fifa": "PLE", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 191, "nombre": "Singapur",                  "codigo_fifa": "SIN", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 192, "nombre": "Siria",                     "codigo_fifa": "SYR", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 193, "nombre": "Sri Lanka",                 "codigo_fifa": "SRI", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 194, "nombre": "Tailandia",                 "codigo_fifa": "THA", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 195, "nombre": "Tayikistán",                "codigo_fifa": "TJK", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 196, "nombre": "Timor Oriental",            "codigo_fifa": "TLS", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 197, "nombre": "Turkmenistán",              "codigo_fifa": "TKM", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 198, "nombre": "Uzbekistán",                "codigo_fifa": "UZB", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 199, "nombre": "Vietnam",                   "codigo_fifa": "VIE", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 200, "nombre": "Yemen",                     "codigo_fifa": "YEM", "continente": "Asia", "confederacion": "AFC", "imagen": "" },
+        { "id": 201, "nombre": "Fiyi",                "codigo_fifa": "FIJ", "continente": "Oceanía", "confederacion": "OFC", "imagen": "https://escudosdefutbolyequipaciones.com/images_esc3/OFC/ISLAS%20FIYI/escudos_min/MIN_ESC_SELECCI%D3N%20ISLAS%20FIYI.png" },
+        { "id": 202, "nombre": "Islas Cook",         "codigo_fifa": "COK", "continente": "Oceanía", "confederacion": "OFC", "imagen": "https://tmssl.akamaized.net//images/wappen/big/17752.png?lm=1469180323" },
+        { "id": 203, "nombre": "Islas Salomón",      "codigo_fifa": "SOL", "continente": "Oceanía", "confederacion": "OFC", "imagen": "https://escudosdefutbolyequipaciones.com/images_esc3/OFC/ISLAS%20SALOM%D3N/escudos_min/MIN_ESC_SELECCI%D3N%20ISLAS%20SALOM%D3N.png" },
+        { "id": 204, "nombre": "Kiribati",           "codigo_fifa": "KIR", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
+        { "id": 205, "nombre": "Nueva Caledonia",    "codigo_fifa": "NCL", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
+        { "id": 206, "nombre": "Nueva Zelanda",      "codigo_fifa": "NZL", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
+        { "id": 207, "nombre": "Papúa Nueva Guinea", "codigo_fifa": "PNG", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
+        { "id": 208, "nombre": "Samoa",              "codigo_fifa": "SAM", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
+        { "id": 209, "nombre": "Samoa Americana",    "codigo_fifa": "ASA", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
+        { "id": 210, "nombre": "Tahití",             "codigo_fifa": "TAH", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
+        { "id": 211, "nombre": "Tonga",              "codigo_fifa": "TGA", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
+        { "id": 212, "nombre": "Vanuatu",            "codigo_fifa": "VAN", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" }
       ]
     },
     {
@@ -368,7 +593,7 @@
           "ligas": [
             {
               "id": 202,
-              "nombre": "NBA Oeste",  
+              "nombre": "NBA Oeste",
               "equipos": [
                 134875,
                 134885,
@@ -543,7 +768,7 @@
         100041,
         100042,
         100043
-    ]
+      ]
     },
     {
       "id": 1012,
@@ -553,8 +778,90 @@
       "pais": "España",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1068.png",
       "imagen_url": null,
-      "descripcion": "Club Atlético de Madrid (meaning \"Athletic Club of Madrid\"), commonly referred to as Atlético de Madrid or simply as Atlético or Atleti, is a Spanish professional football club based in Madrid, that play in La Liga. The club play their home games at the Metropolitano Stadium, which has a capacity of 68,456.\r\n\r\nIn terms of league titles won, Atlético Madrid are the third most successful club in Spanish football – behind Real Madrid and Barcelona. Atlético have won La Liga on 10 occasions, including a league and cup double in 1996; the Copa del Rey on 10 occasions; two Supercopas de España and one Copa Eva Duarte; in Europe, they won the European Cup Winners' Cup in 1962, were runners-up in 1963 and 1986, were Champions League runners-up in 1974, 2014 and 2016, won the Europa League in 2010, 2012 and 2018, and won the UEFA Super Cup in 2010, 2012 and 2018 as well as the 1974 Intercontinental Cup.\r\n\r\nAtlético's home kit is red and white vertical striped shirts, with blue shorts, and blue and red socks. This combination has been used since 1911. Throughout their history the club has been known by a number of nicknames, including Los Colchoneros (\"The Mattress Makers\"), due to their first team stripes being the same colours as traditional mattresses. During the 1970s, they became known as Los Indios, which some attribute to the club's signing several South American players after the restrictions on signing foreign players were lifted. However, there are a number of alternative theories which claim they were named so because their stadium is \"camped\" on the river bank, or because Los Indios (The Indians) were the traditional enemy of Los Blancos (The Whites), which is the nickname of the club's city rivals, Real Madrid. Felipe VI, the king of España, has been the honorary president of the club since 2003.\r\n\r\nThe club co-owned the Indian Super League franchise in Kolkata, formerly named Atlético de Kolkata, which won the competition twice, but in 2017 Atlético decided to end its franchise partnership with the ISL club due to broken commitments. Atlético also co-owns Liga MX club Atlético San Luis, and the Canadian Premier League side Atlético Ottawa, and technical support and Partnership with ISL club Jamshedpur FC and its academy.",
-      "estadio": "Riyadh Air Metropolitano"
+      "descripcion": "Club Atlético de Madrid (meaning \"Athletic Club of Madrid\"), commonly referred to as Atlético de Madrid or simply as Atlético or Atleti, is a Spanish professional football club based in Madrid, that play in La Liga. The club play their home games at the Metropolitano Stadium, which has a capacity of 68,456.\r\n\r\nIn terms of league titles won, Atlético Madrid are the third most successful club in Spanish football – behind Real Madrid and Barcelona. Atlético have won La Liga on 10 occasions, including a league and cup double in 1996; the Copa del Rey on 10 occasions; two Supercopas de España and one Copa Eva Duarte; in Europe, they won the European Cup Winners' Cup in 1962, were runners-up in 1963 and 1986, were Champions League runners-up in 1974, 2014 and 2016, won the Europa League in 2010, 2012 and 2018, and won the UEFA Super Cup in 2010, 2012 and 2018 as well as the 1974 Intercontinental Cup.",
+      "estadio": "Riyadh Air Metropolitano",
+      "jugadores": [
+        100044,
+        100045,
+        100046,
+        100047,
+        100048,
+        100049,
+        100050,
+        100051,
+        100052,
+        100053,
+        100054,
+        100055,
+        100056,
+        100057,
+        100058,
+        100059,
+        100060,
+        100061,
+        100062,
+        100063,
+        100064,
+        100065,
+        100066,
+        100067,
+        100068,
+        100069,
+        100070,
+        100071,
+        100072,
+        100073,
+        100074,
+        100075,
+        100076,
+        100077,
+        100078,
+        100079,
+        100080,
+        100081,
+        100082,
+        100083,
+        100084,
+        100085,
+        100086,
+        100087,
+        100088,
+        100089,
+        100090,
+        100091,
+        100092,
+        100093,
+        100094,
+        100095,
+        100096,
+        100097,
+        100098,
+        100099,
+        100100,
+        100101,
+        100102,
+        100103,
+        100104,
+        100105,
+        100106,
+        100107,
+        100108,
+        100109,
+        100110,
+        100111,
+        100112,
+        100113,
+        100114,
+        100115,
+        100116,
+        100117,
+        100118,
+        100119,
+        100120,
+        100121,
+        100122,
+        100123
+      ]
     },
     {
       "id": 1013,
@@ -740,7 +1047,7 @@
       "pais": "España",
       "escudo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "imagen_url": null,
-      "descripcion": "Valencia Club de Fútbol (Valencian: València Club de Futbol) commonly referred to as Valencia CF or simply Valencia, is a Spanish professional football club based in Valencia. They play in La Liga. Valencia have won six La Liga titles, eight Copa del Rey titles, one Supercopa de España and one Copa Eva Duarte. In European competitions, they've won two Inter-Cities Fairs Cups (the predecessor to the UEFA Cup), one UEFA Cup, one UEFA Cup Winners' Cup, two UEFA Super Cups and one UEFA Intertoto Cup. They also reached two UEFA Champions League finals in a row, losing to La Liga rivals Real Madrid in 2000 and German club Bayern Munich on penalties after a 1–1 draw in 2001. Valencia were also members of the G-14 group of leading European football clubs and since its end has been part of the original members of the European Club Association. In total, Valencia have reached seven major European finals, winning four of them.\r\n\r\nValencia were founded in 1919 and have played their home games at the 55,000-seater Mestalla since 1923. They were due to move into the new 75,000-seater Nou Mestalla in the northwest of the city in 2013, but the final move date has been postponed while the stadium remains under construction.\r\n\r\nValencia is the third-most supported football club in España, behind heavyweights Real Madrid and Barcelona. It is also one of the biggest clubs in the world in terms of number of associates (registered paying supporters), with more than 50,000 season ticket holders and another 20,000+ season ticket holders on the waiting list, who can be accommodated in the new 75,000-seater stadium.\r\n\r\nOver the years, the club has achieved a global reputation for their prolific youth academy, or \"Acàdemia.\" Products of their academy include world-class talents such as Raúl Albiol, Andrés Palop, Miguel Ángel Angulo, David Albelda, Gaizka Mendieta and David Silva. Current stars of the game to have graduated in recent years include Isco, Jordi Alba, Juan Bernat, José Gayà, Carlos Soler and Paco Alcácer.",
+      "descripcion": "Valencia Club de Fútbol (Valencian: València Club de Futbol) commonly referred to as Valencia CF or simply Valencia, is a Spanish professional football club based in Valencia. They play in La Liga. Valencia have won six La Liga titles, eight Copa del Rey titles, one Supercopa de España and one Copa Eva Duarte. In European competitions, they've won two Inter-Cities Fairs Cups (the predecessor to the UEFA Cup), one UEFA Cup, one UEFA Cup Winners' Cup, two UEFA Super Cups and one UEFA Intertoto Cup. They also reached two UEFA Champions League finals in a row, losing to La Liga rivals Real Madrid in 2000 and German club Bayern Munich on penalties after a 1–1 draw in 2001. Valencia were also members of the G-14 group of leading European football clubs and since its end has been part of the original members of the European Club Association. In total, Valencia have reached seven major European finals, winning four of them.\r\n\r\nValencia were founded in 1919 and have played their home games at the 55,000-seater Mestalla since 1923.",
       "estadio": "Estadio de Mestalla"
     },
     {
@@ -773,7 +1080,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
       "imagen_url": null,
-      "descripcion": "Arsenal Football Club is a professional football club based in Islington, London, Inglaterra, that plays in the Premier League, the top flight of English football. The club has won 13 League titles, a record 13 FA Cups, 2 League Cups, 15 FA Community Shields, 1 League Centenary Trophy, 1 UEFA Cup Winners' Cup and 1 Inter-Cities Fairs Cup.\r\n\r\nArsenal was the first club from the South of Inglaterra to join The Football League, in 1893, and they reached the First Division in 1904. Relegated only once, in 1913, they continue the longest streak in the top division, and have won the second-most top-flight matches in English football history. In the 1930s, Arsenal won five League Championships and two FA Cups, and another FA Cup and two Championships after the war. In 1970–71, they won their first League and FA Cup Double. Between 1989 and 2005, they won five League titles and five FA Cups, including two more Doubles. They completed the 20th century with the highest average league position.\r\n\r\nHerbert Chapman won Arsenal's first national trophies, but died prematurely. He helped introduce the WM formation, floodlights, and shirt numbers, and added the white sleeves and brighter red to the club's kit. Arsène Wenger was the longest-serving manager and won the most trophies. He won a record 7 FA Cups, and his title-winning team set an English record for the longest top-flight unbeaten league run at 49 games between 2003 and 2004, receiving the nickname The Invincibles.\r\n\r\nIn 1886, Woolwich munitions workers founded the club as Dial Square. In 1913, the club crossed the city to Arsenal Stadium in Highbury, becoming close neighbours of Tottenham Hotspur, and creating the North London derby. In 2006, they moved to the nearby Emirates Stadium. In terms of revenue, Arsenal is the ninth highest-earning football club in the world, earned €487.6m in 2016–17 season. Based on social media activity from 2014 to 2015, Arsenal's fanbase is the fifth largest in the world. In 2018, Forbes estimated the club was the third most valuable in Inglaterra, with the club being worth $2.24 billion.",
+      "descripcion": "Arsenal Football Club is a professional football club based in Islington, London, Inglaterra, that plays in the Premier League, the top flight of English football. The club has won 13 League titles, a record 13 FA Cups, 2 League Cups, 15 FA Community Shields, 1 League Centenary Trophy, 1 UEFA Cup Winners' Cup and 1 Inter-Cities Fairs Cup.\r\n\r\nArsenal was the first club from the South of Inglaterra to join The Football League, in 1893, and they reached the First Division in 1904. Relegated only once, in 1913, they continue the longest streak in the top division, and have won the second-most top-flight matches in English football history. In the 1930s, Arsenal won five League Championships and two FA Cups, and another FA Cup and two Championships after the war. In 1970–71, they won their first League and FA Cup Double. ",
       "estadio": "Emirates Stadium"
     },
     {
@@ -806,7 +1113,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/337.png&h=200&w=200",
       "imagen_url": null,
-      "descripcion": "Brentford Football Club is a professional football club based in Brentford, West London, Inglaterra. They currently compete in the Premier League, the highest tier of English football, having gained promotion via the playoffs at the end of the 2020–21 Championship season. Nicknamed \"the Bees\", the club was founded in 1889 and played home matches at Griffin Park from 1904 before moving to Brentford Community Stadium in 2020. Their main rivals are fellow West London clubs Fulham and Queens Park Rangers.\r\n\r\nBrentford initially played amateur football before they entered the London League in 1896 and finished as runners-up of the Second Division and then the First Division to win election into the Southern League in 1898. They won the Southern League Second Division in 1900–01 and were elected into the Football League in 1920. Brentford won the Third Division South title in 1932–33 and the Second Division title in 1934–35. The club enjoyed a successful spell in the top flight of English football, reaching a peak of fifth in the First Division, in 1935–36, their highest ever league finish, before three relegations left them in the Fourth Division by 1962. They were crowned Fourth Division champions in 1962–63, but were relegated in 1966 and again in 1973 after gaining promotion in 1971–72. Brentford spent 14 seasons in the Third Division after gaining promotion in 1977–78 and went on to win the Third Division title in 1991–92, though were relegated again in 1993.\r\n\r\nBrentford were relegated into the fourth tier in 1998 and won promotion as champions in the 1998–99 campaign. The club were relegated in 2007 and won promotion as champions of League Two in 2008–09 and then were promoted out of League One in 2013–14. They had unsuccessful Championship play-off campaigns in 2015 and 2020. Brentford have a poor record in finals, finishing as runners-up in three Associate Members' Cup / Football League Trophy finals (1985, 2001 and 2011) and losing four play-off finals (the 1997 Second Division final, 2002 Second Division final, 2013 League One final and 2020 Championship final). However, Brentford won the 2021 Championship final to be promoted to the highest level for the first time since the 1946–47 season.",
+      "descripcion": "Brentford Football Club is a professional football club based in Brentford, West London, Inglaterra. They currently compete in the Premier League, the highest tier of English football, having gained promotion via the playoffs at the end of the 2020–21 Championship season. Nicknamed \"the Bees\", the club was founded in 1889 and played home matches at Griffin Park from 1904 before moving to Brentford Community Stadium in 2020. Their main rivals are fellow West London clubs Fulham and Queens Park Rangers.\r\n\r\nBrentford initially played amateur football before they entered the London League in 1896 and finished as runners-up of the Second Division and then the First Division to win election into the Southern League in 1898.",
       "estadio": "Brentford Community Stadium"
     },
     {
@@ -817,7 +1124,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/1237.png?lm=1492718902",
       "imagen_url": null,
-      "descripcion": "Brighton & Hove Albion Football Club, commonly referred to as Brighton, is a professional football club based in Brighton and Hove, East Sussex, Inglaterra. The club competes in the Premier League, the top tier of English football. The club's home ground is the Falmer Stadium.\r\n\r\nFounded in 1901 and nicknamed the \"Seagulls\" or \"Albion\", Brighton played their early professional football in the Southern League, when they won their first and still to this date their only major domestic trophy, the FA Charity Shield (later known as FA Community Shield) in 1910 which they won 1–0 over Aston Villa in the final. They were later elected to the Football League in 1920. Between 1979 and 1983, they played in the First Division, and reached the 1983 FA Cup final, losing to Manchester United after a replay. They were relegated from the First Division in the same season.\r\n\r\nBy the late 1990s, Brighton were in the fourth tier of English football and having financial problems. After narrowly avoiding relegation from the Football League to the Conference in 1997, a boardroom takeover saved the club from liquidation. Successive promotions in 2001 and 2002 brought Brighton back to the second tier, and in 2011, the club moved into the Falmer Stadium after 14 years without a permanent home ground. In the 2016–17 season, Brighton finished second in the EFL Championship and were thus promoted to the Premier League, ending a 34-year absence from the top flight. In the 2022–23 season, Brighton finished sixth in the Premier League, their highest top flight finish ever, and qualified for the UEFA Europa League; their first participation in European club football.",
+      "descripcion": "Brighton & Hove Albion Football Club, commonly referred to as Brighton, is a professional football club based in Brighton and Hove, East Sussex, Inglaterra. The club competes in the Premier League, the top tier of English football. The club's home ground is the Falmer Stadium.\r\n\r\nFounded in 1901 and nicknamed the \"Seagulls\" or \"Albion\", Brighton played their early professional football in the Southern League, when they won their first and still to this date their only major domestic trophy, the FA Charity Shield (later known as FA Community Shield) in 1910 which they won 1–0 over Aston Villa in the final.",
       "estadio": "American Express Stadium"
     },
     {
@@ -828,7 +1135,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/379.png",
       "imagen_url": null,
-      "descripcion": "Burnley Football Club is an English association football club based in Burnley, Lancashire, that competes in the EFL Championship, the second tier of English football, following relegation from the 2021–22 Premier League. Founded on 18 May 1882, it was one of the first to become professional (in 1883), and subsequently put pressure on the Football Association to permit payments to players. The club entered the FA Cup for the first time in 1885–86 and was one of the 12 founder members of the Football League in 1888–89. From the 1950s until the 1970s, under chairman Bob Lord, the club became renowned for its youth policy and scouting system, and was one of the first to set up a purpose-built training ground.\r\n\r\nBurnley have been champions of Inglaterra twice, in 1920–21 and 1959–60, have won the FA Cup once, in 1913–14, and have won the FA Charity Shield twice, in 1960 and 1973. They have been runners-up in the First Division twice, in 1919–20 and 1961–62, and FA Cup runners-up twice, in 1946–47 and 1961–62. Burnley are one of only five sides to have won all four professional divisions of English football, along with Wolverhampton Wanderers, Preston North End, Sheffield United and Portsmouth. When the team won the 1959–60 Football League, the town of Burnley became one of the smallest to have an English first-tier champion.\r\n\r\nThe team have played home games at Turf Moor since 1883, after they had moved from their original premises at Calder Vale. The club colours of claret and blue were adopted before the 1910–11 season in tribute to the then Football League champions Aston Villa. The club is nicknamed \"the Clarets\" because of the dominant colour of its home shirts. Burnley's current emblem is based on the town's coat of arms. The team have a long-standing rivalry with nearby club Blackburn Rovers, with whom they contest the East Lancashire Derby.",
+      "descripcion": "Burnley Football Club is an English association football club based in Burnley, Lancashire, that competes in the EFL Championship, the second tier of English football, following relegation from the 2021–22 Premier League. Founded on 18 May 1882, it was one of the first to become professional (in 1883), and subsequently put pressure on the Football Association to permit payments to players. The club entered the FA Cup for the first time in 1885–86 and was one of the 12 founder members of the Football League in 1888–89. From the 1950s until the 1970s, under chairman Bob Lord, the club became renowned for its youth policy and scouting system, and was one of the first to set up a purpose-built training ground.\r\n\r\nBurnley have been champions of Inglaterra twice, in 1920–21 and 1959–60, have won the FA Cup once, in 1913–14, and have won the FA Charity Shield twice, in 1960 and 1973.",
       "estadio": "Turf Moor"
     },
     {
@@ -839,7 +1146,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png",
       "imagen_url": null,
-      "descripcion": "Chelsea Football Club are a professional football club based in Fulham, London, who play in the Premier League, the highest level of English football. Founded in 1905, the club have spent most of their history in the top tier of English football. The club's home ground is the 41,837-seat Stamford Bridge stadium, where they have played since their establishment.\r\n\r\nChelsea had their first major success in 1955, winning the league championship, and won various cup competitions during the 1960s, 1970s, 1990s and 2000s. The club have enjoyed their greatest period of success in the past two decades, winning 15 major trophies since 1997. Domestically, Chelsea have won four league titles, seven FA Cups, four League Cups and four FA Community Shields, while in continental competitions they have won two UEFA Cup Winners' Cups, one UEFA Super Cup, one UEFA Europa League and one UEFA Champions League. Chelsea are the only London club to win the UEFA Champions League, and one of four clubs, and the only British club, to have won all three main UEFA club competitions.\r\n\r\nChelsea's regular kit colours are royal blue shirts and shorts with white socks. The club's crest has been changed several times in attempts to re-brand the club and modernise its image. The current crest, featuring a ceremonial lion rampant regardant holding a staff, is a modification of the one introduced in the early 1950s. The club have sustained the fifth highest average all-time attendance in English football. Their average home gate for the 2012–13 season was 41,462, the sixth highest in the Premier League. Since July 2003, Chelsea have been owned by Russian billionaire Roman Abramovich. In April 2013 they were ranked by Forbes Magazine as the seventh most valuable football club in the world, at £588 million ($901 million), an increase of 18% from the previous year.",
+      "descripcion": "Chelsea Football Club are a professional football club based in Fulham, London, who play in the Premier League, the highest level of English football. Founded in 1905, the club have spent most of their history in the top tier of English football. The club's home ground is the 41,837-seat Stamford Bridge stadium, where they have played since their establishment.\r\n\r\nChelsea had their first major success in 1955, winning the league championship, and won various cup competitions during the 1960s, 1970s, 1990s and 2000s. The club have enjoyed their greatest period of success in the past two decades, winning 15 major trophies since 1997.",
       "estadio": "Stamford Bridge"
     },
     {
@@ -850,7 +1157,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/384.png",
       "imagen_url": null,
-      "descripcion": "Crystal Palace Football Club is an English professional football club based in South Norwood, London. They currently play in the highest level in English football, the Premier League. Since 1964, the club have mostly played in the top two leagues of English football. The club was founded in 1905 at the site of the famous Crystal Palace Exhibition building by the owners of the FA Cup Final stadium, who wanted their own team to play at the historic venue. Palace applied to be elected to The Football League, but this was rejected and they instead joined the Southern Football League Second Division, playing home games at The Crystal Palace, inspiration for the club's initial nickname, \"The Glaziers\". Palace won the Division and promotion in their first season, and played in the Southern League First Division for the next fifteen years.\r\n\r\nIn 1920 the Southern League Division One formed the Football League Third Division. Palace won the division and gained promotion to the Second Division, where they spent four seasons before suffering relegation to the Third Division South. In 1958 a league re-organisation saw Palace become founder members of Division Four. Over the next eleven years the club moved from the lowest rung of English Football to the highest, reaching the First Division in 1969, and staying in the top division for four seasons before suffering successive relegations. In 1973 the club modernised its image, changing the nickname from The Glaziers to \"The Eagles\" and ending the 68-year association with claret and blue by introducing the red-and-blue vertical stripes now associated with the club. The club stabilised itself in the top two divisions with promotions in 1977 and 1979, the latter saw the club crowned as Division Two Champions. The period between 1989–91 was a successful time for the club. They reached an FA Cup Final in 1990, won the Full Members Cup in 1991, and achieved third place in the top division in the 1990–1991 season. Palace became founder members of the Premier League in 1992, but were relegated the same season, despite achieving 49 points which is still a Premier League record for a relegated club. The club then achieved promotion back to the Premier League three times in 1994, 1997 and 2004, but each time suffered relegation at the end of the following season. Palace entered administration in both 2000 and 2010, and are now owned by a consortium of four. The club were promoted back to the Premier League with a 1–0 win over Watford in the Football League play-offs in May 2013.\r\n\r\nCrystal Palace initially played their games in the grounds of The Crystal Palace, but the First World War saw them forced to move out, and they enjoyed a number of seasons at both the Herne Hill Velodrome and The Nest. Since 1924, Palace have played their home games at Selhurst Park. Their home colours are red and blue vertical stripes, though prior to 1973 they wore claret and pale blue after the fashion of Aston Villa. They have a fierce rivalry with M23 neighbours Brighton & Hove Albion, with whom they have contested the M23 derby 98 times and also enjoy a strong rivalry with fellow South London team Millwall. The club's kit is currently made by Macron, and the shirt sponsor is Neteller. The club captain is Mile Jedinak and the current player of the year is Julian Speroni. Edmund Goodman is the club's longest serving manager, and Jim Cannon has made the most appearances for the club. Peter Simpson is the club's top scorer for both one season and overall, netting 54 and 165 respectively. The highest transfer fee received has been for Wilfried Zaha from Manchester United in January 2013.",
+      "descripcion": "Crystal Palace Football Club is an English professional football club based in South Norwood, London. They currently play in the highest level in English football, the Premier League. Since 1964, the club have mostly played in the top two leagues of English football. The club was founded in 1905 at the site of the famous Crystal Palace Exhibition building by the owners of the FA Cup Final stadium, who wanted their own team to play at the historic venue. ",
       "estadio": "Selhurst Park"
     },
     {
@@ -861,7 +1168,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
       "imagen_url": null,
-      "descripcion": "Everton Football Club (/ˈɛvərtən/) is a professional association football club based in Liverpool, Inglaterra. The club competes in the Premier League, the top tier of English football. Founded in 1878, the club was a founding member of the Football League in 1888, and was a founding member of the Premier League in 1992, one of just three clubs to have been a founding member of both leagues. Everton are one of the oldest and most successful clubs in Inglaterra, having won twenty-four major trophies: nine league titles, five FA Cups, one European Cup Winners' Cup and nine Charity Shields.\r\n\r\nEverton won their first League Championship during the 1890–91 season. After winning four more League championships and two FA Cups, the club experienced a post-Second World War lull until a revival in the 1960s. A period of sustained success came in the mid-1980s, when Everton won a further two League championships, one FA Cup, and the 1985 European Cup Winners' Cup. The club's most recent major trophy was the 1995 FA Cup.\r\n\r\nEverton is the club with the second-longest continuous presence in English top-flight football, and ranks third in the all-time points rankings. As of August 2024, the club have competed in the top division for a record 122 seasons, having missed only four top-flight seasons (1930–31, 1951–52, 1952–53, and 1953–54).\r\n\r\nThe club's traditional kit are royal blue shirts with white shorts and socks. Everton have played at their home ground Goodison Park since 1892, having moved from their original home at Anfield following a disagreement with the landowner John Houlding over their rent. The club's supporters are colloquially known as \"Evertonians\" or \"Blues\". Everton have a long-standing rivalry with nearby club Liverpool, with whom they contest the Merseyside derby. The club was owned by Farhad Moshiri, after he bought 49.9% of the club's shares in 2016. As of May 2023, the club's value was $744 million. The club's revenue and operating income for the 2022–23 season were $242 million and -$23 million respectively. In December 2024, American billionaire Dan Friedkin purchased the club.",
+      "descripcion": "Everton Football Club (/ˈɛvərtən/) is a professional association football club based in Liverpool, Inglaterra. The club competes in the Premier League, the top tier of English football. Founded in 1878, the club was a founding member of the Football League in 1888, and was a founding member of the Premier League in 1992, one of just three clubs to have been a founding member of both leagues. Everton are one of the oldest and most successful clubs in Inglaterra, having won twenty-four major trophies: nine league titles, five FA Cups, one European Cup Winners' Cup and nine Charity Shields.\r\n\r\nEverton won their first League Championship during the 1890–91 season.",
       "estadio": "Hill Dickinson Stadium"
     },
     {
@@ -883,7 +1190,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/399.png?lm=1645652224",
       "imagen_url": null,
-      "descripcion": "Leeds United Football Club is a professional football club in Leeds, West Yorkshire, Inglaterra. The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium. They will play in the Premier League, the first tier of English football, following promotion in the 2019–20 season.\r\n\r\nMost of their history has been spent playing in the first tier; their longest continuous spell inside the first tier was a period of 18 years between 1964 and 1982, while their longest period outside of it spanned 16 years between 2004 and 2020. They have won three English league titles, one FA Cup, one League Cup, two Charity/Community Shields and two Inter-Cities Fairs Cups. The club reached the 1975 European Cup Final, losing to Bayern Munich after some controversial refereeing decisions. Leeds reached the semi-finals of the tournament's successor, the Champions League in 2001. The club were also runners-up in the European Cup Winners Cup final in 1973. The majority of the honours were won under the management of Don Revie in the 1960s and 1970s.\r\n\r\nLeeds play in all-white kits at home matches. The club's badge features the White Rose of York. The club's anthem is Marching on Together. Leeds share rivalries with Manchester United and Chelsea, as well as with local teams such as Huddersfield Town, Bradford City and Sheffield Wednesday.",
+      "descripcion": "Leeds United Football Club is a professional football club in Leeds, West Yorkshire, Inglaterra. The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium. They will play in the Premier League, the first tier of English football, following promotion in the 2019–20 season.\r\n\r\nMost of their history has been spent playing in the first tier; their longest continuous spell inside the first tier was a period of 18 years between 1964 and 1982, while their longest period outside of it spanned 16 years between 2004 and 2020.",
       "estadio": "Elland Road"
     },
     {
@@ -894,7 +1201,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/364.png",
       "imagen_url": null,
-      "descripcion": "Liverpool Football Club is a professional football club based in Liverpool, Inglaterra, that competes in the Premier League, the top tier of English football. Founded in 1892, the club joined the Football League the following year and has played at Anfield since its formation.\r\n\r\nDomestically, the club has won nineteen League titles, eight FA Cups, a record nine League Cups and fifteen FA Community Shields. In international competitions, the club has won six European Cups, three UEFA Cups, four UEFA Super Cups—all English records—and one FIFA Club World Cup. The club established itself as a major force in domestic and European football in the 1970s and 1980s, when Bill Shankly, Bob Paisley, Joe Fagan and Kenny Dalglish, led the club to a combined eleven League titles and four European Cups. Liverpool won two further European Cups in 2005 and 2019 under the management of Rafael Benítez and Jürgen Klopp, respectively; the latter led Liverpool to a nineteenth League title in 2020, the club's first during the Premier League era.\r\n\r\nLiverpool is one of the most valuable and widely supported clubs in the world. The club has long-standing rivalries with Manchester United and Everton. Under management by Shankly, in 1964 the team changed from red shirts and white shorts to an all-red home strip which has been used ever since. The club's anthem is \"You'll Never Walk Alone\".\r\n\r\nThe club's supporters have been involved in two major tragedies. The Heysel Stadium disaster, where escaping fans were pressed against a collapsing wall at the 1985 European Cup Final in Brussels, resulted in 39 deaths. Most of these were Italians and Juventus fans. Liverpool were given a six-year ban from European competition, with all other English clubs received a five-year ban. The Hillsborough disaster in 1989, where 97 Liverpool supporters died in a crush against perimeter fencing, led to the elimination of fenced standing terraces in favour of all-seater stadiums in the top two tiers of English football. Prolonged campaigning for justice saw further coroners inquests, commissions and independent panels that ultimately exonerated the fans.",
+      "descripcion": "Liverpool Football Club is a professional football club based in Liverpool, Inglaterra, that competes in the Premier League, the top tier of English football. Founded in 1892, the club joined the Football League the following year and has played at Anfield since its formation.\r\n\r\nDomestically, the club has won nineteen League titles, eight FA Cups, a record nine League Cups and fifteen FA Community Shields. In international competitions, the club has won six European Cups, three UEFA Cups, four UEFA Super Cups—all English records—and one FIFA Club World Cup.",
       "estadio": "Anfield"
     },
     {
@@ -905,7 +1212,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png",
       "imagen_url": null,
-      "descripcion": "Manchester City Football Club is an English football club based in Manchester that competes in the Premier League, the top flight of English football. Founded in 1880 as St. Mark's (West Gorton), it became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club's home ground is the City of Manchester Stadium in east Manchester, to which it moved in 2003, having played at Maine Road since 1923.\r\n\r\nManchester City entered the Football League in 1899, and won their first major honour with the FA Cup in 1904. It had its first major period of success in the late 1960s, winning the League, FA Cup and League Cup under the management of Joe Mercer and Malcolm Allison. After losing the 1981 FA Cup Final, the club went through a period of decline, which eventually saw them relegated as far down as third tier of English football by the end of the 1997–98 season. They since regained promotion to the top tier in 2001–02 and have remained a fixture in the Premier League since 2002–03. In 2008, Manchester City was purchased by Abu Dhabi United Group for £210 million and received considerable financial investment.\r\n\r\nThe club have won six domestic league titles. Under the management of Pep Guardiola they won the Premier League in 2018 becoming the only Premier League team to attain 100 points in a single season. In 2019, they won four trophies, completing an unprecedented sweep of all domestic trophies in Inglaterra and becoming the first English men's team to win the domestic treble. Manchester City's revenue was the fifth highest of a football club in the world in the 2018–19 season at €568.4 million. 2019, Forbes estimated the club was the fifth most valuable in the world at $2.69 billion, however the sale of a 10% stake in the club's parent company City Football Group on 27 November 2019 for $500 million values them significantly higher.",
+      "descripcion": "Manchester City Football Club is an English football club based in Manchester that competes in the Premier League, the top flight of English football. Founded in 1880 as St. Mark's (West Gorton), it became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club's home ground is the City of Manchester Stadium in east Manchester, to which it moved in 2003, having played at Maine Road since 1923.\r\n\r\nManchester City entered the Football League in 1899, and won their first major honour with the FA Cup in 1904.",
       "estadio": "Etihad Stadium"
     },
     {
@@ -916,7 +1223,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/360.png",
       "imagen_url": null,
-      "descripcion": "Manchester United Football Club is an English professional football club, based in Old Trafford, Greater Manchester that plays in the Premier League. Founded as Newton Heath LYR Football Club in 1878, the club changed its name to Manchester United in 1902 and moved to Old Trafford in 1910. They are regarded as one of the most successful clubs in English football.\r\n\r\nManchester United have won the most League titles (20) of any English club, a joint record 11 FA Cups, four League Cups, and a record 20 FA Community Shields. The club has also won three European Cups, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup, and one FIFA Club World Cup. In 1998–99, the club won a continental treble of the Premier League, the FA Cup and the UEFA Champions League.\r\n\r\nThe 1958 Munich air disaster claimed the lives of eight players. In 1968, under the management of Matt Busby, Manchester United was the first English football club to win the European Cup. Alex Ferguson won 28 major honours, and 38 in total, from November 1986 to May 2013, when he announced his retirement after 26 years at the club. On 19 May 2014, Louis van Gaal was appointed as the club's new manager after Ferguson's successor David Moyes was sacked after only 10 months in charge, with the club's record appearance-maker, Ryan Giggs, appointed as his assistant after a brief period as caretaker manager.\r\n\r\nManchester United is the third-richest football club in the world for 2011–12 in terms of revenue, with an annual revenue of €395.9 million, and the world's second most valuable sports team in 2013, valued at $3.165 billion. It is one of the most widely supported football teams in the world. After being floated on the London Stock Exchange in 1991, the club was purchased by Malcolm Glazer in May 2005 in a deal valuing the club at almost £800 million, after which the company was taken private again. In August 2012, Manchester United made an initial public offering on the New York Stock Exchange.",
+      "descripcion": "Manchester United Football Club is an English professional football club, based in Old Trafford, Greater Manchester that plays in the Premier League. Founded as Newton Heath LYR Football Club in 1878, the club changed its name to Manchester United in 1902 and moved to Old Trafford in 1910. They are regarded as one of the most successful clubs in English football.\r\n\r\nManchester United have won the most League titles (20) of any English club, a joint record 11 FA Cups, four League Cups, and a record 20 FA Community Shields. The club has also won three European Cups, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup, and one FIFA Club World Cup. In 1998–99, the club won a continental treble of the Premier League, the FA Cup and the UEFA Champions League.\r\n\r\nThe 1958 Munich air disaster claimed the lives of eight players.",
       "estadio": "Old Trafford"
     },
     {
@@ -949,7 +1256,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/366.png",
       "imagen_url": null,
-      "descripcion": "Sunderland Association Football Club is an English professional football club based in Sunderland that plays in the Premier League. Since its formation in 1879, the club has won six First Division titles—in 1892, 1893, 1895, 1902, 1913, and 1936, the FA Cup twice, in 1937 and 1973 and the FA Community Shield in 1936. They were also Football League Cup finalists in 1985 and 2014.\r\n\r\nSunderland won their first FA Cup in 1937 with a 3–1 victory over Preston North End, and remained in the top league for 68 successive seasons until they were relegated for the first time in 1958. Sunderland's most notable trophy after the Second World War was their second FA Cup in 1973, when the club secured a 1–0 victory over Leeds United. The team has won the second tier title five times in that period and the third tier title once.\r\n\r\nSunderland play their home games at the 48,707 capacity all-seater Stadium of Light having moved from Roker Park in 1997.The original ground capacity was 42,000 which was increased to 49,000 following expansion in 2000. Sunderland have a long-standing rivalry with their neighbouring club Newcastle United, with whom they have contested the Tyne–Wear derby since 1898. Since their establishment in the Premier League in 2007, Sunderland have became one of the world's wealthiest football brands, being valued at USD $93 million in 2014, 31st in the world overall",
+      "descripcion": "Sunderland Association Football Club is an English professional football club based in Sunderland that plays in the Premier League. Since its formation in 1879, the club has won six First Division titles—in 1892, 1893, 1895, 1902, 1913, and 1936, the FA Cup twice, in 1937 and 1973 and the FA Community Shield in 1936. They were also Football League Cup finalists in 1985 and 2014.\r\n\r\nSunderland won their first FA Cup in 1937 with a 3–1 victory over Preston North End, and remained in the top league for 68 successive seasons until they were relegated for the first time in 1958. Sunderland's most notable trophy after the Second World War was their second FA Cup in 1973, when the club secured a 1–0 victory over Leeds United. The team has won the second tier title five times in that period and the third tier title once.\r\n\r\nSunderland play their home games at the 48,707 capacity all-seater Stadium of Light having moved from Roker Park in 1997.",
       "estadio": "Stadium of Light"
     },
     {
@@ -960,7 +1267,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20062.png",
       "imagen_url": null,
-      "descripcion": "Tottenham Hotspur Football Club, commonly referred to as simply Tottenham or Spurs, is a professional football club based in Tottenham, North London, Inglaterra. The club itself has stated that it should always be called \"Tottenham Hotspur\" or \"Spurs\", as Tottenham is the area of London and not the name of the club. It competes in the Premier League, the top tier of English football. The team have played their home matches in the Tottenham Hotspur Stadium since 2019, replacing their former home of White Hart Lane, which had been demolished to make way for the new stadium on the same site.\r\n\r\nFounded in 1882, Tottenham Hotspur's emblem is a cockerel standing upon a football, with the Latin motto Audere est Facere (\"to dare is to do\"). The team have traditionally worn white shirts and navy blue shorts as their home kit since the 1898–99 season. Their training ground is on Hotspur Way in Bulls Cross, Enfield. After its inception, Tottenham won the FA Cup for the first time in 1901, the only non-League club to do so since the formation of the Football League in 1888. Tottenham was the first club in the 20th century to achieve the League and FA Cup Double, winning both competitions in the 1960–61 season. After successfully defending the FA Cup in 1962, in 1963 they became the first British club to win a UEFA club competition – the European Cup Winners' Cup. They were also the inaugural winners of the UEFA Cup in 1972, becoming the first British club to win two different major European trophies. They collected at least one major trophy in each of the six decades from the 1950s to 2000s, an achievement matched only by Manchester United.\r\n\r\nIn domestic football, Spurs have won two league titles, eight FA Cups, four League Cups, and seven FA Community Shields. In European football, they have won one European Cup Winners' Cup and three UEFA Cup/Europa League titles. Tottenham were also runners-up in the 2018–19 UEFA Champions League. They have a long-standing rivalry with nearby club Arsenal, with whom they contest the North London derby, as well as a contested rivalry with Chelsea. Tottenham is owned by ENIC Group, which purchased the club in 2001. The club was estimated to be worth £2.6 billion ($3.2 billion) in 2024, and it was the ninth-highest-earning football club in the world, with an annual revenue of £615 million in 2024.",
+      "descripcion": "Tottenham Hotspur Football Club, commonly referred to as simply Tottenham or Spurs, is a professional football club based in Tottenham, North London, Inglaterra. The club itself has stated that it should always be called \"Tottenham Hotspur\" or \"Spurs\", as Tottenham is the area of London and not the name of the club. It competes in the Premier League, the top tier of English football. The team have played their home matches in the Tottenham Hotspur Stadium since 2019, replacing their former home of White Hart Lane, which had been demolished to make way for the new stadium on the same site.\r\n\r\nFounded in 1882, Tottenham Hotspur's emblem is a cockerel standing upon a football, with the Latin motto Audere est Facere (\"to dare is to do\").",
       "estadio": "Tottenham Hotspur Stadium"
     },
     {
@@ -971,7 +1278,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/371.png",
       "imagen_url": null,
-      "descripcion": "West Ham United Football Club is an English professional football club based in Upton Park, East London, Inglaterra currently playing in the Premier League, Inglaterra's top tier of football. The club was founded in 1895 as Thames Ironworks and reformed in 1900 as West Ham United. In 1904 the club relocated to their current Boleyn Ground stadium. They initially competed in the Southern League and Western League before eventually joining the full Football League in 1919 and subsequently enjoyed promotion to the top flight for the 1923 season. 1923 also saw the club feature in the first FA Cup Final to be held at Wembley against Bolton Wanderers.\r\n\r\nIn 1940 the team won the inaugural Football League War Cup. The club has won the FA Cup three times: in 1964, 1975 and 1980 as well as being runners-up twice, in 1923 and 2006. In 1965, they won the European Cup Winners Cup, and in 1999 they won the Intertoto Cup. They are one of eight existent clubs never to have fallen below the second tier of English football, spending 55 of 87 league seasons in Division 1 to 2013. However, unlike the other seven (Arsenal, Chelsea, Everton, Liverpool, Manchester United, Newcastle United and Tottenham Hotspur), the club has never won the league title. The club's best final league position is third place in the 1985–86 First Division.\r\n\r\nThree West Ham players played significant roles in Inglaterra's victory in the 1966 World Cup final; captain Bobby Moore, and both goalscorers, Geoff Hurst and Martin Peters.",
+      "descripcion": "West Ham United Football Club is an English professional football club based in Upton Park, East London, Inglaterra currently playing in the Premier League, Inglaterra's top tier of football. The club was founded in 1895 as Thames Ironworks and reformed in 1900 as West Ham United. In 1904 the club relocated to their current Boleyn Ground stadium. They initially competed in the Southern League and Western League before eventually joining the full Football League in 1919 and subsequently enjoyed promotion to the top flight for the 1923 season. 1923 also saw the club feature in the first FA Cup Final to be held at Wembley against Bolton Wanderers.\r\n\r\nIn 1940 the team won the inaugural Football League War Cup.",
       "estadio": "London Stadium"
     },
     {
@@ -982,7 +1289,7 @@
       "pais": "Inglaterra",
       "escudo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Escudo_de_Wolverhampton_Wanderers.png/250px-Escudo_de_Wolverhampton_Wanderers.png",
       "imagen_url": null,
-      "descripcion": "Wolverhampton Wanderers Football Club (commonly referred to as Wolves) is an English professional football club that represents the city of Wolverhampton in the West Midlands. The club was originally known as St. Luke's FC and was founded in 1877 and since 1889 has played at Molineux. They currently compete in the Football League Championship, the second highest tier of English football, having been promoted from League One in 2014 after a solitary season at that level.\r\n\r\nHistorically, Wolves have been highly influential, most notably as being founder members of the Football League, as well as having played an instrumental role in the establishment of the European Cup, later to become the UEFA Champions League. Having won the FA Cup twice before the outbreak of the First World War, they developed into one of Inglaterra's leading clubs under the management of ex-player Stan Cullis after the Second World War, going on to win the league three times and the FA Cup twice more between 1949 and 1960. It was during this time that the European Cup competition was established, after the English press declared Wolves \"Champions of the World\" following their victories against numerous top European and World sides in some of British football's first live televised games.\r\n\r\nWolves have yet to match the successes of the Stan Cullis era, although, under Bill McGarry, they contested the first-ever UEFA Cup final in 1972 and won the 1974 League Cup, a trophy they lifted again six years later under John Barnwell. However, financial mismanagement in the 1980s led to the club's very existence being under threat as well as three consecutive relegations, before a revival and back-to-back promotions under manager Graham Turner and record goalscorer Steve Bull saw them finish the decade in the Second Division, winning the Football League Trophy along the way.",
+      "descripcion": "Wolverhampton Wanderers Football Club (commonly referred to as Wolves) is an English professional football club that represents the city of Wolverhampton in the West Midlands. The club was originally known as St. Luke's FC and was founded in 1877 and since 1889 has played at Molineux. They currently compete in the Football League Championship, the second highest tier of English football, having been promoted from League One in 2014 after a solitary season at that level.\r\n\r\nHistorically, Wolves have been highly influential, most notably as being founder members of the Football League, as well as having played an instrumental role in the establishment of the European Cup, later to become the UEFA Champions League.",
       "estadio": "Molineux Stadium"
     },
     {
@@ -1455,7 +1762,7 @@
       "pais": "Italia",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3263.png",
       "imagen_url": null,
-      "descripcion": "El Genoa Cricket and Football Club es el club de fútbol más antiguo de Italia que sigue activo, fundado en 1893 en Génova. Juega como local en el Estadio Luigi Ferraris y sus colores tradicionales son el rojo y el azul.",
+      "descripcion": "El Genoa Cricket and Football Club es el club de fútbol más antiguo de Italia que sigue Activo, fundado en 1893 en Génova. Juega como local en el Estadio Luigi Ferraris y sus colores tradicionales son el rojo y el azul.",
       "estadio": "Estadio Luigi Ferraris"
     },
     {
@@ -1674,8 +1981,7 @@
       "entrenador": "Dick Lukkien",
       "pais": "Países Bajos",
       "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/202.png?lm=1657052745",
-      "imagen_url": null
-      ,
+      "imagen_url": null,
       "descripcion": "El Football Club Groningen, apodado 'Orgullo del Norte', es el club más importante del norte de los Países Bajos. Juega en el moderno Euroborg y es conocido por desarrollar talentos como Arjen Robben y Virgil van Dijk.",
       "estadio": "Euroborg Stadium"
     },
@@ -2857,33 +3163,17 @@
       "posiciones": [
         "Extremo izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.81",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": 1011,
-          "desde": "2020",
-          "hasta": "2021",
-          "camiseta": "9",
-          "liga": 1
+          "partidos": 266,
+          "goles": 35,
+          "asistencias": 40
         }
       ],
-
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
-          "goles": 0,
-          "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
-        }
-      },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/709187-1709676169.png?lm=1"
     },
     {
@@ -2896,11 +3186,9 @@
       "posiciones": [
         "Lateral izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.91",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -2910,7 +3198,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -2922,7 +3209,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/176553-1685546335.jpg?lm=1"
     },
     {
@@ -2935,11 +3221,9 @@
       "posiciones": [
         "Extremo derecho"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.86",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -2949,7 +3233,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -2961,7 +3244,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/255508-1709676323.png?lm=1"
     },
     {
@@ -2974,11 +3256,9 @@
       "posiciones": [
         "Mediocentro ofensivo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.88",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -2988,7 +3268,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3000,7 +3279,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/571020-1709676037.png?lm=1"
     },
     {
@@ -3013,11 +3291,9 @@
       "posiciones": [
         "Mediocentro ofensivo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.90",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3027,7 +3303,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3039,7 +3314,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/262396-1709674901.png?lm=1"
     },
     {
@@ -3052,11 +3326,9 @@
       "posiciones": [
         "Mediocentro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.85",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3066,7 +3338,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3078,7 +3349,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1312698-1731353776.png?lm=1"
     },
     {
@@ -3091,11 +3361,9 @@
       "posiciones": [
         "Delantero centro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.92",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3105,7 +3373,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3117,7 +3384,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1054934-1736857054.jpg?lm=1"
     },
     {
@@ -3130,11 +3396,9 @@
       "posiciones": [
         "Portero"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.90",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3144,7 +3408,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3156,7 +3419,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834483-1709676711.png?lm=1"
     },
     {
@@ -3169,11 +3431,9 @@
       "posiciones": [
         "Lateral izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.81",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3183,7 +3443,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3195,7 +3454,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/255488-1709675129.png?lm=1"
     },
     {
@@ -3208,11 +3466,9 @@
       "posiciones": [
         "Lateral izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.71",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3222,7 +3478,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3234,7 +3489,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/563137-1567246327.jpg?lm=1"
     },
     {
@@ -3247,11 +3501,9 @@
       "posiciones": [
         "Mediocentro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.92",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3261,7 +3513,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3273,7 +3524,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834491-1709677367.png?lm=1"
     },
     {
@@ -3286,11 +3536,9 @@
       "posiciones": [
         "Lateral derecho"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.82",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3300,7 +3548,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3312,7 +3559,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/488626-1675800186.jpg?lm=1"
     },
     {
@@ -3325,11 +3571,9 @@
       "posiciones": [
         "Delantero centro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.88",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3339,7 +3583,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3351,7 +3594,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/340205-1709676375.png?lm=1"
     },
     {
@@ -3364,11 +3606,9 @@
       "posiciones": [
         "Mediocentro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.77",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3378,7 +3618,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3390,7 +3629,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/938729-1709675994.png?lm=1"
     },
     {
@@ -3403,11 +3641,9 @@
       "posiciones": [
         "Extremo izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.75",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3417,7 +3653,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3429,7 +3664,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/338425-1709676212.png?lm=1"
     },
     {
@@ -3442,11 +3676,9 @@
       "posiciones": [
         "Delantero centro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.75",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3456,7 +3688,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3468,7 +3699,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/610622-1709678226.png?lm=1"
     },
     {
@@ -3481,11 +3711,9 @@
       "posiciones": [
         "Lateral izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.81",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3495,7 +3723,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3507,7 +3734,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/524000-1709674998.png?lm=1"
     },
     {
@@ -3520,11 +3746,9 @@
       "posiciones": [
         "Lateral izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.81",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3534,7 +3758,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3546,7 +3769,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/591916-1709675052.png?lm=1"
     },
     {
@@ -3559,11 +3781,9 @@
       "posiciones": [
         "Lateral izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.81",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3573,7 +3793,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3585,7 +3804,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/61812-1709675167.png?lm=1"
     },
     {
@@ -3598,11 +3816,9 @@
       "posiciones": [
         "Mediocentro ofensivo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.83",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3612,7 +3828,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3624,7 +3839,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834752-1709676122.png?lm=1"
     },
     {
@@ -3637,11 +3851,9 @@
       "posiciones": [
         "Mediocentro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.80",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3651,7 +3863,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3663,7 +3874,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/625047-1709675858.png?lm=1"
     },
     {
@@ -3676,11 +3886,9 @@
       "posiciones": [
         "Lateral izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.83",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3690,7 +3898,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3702,7 +3909,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/710671-1709677000.png?lm=1"
     },
     {
@@ -3715,11 +3921,9 @@
       "posiciones": [
         "Extremo izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.76",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3729,7 +3933,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3741,7 +3944,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/668183-1731352737.png?lm=1"
     },
     {
@@ -3754,11 +3956,9 @@
       "posiciones": [
         "Mediocentro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.76",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3768,7 +3968,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3780,7 +3979,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/610083-1671998817.png?lm=1"
     },
     {
@@ -3793,11 +3991,9 @@
       "posiciones": [
         "Lateral derecho"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.80",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3807,7 +4003,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3819,7 +4014,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/255501-1709675295.png?lm=1"
     },
     {
@@ -3832,11 +4026,9 @@
       "posiciones": [
         "Defensa central"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.86",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3846,7 +4038,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3858,7 +4049,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/905015-1709676835.png?lm=1"
     },
     {
@@ -3871,11 +4061,9 @@
       "posiciones": [
         "Pivote"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.91",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3885,7 +4073,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3897,7 +4084,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/300168-1709675412.png?lm=1"
     },
     {
@@ -3910,11 +4096,9 @@
       "posiciones": [
         "Extremo izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.75",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3924,7 +4108,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3936,7 +4119,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/671649-1762259842.jpg?lm=1"
     },
     {
@@ -3949,11 +4131,9 @@
       "posiciones": [
         "Lateral derecho"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.74",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -3963,7 +4143,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -3975,7 +4154,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/289255-1739190147.jpeg?lm=1"
     },
     {
@@ -3988,11 +4166,9 @@
       "posiciones": [
         "Defensa central"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.86",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4002,7 +4178,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4014,7 +4189,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834485-1709676798.png?lm=1"
     },
     {
@@ -4027,11 +4201,9 @@
       "posiciones": [
         "Portero"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.87",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4041,7 +4213,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4053,7 +4224,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/625014-1709674945.png?lm=1"
     },
     {
@@ -4066,11 +4236,9 @@
       "posiciones": [
         "Mediocentro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.75",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4080,7 +4248,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4092,7 +4259,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/126751-1709675810.png?lm=1"
     },
     {
@@ -4105,11 +4271,9 @@
       "posiciones": [
         "Lateral derecho"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.83",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4119,7 +4283,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4131,7 +4294,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834487-1709677097.png?lm=1"
     },
     {
@@ -4144,11 +4306,9 @@
       "posiciones": [
         "Portero"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.82",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4158,7 +4318,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4170,7 +4329,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1056956-1709678933.png?lm=1"
     },
     {
@@ -4183,11 +4341,9 @@
       "posiciones": [
         "Extremo derecho"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.82",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4197,7 +4353,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4209,7 +4364,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1056971-1709678151.png?lm=1"
     },
     {
@@ -4222,11 +4376,9 @@
       "posiciones": [
         "Mediocentro ofensivo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.77",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4236,7 +4388,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4248,7 +4399,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/938730-1709678063.png?lm=1"
     },
     {
@@ -4261,11 +4411,9 @@
       "posiciones": [
         "Mediocentro ofensivo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.78",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4275,7 +4423,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4287,7 +4434,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1162017-1731353883.png?lm=1"
     },
     {
@@ -4300,11 +4446,9 @@
       "posiciones": [
         "Mediocentro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.73",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4314,7 +4458,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4326,7 +4469,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/709214-1709677208.png?lm=1"
     },
     {
@@ -4339,11 +4481,9 @@
       "posiciones": [
         "Extremo izquierdo"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.88",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4353,7 +4493,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4365,7 +4504,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834492-1709678194.png?lm=1"
     },
     {
@@ -4378,11 +4516,9 @@
       "posiciones": [
         "Defensa central"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.85",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4392,7 +4528,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4404,7 +4539,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1124051-1731353342.png?lm=1"
     },
     {
@@ -4417,11 +4551,9 @@
       "posiciones": [
         "Portero"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.90",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4431,7 +4563,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4443,7 +4574,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/938722-1709676754.png?lm=1"
     },
     {
@@ -4456,11 +4586,9 @@
       "posiciones": [
         "Defensa central"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.85",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4470,7 +4598,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4482,7 +4609,6 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1189292-1731350634.png?lm=1"
     },
     {
@@ -4495,11 +4621,9 @@
       "posiciones": [
         "Delantero centro"
       ],
-
-      "estado": "activo", 
+      "estado": "Activo",
       "altura": "1.90",
       "peso": "",
-
       "equipos_historial": [
         {
           "equipo_id": "",
@@ -4509,7 +4633,6 @@
           "liga": null
         }
       ],
-
       "estadisticas": {
         "club": {
           "partidos": 0,
@@ -4521,8 +4644,844 @@
           "goles": 0
         }
       },
-
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1056970-1709678306.png?lm=1"
+    },
+    {
+      "id": 100044,
+      "nombre": "Julián Alvarez",
+      "fecha_nacimiento": "31-01-2005",
+      "lugar_nacimiento": "Calchín",
+      "nacionalidad": "Argentina",
+      "numero_camiseta": "19",
+      "posiciones": [
+        "Delantero centro"
+      ],
+      "estado": "Activo",
+      "altura": "1.70",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/576024-1684920938.jpg?lm=1"
+    },
+    {
+      "id": 100045,
+      "nombre": "Antoine Griezmann",
+      "fecha_nacimiento": "21-03-1991",
+      "lugar_nacimiento": "Mâcon",
+      "nacionalidad": "Francia",
+      "numero_camiseta": "7",
+      "posiciones": [
+        "Mediapunta"
+      ],
+      "estado": "Activo",
+      "altura": "1.76",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/125781-1719928503.jpg?lm=1"
+    },
+    {
+      "id": 100046,
+      "nombre": "Alexander Sørloth",
+      "fecha_nacimiento": "05-12-1995",
+      "lugar_nacimiento": "Trondheim",
+      "nacionalidad": "Noruega",
+      "numero_camiseta": "9",
+      "posiciones": [
+        "Delantero centro"
+      ],
+      "estado": "Activo",
+      "altura": "1.95",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/238407-1716403969.jpg?lm=1"
+    },
+    {
+      "id": 100047,
+      "nombre": "Giuliano Simeone",
+      "fecha_nacimiento": "18-12-2002",
+      "lugar_nacimiento": "Roma",
+      "nacionalidad": "Argentina",
+      "numero_camiseta": "20",
+      "posiciones": [
+        "Extremo derecho"
+      ],
+      "estado": "Activo",
+      "altura": "1.73",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/742201-1741120599.jpg?lm=1"
+    },
+    {
+      "id": 100048,
+      "nombre": "Thiago Almada",
+      "fecha_nacimiento": "26-04-2001",
+      "lugar_nacimiento": "Ciudadela, Argentina",
+      "nacionalidad": "Argentina",
+      "numero_camiseta": "11",
+      "posiciones": [
+        "Extremo izquierdo"
+      ],
+      "estado": "Activo",
+      "altura": "1.71",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/576028-1709363616.jpg?lm=1"
+    },
+    {
+      "id": 100049,
+      "nombre": "Giacomo Raspadori",
+      "fecha_nacimiento": "18-02-2000",
+      "lugar_nacimiento": "Bentivoglio, Italia",
+      "nacionalidad": "Italia",
+      "numero_camiseta": "22",
+      "posiciones": [
+        "Mediapunta"
+      ],
+      "estado": "Activo",
+      "altura": "1.72",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/405885-1708552564.jpg?lm=1"
+    },
+    {
+      "id": 100050,
+      "nombre": "Conor Gallagher",
+      "fecha_nacimiento": "06-02-2000",
+      "lugar_nacimiento": "Epsom, Inglaterra",
+      "nacionalidad": "Inglaterra",
+      "numero_camiseta": "4",
+      "posiciones": [
+        "Mediocentro"
+      ],
+      "estado": "Activo",
+      "altura": "1.82",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/488362-1668500476.jpg?lm=1"
+    },
+    {
+      "id": 100051,
+      "nombre": "Nico Gonzáles",
+      "fecha_nacimiento": "06-04-1998",
+      "lugar_nacimiento": "Belén de Escobar, Argentina",
+      "nacionalidad": "Argentina",
+      "numero_camiseta": "23",
+      "posiciones": [
+        "Extremo izquierdo"
+      ],
+      "estado": "Activo",
+      "altura": "1.80",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/486031-1673442459.jpg?lm=1"
+    },
+    {
+      "id": 100052,
+      "nombre": "Koke",
+      "fecha_nacimiento": "08-01-1992",
+      "lugar_nacimiento": "Madrid",
+      "nacionalidad": "España",
+      "numero_camiseta": "6",
+      "posiciones": [
+        "Mediocentro"
+      ],
+      "estado": "Activo",
+      "altura": "1.76",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/74229-1664970397.jpg?lm=1"
+    },
+    {
+      "id": 100053,
+      "nombre": "Álex Baena",
+      "fecha_nacimiento": "20-07-2001",
+      "lugar_nacimiento": "Roquetas de Mar, España",
+      "nacionalidad": "España",
+      "numero_camiseta": "10",
+      "posiciones": [
+        "Extremo izquierdo"
+      ],
+      "estado": "Activo",
+      "altura": "1.74",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/548111-1761821030.jpg?lm=1"
+    },
+    {
+      "id": 100054,
+      "nombre": "Jan Oblak",
+      "fecha_nacimiento": "07-01-1993",
+      "lugar_nacimiento": "Škofja Loka, Eslovenia",
+      "nacionalidad": "Eslovenia",
+      "numero_camiseta": "13",
+      "posiciones": [
+        "Portero"
+      ],
+      "estado": "Activo",
+      "altura": "1.88",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 565,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 82,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/121483-1719350076.jpg?lm=1"
+    },
+    {
+      "id": 100055,
+      "nombre": "Marcos Llorente",
+      "fecha_nacimiento": "30-01-1995",
+      "lugar_nacimiento": "Madrid",
+      "nacionalidad": "España",
+      "numero_camiseta": "14",
+      "posiciones": [
+        "Lateral derecho"
+      ],
+      "estado": "Activo",
+      "altura": "1.84",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 405,
+          "goles": 40,
+          "asistencias": 47
+        },
+        "seleccion": {
+          "partidos": 20,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/282411-1684159821.jpg?lm=1"
+    },
+    {
+      "id": 100056,
+      "nombre": "Johnny Cardoso",
+      "fecha_nacimiento": "20-09-2001",
+      "lugar_nacimiento": "Denville, New Jersey",
+      "nacionalidad": "Estados Unidos",
+      "numero_camiseta": "5",
+      "posiciones": [
+        "Mediocentro"
+      ],
+      "estado": "Activo",
+      "altura": "1.86",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/689505-1742036970.jpg?lm=1"
+    },
+    {
+      "id": 100057,
+      "nombre": "Dávid Hancko",
+      "fecha_nacimiento": "13-12-1997",
+      "lugar_nacimiento": "Prievidza, Eslovaquia",
+      "nacionalidad": "Eslovaquia",
+      "numero_camiseta": "17",
+      "posiciones": [
+        "Defensa central"
+      ],
+      "estado": "Activo",
+      "altura": "1.88",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/404418-1722415670.jpg?lm=1"
+    },
+    {
+      "id": 100058,
+      "nombre": "José María Giménez",
+      "fecha_nacimiento": "20-01-1995",
+      "lugar_nacimiento": "Toledo, Uruguay",
+      "nacionalidad": "Uruguay",
+      "numero_camiseta": "2",
+      "posiciones": [
+        "Defensa central"
+      ],
+      "estado": "Activo",
+      "altura": "1.85",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/250845-1664970029.jpg?lm=1"
+    },
+    {
+      "id": 100059,
+      "nombre": "Matteo Ruggeri",
+      "fecha_nacimiento": "11-07-2002",
+      "lugar_nacimiento": "San Giovanni Bianco, Italia",
+      "nacionalidad": "Italia",
+      "numero_camiseta": "3",
+      "posiciones": [
+        "Lateral izquierdo"
+      ],
+      "estado": "Activo",
+      "altura": "1.87",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/616631-1742497680.jpg?lm=1"
+    },
+    {
+      "id": 100060,
+      "nombre": "Pablo Barrios",
+      "fecha_nacimiento": "15-06-2003",
+      "lugar_nacimiento": "Madrid",
+      "nacionalidad": "España",
+      "numero_camiseta": "8",
+      "posiciones": [
+        "Mediocentro"
+      ],
+      "estado": "Activo",
+      "altura": "1.81",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/775605-1699431384.jpg?lm=1"
+    },
+    {
+      "id": 100061,
+      "nombre": "Robin Le Normand",
+      "fecha_nacimiento": "11-11-1996",
+      "lugar_nacimiento": "Pabu, Francia",
+      "nacionalidad": "Francia",
+      "numero_camiseta": "24",
+      "posiciones": [
+        "Defensa central"
+      ],
+      "estado": "Activo",
+      "altura": "1.87",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/351809-1707948228.jpg?lm=1"
+    },
+    {
+      "id": 100062,
+      "nombre": "Nahuel Molina",
+      "fecha_nacimiento": "06-04-1998",
+      "lugar_nacimiento": "Embalse, Argentina",
+      "nacionalidad": "Argentina",
+      "numero_camiseta": "16",
+      "posiciones": [
+        "Lateral derecho"
+      ],
+      "estado": "Activo",
+      "altura": "1.75",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/424042-1697037362.jpg?lm=1"
+    },
+    {
+      "id": 100063,
+      "nombre": "Clément Lenglet",
+      "fecha_nacimiento": "17-06-1995",
+      "lugar_nacimiento": "Beauvais, Francia",
+      "nacionalidad": "Francia",
+      "numero_camiseta": "15",
+      "posiciones": [
+        "Defensa central"
+      ],
+      "estado": "Activo",
+      "altura": "1.86",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/182904-1599988301.jpg?lm=1"
+    },
+    {
+      "id": 100064,
+      "nombre": "Marc Pubill",
+      "fecha_nacimiento": "20-06-2003",
+      "lugar_nacimiento": "Terrassa, España",
+      "nacionalidad": "España",
+      "numero_camiseta": "18",
+      "posiciones": [
+        "Lateral derecho"
+      ],
+      "estado": "Activo",
+      "altura": "1.90",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/844637-1732735045.jpg?lm=1"
+    },
+    {
+      "id": 100065,
+      "nombre": "Carlos Martín",
+      "fecha_nacimiento": "22-04-2002",
+      "lugar_nacimiento": "Madrid",
+      "nacionalidad": "España",
+      "numero_camiseta": "12",
+      "posiciones": [
+        "Extremo izquierdo"
+      ],
+      "estado": "Activo",
+      "altura": "1.84",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/618813-1707924109.jpg?lm=1"
+    },
+    {
+      "id": 100066,
+      "nombre": "Javi Galán",
+      "fecha_nacimiento": "19-11-1994",
+      "lugar_nacimiento": "Badajoz, España",
+      "nacionalidad": "España",
+      "numero_camiseta": "",
+      "posiciones": [
+        "Lateral izquierdo"
+      ],
+      "estado": "Activo",
+      "altura": "1.72",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/448628-1706112804.jpg?lm=1"
+    },
+    {
+      "id": 100067,
+      "nombre": "Taufik Seidu",
+      "fecha_nacimiento": "20-01-2008",
+      "lugar_nacimiento": "Accra, Ghana",
+      "nacionalidad": "España",
+      "numero_camiseta": "27",
+      "posiciones": [
+        "Mediocentro"
+      ],
+      "estado": "Activo",
+      "altura": "",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1114187-1731960475.jpg?lm=1"
+    },
+    {
+      "id": 100068,
+      "nombre": "Ilias Kostis",
+      "fecha_nacimiento": "27-02-2003",
+      "lugar_nacimiento": "Thessaloniki, Grecia",
+      "nacionalidad": "Grecia",
+      "numero_camiseta": "16",
+      "posiciones": [
+        "Defensa central"
+      ],
+      "estado": "Activo",
+      "altura": "1.88",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/614988-1731932512.jpg?lm=1"
+    },
+    {
+      "id": 100069,
+      "nombre": "Juan Musso",
+      "fecha_nacimiento": "06-05-1994",
+      "lugar_nacimiento": "San Nicolás de los Arroyos, Argentina",
+      "nacionalidad": "Argentina",
+      "numero_camiseta": "1",
+      "posiciones": [
+        "Portero"
+      ],
+      "estado": "Activo",
+      "altura": "1.91",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/242359-1663583047.jpg?lm=1"
+    },
+    {
+      "id": 100070,
+      "nombre": "Rayane Belaid",
+      "fecha_nacimiento": "11-02-2005",
+      "lugar_nacimiento": "Orihuela, España",
+      "nacionalidad": "España",
+      "numero_camiseta": "10",
+      "posiciones": [
+        "Mediocentro ofensivo"
+      ],
+      "estado": "Activo",
+      "altura": "1.75",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/945500-1730938196.jpg?lm=1"
+    },
+    {
+      "id": 100071,
+      "nombre": "Jano Monserrate",
+      "fecha_nacimiento": "28-01-2006",
+      "lugar_nacimiento": "Zaragoza, España",
+      "nacionalidad": "España",
+      "numero_camiseta": "26",
+      "posiciones": [
+        "Mediocentro ofensivo"
+      ],
+      "estado": "Activo",
+      "altura": "1.77",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1209287-1731932940.jpg?lm=1"
+    },
+    {
+      "id": 100072,
+      "nombre": "Salvi Esquivel",
+      "fecha_nacimiento": "30-09-2005",
+      "lugar_nacimiento": "Estepona, España",
+      "nacionalidad": "España",
+      "numero_camiseta": "13",
+      "posiciones": [
+        "Portero"
+      ],
+      "estado": "Activo",
+      "altura": "1.93",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1"
+    },
+    {
+      "id": 100073,
+      "nombre": "Mario de Luis",
+      "fecha_nacimiento": "06-05-2002",
+      "lugar_nacimiento": "Madrid",
+      "nacionalidad": "España",
+      "numero_camiseta": "1",
+      "posiciones": [
+        "Portero"
+      ],
+      "estado": "Activo",
+      "altura": "1.85",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/717952-1682451448.jpg?lm=1"
+    },
+    {
+      "id": 100074,
+      "nombre": "Mariano Villafáfila",
+      "fecha_nacimiento": "16-01-2006",
+      "lugar_nacimiento": "",
+      "nacionalidad": "España",
+      "numero_camiseta": "",
+      "posiciones": [
+        "Delantero centro"
+      ],
+      "estado": "Activo",
+      "altura": "",
+      "peso": "",
+      "equipos_historial": [],
+      "estadisticas": {
+        "club": {
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        "seleccion": {
+          "partidos": 0,
+          "goles": 0
+        }
+      },
+      "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1310024-1732219305.jpg?lm=1"
     }
   ]
 }
