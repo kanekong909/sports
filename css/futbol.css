@@ -128,10 +128,21 @@ a:hover {
   border: 1px solid rgba(0, 180, 216, 0.35);
   border-radius: 18px;
   padding: 1.2rem;
+
+  /* Que crezca según contenido */
+  height: auto;
+  min-height: fit-content;
+
+  /* Apilar items verticalmente y con separación */
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+
   backdrop-filter: blur(6px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .continente-item:hover {
   transform: translateY(-4px);

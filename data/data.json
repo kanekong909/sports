@@ -324,6 +324,20 @@
           "pais": "España",
           "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Supercopa_de_Espa%C3%B1a_Logo.png",
           "equipos": []
+        },
+        {
+          "id": 25,
+          "nombre": "Liga de Campeones de la AFC",
+          "pais": "Asia",
+          "imagen_url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
+          "equipos": []
+        },
+        {
+          "id": 26,
+          "nombre": "Liga Profesional Saudí",
+          "pais": "Asia",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Saudi_Pro_League_Logo.svg",
+          "equipos": []
         }
       ],
       "ligas_principales": [
@@ -374,6 +388,13 @@
           "nombre": "Norteamérica",
           "ligas": [
             16
+          ]
+        }, 
+        {
+          "nombre": "Asia",
+          "ligas" : [
+            25,
+            26
           ]
         }
       ],
@@ -3366,23 +3387,114 @@
       "equipos_historial": [
         {
           "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "seleccion_id": 18,
+          "liga": 23,
+          "temporada": "2021",
+          "partidos": 6,
+          "goles": 1,
+          "asistencias": "-"
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 22,
+          "temporada": "2022",
+          "partidos": 2,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Clasificacion Euro",
+          "temporada": "2023",
+          "partidos": 5,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 2013,
+          "seleccion_id": "",
+          "liga": 2,
+          "temporada": "2023-24",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Al Nassr",
+          "seleccion_id": "",
+          "liga": 25,
+          "temporada": "2023-24",
+          "partidos": 7,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Al Nassr",
+          "seleccion_id": "",
+          "liga": 26,
+          "temporada": "2023-24",
+          "partidos": 27,
+          "goles": 4,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 23,
+          "temporada": "2024",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Al Nassr",
+          "seleccion_id": "",
+          "liga": "Supercopa de Arabia Saudita",
+          "temporada": "2024",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Al Nassr",
+          "seleccion_id": "",
+          "liga": 25,
+          "temporada": "2024-25",
+          "partidos": 6,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Al Nassr",
+          "seleccion_id": "",
+          "liga": 26,
+          "temporada": "2024-25",
+          "partidos": 20,
+          "goles": 4,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025-26",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025-26",
+          "partidos": 8,
+          "goles": 0,
+          "asistencias": 1
         }
-      },
+      ],
+      
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/176553-1685546335.jpg?lm=1"
     },
     {

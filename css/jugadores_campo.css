@@ -669,6 +669,12 @@ header p {
   white-space: nowrap;
   font-size: 13px;
 }
+/* Solo columnas 4, 5 y 6 en negrita */
+.tabla-historial td:nth-child(4),
+.tabla-historial td:nth-child(5),
+.tabla-historial td:nth-child(6) {
+  font-weight: bold;
+}
 
 /* Filas alternadas */
 .tabla-historial tbody tr:nth-child(even) {
