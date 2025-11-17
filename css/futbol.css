@@ -85,9 +85,10 @@ header p {
   padding: 1rem;
   border-radius: 10px;
   display: flex;
+  gap: 25px;
   align-items: center;
 }
-.selecciones a {
+a {
   width: 150px;
   border-radius: 10px;
   color: #fff;
@@ -96,7 +97,7 @@ header p {
   text-align: center;
   text-decoration: none;  
 }
-.selecciones a:hover {
+a:hover {
   transform: scale(.98);
 }
 
