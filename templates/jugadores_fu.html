@@ -43,13 +43,44 @@
       </div>
 
       <div class="modal-extra">
-        <h3>Estadísticas</h3>
-        <p><strong>Partidos (club):</strong> <span id="modalPartidosClub"></span></p>
-        <p><strong>Goles (club):</strong> <span id="modalGolesClub"></span></p>
-        <p><strong>Asistencias (club):</strong> <span id="modalAsistClub"></span></p>
-        <p><strong>Partidos (selección):</strong> <span id="modalPartidosSel"></span></p>
-        <p><strong>Goles (selección):</strong> <span id="modalGolesSel"></span></p>
+        <div class="stats-block club">
+          <h3>Club</h3>
+          <p><strong>Partidos:</strong> <span id="modalPartidosClub"></span></p>
+          <p><strong>Goles:</strong> <span id="modalGolesClub"></span></p>
+          <p><strong>Asistencias:</strong> <span id="modalAsistClub"></span></p>
+        </div>
+
+        <div class="stats-block seleccion">
+          <h3>Selección</h3>
+          <p><strong>Partidos:</strong> <span id="modalPartidosSel"></span></p>
+          <p><strong>Goles:</strong> <span id="modalGolesSel"></span></p>
+          <p><strong>Asistencias:</strong> <span id="modalAsistSel"></span></p>
+        </div>
       </div>
+
+      <div class="historial-container">
+          <h3>Historial Competitivo</h3>
+
+          <div class="tabla-wrapper">
+            <table class="tabla-historial">
+              <thead>
+                <tr>
+                  <th>Liga</th>
+                  <th>Temporada</th>
+                  <th>Equipo / Selección</th>
+                  <th>Partidos</th>
+                  <th>Goles</th>
+                  <th>Asistencias</th>
+                </tr>
+              </thead>
+
+              <tbody id="tablaHistorialBody">
+                <!-- Aquí se insertan filas con JS -->
+              </tbody>
+            </table>
+          </div>
+      </div>
+
     </div>
   </div>
 

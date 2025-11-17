@@ -519,62 +519,87 @@ header p {
 }
 
 /* Estadísticas */
+/* ==========================
+   Contenedor Base
+========================== */
 .modal-extra {
   padding: 2rem;
   background: var(--dark);
+  display: grid;
+  gap: 2rem;
 }
 
 @media (max-width: 480px) {
   .modal-extra {
     padding: 1.5rem;
+    gap: 1.5rem;
   }
 }
 
-.modal-extra h3 {
+/* ==========================
+   Bloque de estadísticas
+========================== */
+.stats-block {
+  background: var(--dark-light);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Colores distintivos */
+.stats-block.club {
+  border-left: 5px solid #4da3ff; /* azul */
+}
+
+.stats-block.seleccion {
+  border-left: 5px solid #ff4d4d; /* rojo */
+}
+
+/* ==========================
+   Títulos
+========================== */
+.stats-block h3 {
   font-family: 'Space Grotesk', sans-serif;
   font-size: clamp(1.3rem, 3vw, 1.5rem);
   font-weight: 700;
   color: var(--text);
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--primary);
-  display: inline-block;
+  width: fit-content;
 }
 
-.modal-extra p {
+/* ==========================
+   Ítems
+========================== */
+.stats-block p {
   font-size: clamp(0.9rem, 1.5vw, 1rem);
   padding: 1rem 1.25rem;
   margin-bottom: 0.75rem;
-  background: var(--dark-light);
+  background: var(--dark-lighter);
   border-radius: 0.75rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.3s ease;
+  transition: 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.modal-extra p:hover {
-  background: var(--dark-lighter);
+.stats-block p:hover {
+  background: var(--dark);
   transform: scale(1.02);
   border-color: var(--primary);
 }
 
-.modal-extra strong {
-  color: var(--text);
-  font-weight: 500;
-}
-
-.modal-extra span {
-  background: var(--primary);
+.stats-block span {
+  background: #000;
   color: white;
   padding: 0.4rem 1rem;
   border-radius: 2rem;
   font-weight: 700;
-  font-size: 1em;
   min-width: 50px;
   text-align: center;
-  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* Scrollbar del modal */
@@ -593,6 +618,87 @@ header p {
 
 .modal-content::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
+}
+
+/* Historial info */
+/* Contenedor general */
+.historial-container {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.historial-container h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.3rem, 3vw, 1.5rem);
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--primary);
+  padding-left: 0.75rem;
+}
+
+/* Wrapper para permitir scroll horizontal en móvil */
+.tabla-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* Tabla */
+.tabla-historial {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 650px; /* Para permitir scroll en pantallas pequeñas */
+}
+
+.tabla-historial th {
+  background: var(--dark-light);
+  padding: 0.8rem;
+  text-align: left;
+  font-weight: 700;
+  color: var(--text);
+  border-bottom: 2px solid var(--primary);
+  white-space: nowrap;
+}
+
+.tabla-historial td {
+  padding: 0.8rem;
+  color: var(--text);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+/* Filas alternadas */
+.tabla-historial tbody tr:nth-child(even) {
+  background: var(--dark-lighter);
+}
+
+.tabla-historial tbody tr:hover {
+  background: var(--dark);
+  transition: 0.25s ease;
+}
+
+/* Scrollbar para Chrome, Edge y Safari */
+.historial-container::-webkit-scrollbar {
+  height: 8px; /* horizontal */
+  width: 8px;  /* vertical */
+}
+
+.historial-container::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+.historial-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6c63ff, #9c9cff);
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.historial-container::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #4e4bff, #7a7aff);
 }
 
 /* Animaciones */

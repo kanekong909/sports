@@ -289,6 +289,41 @@
           "pais": "Turquía",
           "imagen_url": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png",
           "equipos": []
+        },
+        {
+          "id": 20,
+          "nombre": "Copa del Rey",
+          "pais": "España",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Copa_Del_Rey_Official_Logo.png",
+          "equipos": []
+        },
+        {
+          "id": 21,
+          "nombre": "Uefa Nations League",
+          "pais": "Europa",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/UEFA_Nations_League.svg/814px-UEFA_Nations_League.svg.png",
+          "equipos": []
+        },
+        {
+          "id": 22,
+          "nombre": "Copa del Mundo",
+          "pais": "Mundo",
+          "imagen_url": "https://png.pngtree.com/png-vector/20240704/ourlarge/pngtree-world-cup-trophy-clipart-png-image_12978823.png",
+          "equipos": []
+        },
+        {
+          "id": 23,
+          "nombre": "Eurocopa",
+          "pais": "Europa",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Coupe_Henri_Delaunay_2017.jpg/500px-Coupe_Henri_Delaunay_2017.jpg",
+          "equipos": []
+        },
+        {
+          "id": 24,
+          "nombre": "Supercopa de España",
+          "pais": "España",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Supercopa_de_Espa%C3%B1a_Logo.png",
+          "equipos": []
         }
       ],
       "ligas_principales": [
@@ -317,7 +352,12 @@
             12,
             17,
             18,
-            19
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
           ]
         },
         {
@@ -889,7 +929,7 @@
       "pais": "España",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/96.png",
       "imagen_url": null,
-      "descripcion": "Deportivo Alavés, S.A.D. (Spanish pronunciation: ; Sporting Alavés), usually abbreviated to Alavés, is a Spanish football club based in Vitoria-Gasteiz, Álava, in the autonomous community of the Basque Country. Founded on 1 July 1920 as Sport Friends Club, it has played in the highest football category of The Liga Nacional de Fútbol Profesional, La Liga, since the 2016–17 season. Alavés play in the Segunda División, after being relegated from La Liga in the 2021–22 season.\r\n\r\nIt is recognized as the third most successful team in the Basque Country following Athletic Club of Bilbao and Real Sociedad de Futbol of San Sebastián. Its biggest success was in 2001 when, in the year of its debut in European competition, it reached the 2001 UEFA Cup Final, where it played against Liverpool. It was defeated 5–4 by golden goal. In 2017, the club reached the final of the Copa del Rey, losing out 3–1 to Barcelona.\r\n\r\nThe team's home kit is blue and white-striped shirt, blue shorts and white socks. It holds home matches at the 19,840-seater Mendizorrotza Stadium and uses other facilities located in Ibaia dedicated to training.",
+      "descripcion": "Deportivo Alavés, S.A.D. (Spanish pronunciation: ; Sporting Alavés), usually abbreviated to Alavés, is a Spanish football club based in Vitoria-Gasteiz, Álava, in the autonomous community of the Basque Country. Founded on 1 July 1920 as Sport Friends Club, it has played in the highest football category of The Liga Nacional de Fútbol Profesional, La Liga, since the 2016–17 season. Alavés play in the Segunda División, after being relegated from La Liga in the 2021–22 season.\r\n\r\nIt is recognized as the third most successful team in the Basque Country following Athletic Club of Bilbao and Real Sociedad de Futbol of San Sebastián. Its biggest success was in 2001 when, in the year of its debut in European competition, it reached the 2001 UEFA Cup Final, where it played against Liverpool.-",
       "estadio": "Estadio de Mendizorroza"
     },
     {
@@ -3165,9 +3205,147 @@
       "equipos_historial": [
         {
           "equipo_id": 1011,
-          "partidos": 266,
-          "goles": 35,
-          "asistencias": 40
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2021-22",
+          "partidos": "-",
+          "goles": "-",
+          "asistencias": "-"
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2021-22",
+          "partidos": 34,
+          "goles": "-",
+          "asistencias": "-"
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 21,
+          "temporada": "2022-23",
+          "partidos": 10,
+          "goles": 2,
+          "asistencias": "-"
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 22,
+          "temporada": "2022",
+          "partidos": 4,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2022-23",
+          "partidos": "-",
+          "goles": "-",
+          "asistencias": "-"
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2022-23",
+          "partidos": 36,
+          "goles": 6,
+          "asistencias": "-"
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Clasificacion Euro",
+          "temporada": "2024",
+          "partidos": 4,
+          "goles": 1,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1001,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023-24",
+          "partidos": 31,
+          "goles": 5,
+          "asistencias": 11
+        },
+        {
+          "equipo_id": 1001,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023-24",
+          "partidos": 6,
+          "goles": 3,
+          "asistencias": 5
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 23,
+          "temporada": "2024",
+          "partidos": 6,
+          "goles": 2,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024-25",
+          "partidos": 13,
+          "goles": 5,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024-25",
+          "partidos": 29,
+          "goles": 5,
+          "asistencias": 5
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2024-25",
+          "partidos": 2,
+          "goles": 1,
+          "asistencias": "-"
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Clasificacion Mundial",
+          "temporada": "2026",
+          "partidos": "-",
+          "goles": "-",
+          "asistencias": "-"
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 2,
+          "temporada": "2025-26",
+          "partidos": 8,
+          "goles": 2,
+          "asistencias": 2
         }
       ],
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/709187-1709676169.png?lm=1"
