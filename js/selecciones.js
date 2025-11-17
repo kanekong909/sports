@@ -9,18 +9,34 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     mostrarSelecciones(selecciones);
 
-    // FILTRAR POR CONFEDERACIÓN
-    document.getElementById("filtroConfederacion").addEventListener("change", e => {
-      const conf = e.target.value;
+    const filtroConf = document.getElementById("filtroConfederacion");
+    const buscador = document.getElementById("buscador");
 
-      if (conf === "TODAS") {
-        mostrarSelecciones(selecciones);
-        return;
+    // FUNCIÓN PRINCIPAL DE FILTRO/BÚSQUEDA
+    function aplicarFiltros() {
+      const texto = buscador.value.toLowerCase();
+      const conf = filtroConf.value;
+
+      let resultado = selecciones;
+
+      // FILTRO POR CONFEDERACIÓN
+      if (conf !== "TODAS") {
+        resultado = resultado.filter(s => s.confederacion === conf);
       }
 
-      const filtradas = selecciones.filter(s => s.confederacion === conf);
-      mostrarSelecciones(filtradas);
-    });
+      // BUSCADOR
+      if (texto.trim() !== "") {
+        resultado = resultado.filter(s =>
+          s.nombre.toLowerCase().includes(texto)
+        );
+      }
+
+      mostrarSelecciones(resultado);
+    }
+
+    // EVENTOS
+    filtroConf.addEventListener("change", aplicarFiltros);
+    buscador.addEventListener("input", aplicarFiltros);
 
   } catch (error) {
     console.error("Error cargando data.json", error);

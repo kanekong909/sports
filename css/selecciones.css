@@ -94,7 +94,7 @@ header h1 {
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 2rem;
   padding: 0 1rem;
 }
@@ -106,9 +106,9 @@ header h1 {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
   #contenedorSelecciones {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(2, 1fr);  /* ← Máximo 2 cards */
     gap: 1rem;
   }
 }
@@ -290,4 +290,32 @@ footer {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   z-index: 1000;
+}
+
+/* Buscador */
+#buscador {
+  margin-top: 1.5rem;
+  width: 100%;
+  max-width: 350px;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background: var(--dark-light);
+  color: var(--text);
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: var(--card-shadow);
+}
+
+#buscador:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.2);
+}
+
+@media(max-width:480px) {
+  #buscador {
+    max-width: 100%;
+  }
 }
