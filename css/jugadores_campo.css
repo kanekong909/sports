@@ -184,6 +184,10 @@ header p {
 
 /* Tarjetas de jugadores */
 .player-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: var(--dark-light);
   border-radius: 1.25rem;
   padding: 1.5rem;
@@ -706,6 +710,33 @@ header p {
 .historial-container::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #4e4bff, #7a7aff);
 }
+
+/* Buscador */
+.buscador-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 1.5rem auto;
+  padding: 0 1rem;
+}
+
+#buscadorJugadores {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+  backdrop-filter: blur(4px);
+  outline: none;
+  transition: 0.3s ease;
+}
+
+#buscadorJugadores:focus {
+  border-color: #00b4d8;
+  background: rgba(255,255,255,0.15);
+}
+
 
 /* Animaciones */
 @keyframes fadeInDown {

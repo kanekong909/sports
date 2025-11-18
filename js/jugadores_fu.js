@@ -130,6 +130,35 @@ fetch("./../data/data.json")
     console.error("Error:", error);
   });
 
+// === BUSCADOR DE JUGADORES ===
+const buscador = document.getElementById("buscadorJugadores");
+
+function quitarTildes(texto) {
+  return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+buscador.addEventListener("input", () => {
+  const texto = quitarTildes(buscador.value.toLowerCase().trim());
+  const cards = document.querySelectorAll(".player-card");
+
+  cards.forEach(card => {
+    const nombre = quitarTildes(card.querySelector("h4").textContent.toLowerCase());
+    const posicion = quitarTildes(card.querySelector("small").textContent.toLowerCase());
+
+    if (nombre.includes(texto) || posicion.includes(texto)) {
+      card.style.display = "flex";
+    } else {
+      card.style.display = "none";
+    }
+  });
+
+  // Ocultar categorías vacías
+  document.querySelectorAll(".categoria-seccion").forEach(seccion => {
+    const visibles = seccion.querySelectorAll(".player-card:not([style*='display: none'])");
+    seccion.style.display = visibles.length ? "block" : "none";
+  });
+});
+
 const modal = document.getElementById("playerModal");
 const closeModal = document.getElementById("closeModal");
 
@@ -279,7 +308,6 @@ function mostrarHistorialTabla(historial, data) {
     tbody.appendChild(fila);
   });
 }
-
 
 function abrirModal(j, data) {
   // Imagen y datos básicos
