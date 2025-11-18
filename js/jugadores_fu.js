@@ -107,6 +107,7 @@ fetch("./../data/data.json")
               j.imagen_url || "../assets/img/default_player.png"
             }" alt="${j.nombre}" />
             <h4>${j.nombre}</h4>
+            <span class="numero_camiseta">${j.numero_camiseta}</span>
             <small>${
               j.posiciones ? j.posiciones.join(", ") : "Sin posición"
             }</small>
@@ -144,20 +145,27 @@ buscador.addEventListener("input", () => {
   cards.forEach(card => {
     const nombre = quitarTildes(card.querySelector("h4").textContent.toLowerCase());
     const posicion = quitarTildes(card.querySelector("small").textContent.toLowerCase());
+    const nacionalidad = quitarTildes(card.getAttribute("data-nacionalidad")?.toLowerCase() || "");
+    const edad = quitarTildes(card.getAttribute("data-edad")?.toLowerCase() || "");
+    const numero = quitarTildes(card.getAttribute("data-numero")?.toLowerCase() || "");
 
-    if (nombre.includes(texto) || posicion.includes(texto)) {
-      card.style.display = "flex";
-    } else {
-      card.style.display = "none";
-    }
+    const coincide =
+      nombre.includes(texto) ||
+      posicion.includes(texto) ||
+      nacionalidad.includes(texto) ||
+      edad.includes(texto) ||
+      numero.includes(texto);
+
+    card.style.display = coincide ? "flex" : "none";
   });
 
-  // Ocultar categorías vacías
+  // Ocultar secciones vacías
   document.querySelectorAll(".categoria-seccion").forEach(seccion => {
     const visibles = seccion.querySelectorAll(".player-card:not([style*='display: none'])");
     seccion.style.display = visibles.length ? "block" : "none";
   });
 });
+
 
 const modal = document.getElementById("playerModal");
 const closeModal = document.getElementById("closeModal");
@@ -316,6 +324,7 @@ function abrirModal(j, data) {
   document.getElementById("modalNombre").textContent = j.nombre;
   document.getElementById("modalPos").textContent =
     j.posiciones?.join(", ") || "Sin posición";
+  document.getElementById("numeroCam").textContent = `#${j.numero_camiseta}`;
 
   // Nacionalidad + Bandera
   const nacionalidadElement = document.getElementById("modalNac");
@@ -333,10 +342,8 @@ function abrirModal(j, data) {
 
   // Datos generales
   document.getElementById("modalFecha").textContent = j.fecha_nacimiento || "N/A";
-  document.getElementById("modalNum").textContent = j.numero_camiseta || "N/A";
   document.getElementById("modalEstado").textContent = j.estado || "N/A";
   document.getElementById("modalAltura").textContent = j.altura || "N/A";
-  document.getElementById("modalPeso").textContent = j.peso || "N/A";
 
   // ---- NUEVO: Estadísticas desde equipos_historial ----
   const { club, seleccion } = obtenerEstadisticas(j.equipos_historial || []);
