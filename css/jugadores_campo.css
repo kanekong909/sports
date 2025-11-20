@@ -675,7 +675,7 @@ header p {
 }
 
 .tabla-historial th {
-  background: var(--dark-light);
+  /* background: var(--dark-light); */
   padding: 0.8rem;
   text-align: left;
   font-weight: 700;
@@ -691,7 +691,14 @@ header p {
   white-space: nowrap;
   font-size: 13px;
 }
-/* Solo columnas 4, 5 y 6 en negrita */
+/* Solo columnas 3, 4, 5 y 6 centradas */
+.tabla-historial td:nth-child(3),
+.tabla-historial td:nth-child(4),
+.tabla-historial td:nth-child(5),
+.tabla-historial td:nth-child(6) {
+  text-align: center;
+}
+
 .tabla-historial td:nth-child(4),
 .tabla-historial td:nth-child(5),
 .tabla-historial td:nth-child(6) {
@@ -699,9 +706,9 @@ header p {
 }
 
 /* Filas alternadas */
-.tabla-historial tbody tr:nth-child(even) {
+/* .tabla-historial tbody tr:nth-child(even) {
   background: var(--dark-lighter);
-}
+} */
 
 .tabla-historial tbody tr:hover {
   background: var(--dark);

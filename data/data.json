@@ -338,6 +338,13 @@
           "pais": "Asia",
           "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Saudi_Pro_League_Logo.svg",
           "equipos": []
+        },
+        {
+          "id": 27,
+          "nombre": "Copa Africana de Naciones",
+          "pais": "Africa",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Finales_CAN_2021_%28137%29.jpg/330px-Finales_CAN_2021_%28137%29.jpg",
+          "equipos": []
         }
       ],
       "ligas_principales": [
@@ -3512,24 +3519,115 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023-24",
+          "partidos": 34,
+          "goles": 12,
+          "asistencias": 4
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023-24",
+          "partidos": "Por confirmar",
+          "goles": 2,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2024-25",
+          "partidos": "Por confirmar",
+          "goles": "Por confirmar",
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024-25",
+          "partidos": 12,
+          "goles": 5,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024-25",
+          "partidos": 35,
+          "goles": 6,
+          "asistencias": 9
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025",
+          "partidos": 1,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025-26",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025-26",
+          "partidos": 9,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 122,
+          "liga": 22,
+          "temporada": "2022",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 122,
+          "liga": 22,
+          "temporada": "2022",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 122,
+          "liga": 22,
+          "temporada": "2023",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 122,
+          "liga": 22,
+          "temporada": "2023",
+          "partidos": "Por confirmar",
+          "goles": 1,
+          "asistencias": "Por confirmar"
         }
-      },
+      ],
+      
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/255508-1709676323.png?lm=1"
     },
     {
@@ -3547,24 +3645,70 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023-24",
+          "partidos": 30,
+          "goles": 4,
+          "asistencias": 5
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023-24",
+          "partidos": "Por confirmar",
+          "goles": 2,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024-25",
+          "partidos": 7,
+          "goles": 2,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024-25",
+          "partidos": 29,
+          "goles": 15,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024-25",
+          "partidos": 29,
+          "goles": 15,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025-26",
+          "partidos": 2,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025-26",
+          "partidos": 9,
+          "goles": 1,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/571020-1709676037.png?lm=1"
     },
     {

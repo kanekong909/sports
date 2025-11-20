@@ -289,6 +289,22 @@ function mostrarHistorialTabla(historial, data) {
   const equipos = data.equipos || [];
   const selecciones = data.selecciones || [];
 
+  // ---- ORDENAR POR TEMPORADA (más nueva arriba) ----
+  function obtenerAnio(temporada) {
+    if (!temporada) return 0;
+
+    // Caso: "2023/2024"
+    if (temporada.includes("/")) {
+      return parseInt(temporada.split("/")[0]) || 0;
+    }
+
+    // Caso: "2023"
+    return parseInt(temporada) || 0;
+  }
+
+  historial.sort((a, b) => obtenerAnio(b.temporada) - obtenerAnio(a.temporada));
+
+  // ---- RENDER TABLA ----
   historial.forEach(h => {
     let nombreLiga;
 
