@@ -399,6 +399,13 @@
           "pais": "Europa",
           "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/CONCACAF_Champions_Cup.png",
           "equipos": []
+        },
+        {
+          "id": 33,
+          "nombre": "Segunda Federación",
+          "pais": "Europa",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Segunda_Federaci%C3%B3n.svg/801px-Segunda_Federaci%C3%B3n.svg.png",
+          "equipos": []
         }
       ],
       "ligas_principales": [
@@ -4860,24 +4867,88 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "CA Osasuna",
+          "seleccion_id": "",
+          "liga": "LaLiga/ 2ª División",
+          "temporada": "2014/15 - 2016/17",
+          "partidos": 84,
+          "goles": 5,
+          "asistencias": 12
+        },
+        {
+          "equipo_id": 5019,
+          "seleccion_id": "",
+          "liga": 5,
+          "temporada": "2017/18 - 2019/20",
+          "partidos": 84,
+          "goles": 9,
+          "asistencias": 8
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023/24",
+          "partidos": 8,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 35,
+          "goles": 7,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 14,
+          "goles": 0,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 36,
+          "goles": 6,
+          "asistencias": 7
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025",
+          "partidos": 1,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 10,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/338425-1709676212.png?lm=1"
     },
     {
@@ -4895,24 +4966,61 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Arenas Club",
+          "seleccion_id": "",
+          "liga": 33,
+          "temporada": "2021/22",
+          "partidos": 34,
+          "goles": 19,
+          "asistencias": "Por confirmar"
+        },
+        {
+          "equipo_id": "SD Amorebieta",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2022/23",
+          "partidos": 18,
+          "goles": 6,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2022/23",
+          "partidos": 12,
+          "goles": 4,
+          "asistencias": "Por confirmar"
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2023/24",
+          "partidos": 34,
+          "goles": 21,
+          "asistencias": "Por confirmar"
+        },
+        {
+          "equipo_id": "CD Mirandés",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2024/25",
+          "partidos": 44,
+          "goles": 15,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 3,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/610622-1709678226.png?lm=1"
     },
     {
@@ -4930,24 +5038,97 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "CD Mirandés",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2020/21",
+          "partidos": 32,
+          "goles": 2,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023/24",
+          "partidos": 8,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 33,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 11,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 32,
+          "goles": 4,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 11,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 23,
+          "temporada": "2024",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Clasificacion Mundial",
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/524000-1709674998.png?lm=1"
     },
     {
@@ -4965,24 +5146,106 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 31,
+          "goles": 4,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023/24",
+          "partidos": 8,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 34,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 10,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 23,
+          "goles": 3,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 4,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 7,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Eurocopa Sub-21",
+          "temporada": "2023",
+          "partidos": 5,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 23,
+          "temporada": "2024",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Clasificacion Mundial",
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/591916-1709675052.png?lm=1"
     },
     {
