@@ -392,6 +392,13 @@
           "pais": "Europa",
           "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Primera_Federaci%C3%B3n.svg/508px-Primera_Federaci%C3%B3n.svg.png",
           "equipos": []
+        },
+        {
+          "id": 32,
+          "nombre": "Concafac Champions Cup",
+          "pais": "Europa",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/CONCACAF_Champions_Cup.png",
+          "equipos": []
         }
       ],
       "ligas_principales": [
@@ -439,7 +446,8 @@
             10,
             13,
             14,
-            15
+            15,
+            32
           ]
         },
         {
@@ -542,7 +550,7 @@
         { "id": 76, "nombre": "Jamaica",                    "codigo_fifa": "JAM", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Jamaica_FA.svg/1159px-Jamaica_FA.svg.png" },
         { "id": 77, "nombre": "Haití",                      "codigo_fifa": "HAI", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "https://www.futbox.com/img/v1/f53/fda/0ca/174/cd33cce1ad4ddcffda1c_zoom.png" },
         { "id": 78, "nombre": "Trinidad y Tobago",          "codigo_fifa": "TRI", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/330px-Flag_of_Trinidad_and_Tobago.svg.png" },
-        { "id": 79, "nombre": "Cuba",                       "codigo_fifa": "CUB", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "https://upload.wikimedia.org/wikipedia/en/a/a7/Cuba_national_football_team.png" },
+        { "id": 79, "nombre": "Cuba",                       "codigo_fifa": "CUB", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "https://upload.wikimedia.org/wikipedia/e/a7/Cuba_national_football_team.png" },
         { "id": 80, "nombre": "República Dominicana",       "codigo_fifa": "DOM", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/330px-Flag_of_the_Dominican_Republic.svg.png" },
         { "id": 81, "nombre": "Puerto Rico",                "codigo_fifa": "PUR", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/330px-Flag_of_Puerto_Rico.svg.png" },
         { "id": 82, "nombre": "Curazao",                    "codigo_fifa": "CUW", "continente": "Caribe", "confederacion": "CONCACAF", "imagen": "https://qa.concacaf.com/media/a1hmweod/curacao_football_federation_preview.png" },
@@ -1454,7 +1462,7 @@
       "pais": "Alemania",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/131.png",
       "imagen_url": null,
-      "descripcion": "Bayer 04 Leverkusen Fußball es un club farmacéutico conocido por su fútbol ofensivo y constantes presencias europeas. Fue campeón invicto de la Bundesliga 2023-24.",
+      "descripcion": "Bayer 04 Leverkusen Fußball es un club farmacéutico conocido por su fútbol ofensivo y constantes presencias europeas. Fue campeón invicto de la Bundesliga 2024/25.",
       "estadio": "BayArena"
     },
     {
@@ -1487,7 +1495,7 @@
       "pais": "Alemania",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/125.png",
       "imagen_url": null,
-      "descripcion": "Eintracht Frankfurt e.V. es célebre por su ambiente europeo y por conquistar la UEFA Europa League 2021-22. Combina tradición con un enfoque moderno en fichajes internacionales.",
+      "descripcion": "Eintracht Frankfurt e.V. es célebre por su ambiente europeo y por conquistar la UEFA Europa League 2021/22. Combina tradición con un enfoque moderno en fichajes internacionales.",
       "estadio": "Deutsche Bank Park"
     },
     {
@@ -1729,7 +1737,7 @@
       "pais": "Francia",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6851.png",
       "imagen_url": null,
-      "descripcion": "Paris Football Club es un club de fútbol francés de la ciudad de París. El club fue fundado en 1969 y desde la temporada 2025-26 competirá en la Ligue 1, el primer nivel del fútbol francés, por primera vez en casi 50 años de su última participación. ",
+      "descripcion": "Paris Football Club es un club de fútbol francés de la ciudad de París. El club fue fundado en 1969 y desde la temporada 2025/26 competirá en la Ligue 1, el primer nivel del fútbol francés, por primera vez en casi 50 años de su última participación. ",
       "estadio": "Estadio Jean-Bouin"
     },
     {
@@ -1751,7 +1759,7 @@
       "pais": "Francia",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7868.png",
       "imagen_url": null,
-      "descripcion": "Angers Sporting Club de l'Ouest, comúnmente conocido como Angers SCO, es un club de fútbol francés de la ciudad de Angers en Maine y Loira. Fue fundado en 1919 y desde la temporada 2024-25, compite en la Ligue 1, la primera división del fútbol nacional.",
+      "descripcion": "Angers Sporting Club de l'Ouest, comúnmente conocido como Angers SCO, es un club de fútbol francés de la ciudad de Angers en Maine y Loira. Fue fundado en 1919 y desde la temporada 2024/25, compite en la Ligue 1, la primera división del fútbol nacional.",
       "estadio": "Stade Jean-Bouin"
     },
     {
@@ -1795,7 +1803,7 @@
       "pais": "Francia",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/273.png",
       "imagen_url": null,
-      "descripcion": "Football Club Lorient, comúnmente conocido como F. C. Lorient, es un club de fútbol francés, de la ciudad de Lorient en Bretaña. Fue fundado en 1926 y jugará, desde la temporada 2025-26, en la Ligue 1, la máxima categoría del fútbol francés, tras haber ascendido en la temporada anterior. ",
+      "descripcion": "Football Club Lorient, comúnmente conocido como F. C. Lorient, es un club de fútbol francés, de la ciudad de Lorient en Bretaña. Fue fundado en 1926 y jugará, desde la temporada 2025/26, en la Ligue 1, la máxima categoría del fútbol francés, tras haber ascendido en la temporada anterior. ",
       "estadio": "Stade du Moustoir"
     },
     {
@@ -2719,7 +2727,7 @@
       "pais": "Arabia Saudita",
       "escudo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21965.png",
       "imagen_url": null,
-      "descripcion": "Al-Riyadh SC es un equipo de fútbol de Arabia Saudita que juega en la Liga Profesional Saudí la primera liga de fútbol más importante del país, luego de haber ascendido en la temporada 2022-23.",
+      "descripcion": "Al-Riyadh SC es un equipo de fútbol de Arabia Saudita que juega en la Liga Profesional Saudí la primera liga de fútbol más importante del país, luego de haber ascendido en la temporada 2022/23.",
       "estadio": "Prince Turki bin Abdul Aziz Stadium"
     },
     {
@@ -3490,7 +3498,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 20,
-          "temporada": "2021-22",
+          "temporada": "2021/22",
           "partidos": "-",
           "goles": "-",
           "asistencias": "-"
@@ -3499,7 +3507,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2021-22",
+          "temporada": "2021/22",
           "partidos": 34,
           "goles": "-",
           "asistencias": "-"
@@ -3508,7 +3516,7 @@
           "equipo_id": "",
           "seleccion_id": 18,
           "liga": 21,
-          "temporada": "2022-23",
+          "temporada": "2022/23",
           "partidos": 10,
           "goles": 2,
           "asistencias": "-"
@@ -3526,7 +3534,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 20,
-          "temporada": "2022-23",
+          "temporada": "2022/23",
           "partidos": "-",
           "goles": "-",
           "asistencias": "-"
@@ -3535,7 +3543,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2022-23",
+          "temporada": "2022/23",
           "partidos": 36,
           "goles": 6,
           "asistencias": "-"
@@ -3553,7 +3561,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": 31,
           "goles": 5,
           "asistencias": 11
@@ -3562,7 +3570,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 20,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": 6,
           "goles": 3,
           "asistencias": 5
@@ -3580,7 +3588,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 7,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 13,
           "goles": 5,
           "asistencias": 2
@@ -3589,7 +3597,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 29,
           "goles": 5,
           "asistencias": 5
@@ -3598,7 +3606,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 20,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 2,
           "goles": 1,
           "asistencias": "-"
@@ -3625,7 +3633,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 2,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 8,
           "goles": 2,
           "asistencias": 2
@@ -3651,7 +3659,7 @@
           "equipo_id": 2013,
           "seleccion_id": "",
           "liga": 2,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": 1,
           "goles": 0,
           "asistencias": 0
@@ -3660,7 +3668,7 @@
           "equipo_id": 9001,
           "seleccion_id": "",
           "liga": 25,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": 7,
           "goles": 0,
           "asistencias": 0
@@ -3669,7 +3677,7 @@
           "equipo_id": 9001,
           "seleccion_id": "",
           "liga": 26,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": 27,
           "goles": 4,
           "asistencias": 1
@@ -3687,7 +3695,7 @@
           "equipo_id": 9001,
           "seleccion_id": "",
           "liga": 25,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 6,
           "goles": 1,
           "asistencias": 0
@@ -3696,7 +3704,7 @@
           "equipo_id": 9001,
           "seleccion_id": "",
           "liga": 26,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 20,
           "goles": 4,
           "asistencias": 0
@@ -3705,7 +3713,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 6,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 2,
           "goles": 0,
           "asistencias": 0
@@ -3714,7 +3722,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 8,
           "goles": 0,
           "asistencias": 1
@@ -3777,7 +3785,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": 34,
           "goles": 12,
           "asistencias": 4
@@ -3786,7 +3794,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 20,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": "Por confirmar",
           "goles": 2,
           "asistencias": 2
@@ -3795,7 +3803,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 20,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": "Por confirmar",
           "goles": "Por confirmar",
           "asistencias": 1
@@ -3804,7 +3812,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 7,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 12,
           "goles": 5,
           "asistencias": 1
@@ -3813,7 +3821,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 35,
           "goles": 6,
           "asistencias": 9
@@ -3831,7 +3839,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 6,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 3,
           "goles": 0,
           "asistencias": 0
@@ -3840,7 +3848,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 9,
           "goles": 1,
           "asistencias": 0
@@ -3903,7 +3911,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": 30,
           "goles": 4,
           "asistencias": 5
@@ -3912,7 +3920,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 20,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": "Por confirmar",
           "goles": 2,
           "asistencias": 1
@@ -3921,7 +3929,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 7,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 7,
           "goles": 2,
           "asistencias": 1
@@ -3930,7 +3938,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 29,
           "goles": 15,
           "asistencias": 1
@@ -3939,7 +3947,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 29,
           "goles": 15,
           "asistencias": 1
@@ -3948,7 +3956,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 6,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 2,
           "goles": 0,
           "asistencias": 0
@@ -3957,7 +3965,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 9,
           "goles": 1,
           "asistencias": 0
@@ -4011,7 +4019,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2023-24",
+          "temporada": "2024/25",
           "partidos": 36,
           "goles": 33,
           "asistencias": "",
@@ -4021,7 +4029,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 7,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 1,
           "goles": 0,
           "asistencias": "",
@@ -4031,7 +4039,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 21,
           "goles": 14,
           "asistencias": "",
@@ -4051,7 +4059,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 6,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 4,
           "goles": 9,
           "asistencias": "",
@@ -4061,7 +4069,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 6,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 12,
           "goles": 13,
           "asistencias": "",
@@ -4129,7 +4137,7 @@
           "equipo_id": "Athletic Club (Juvenil)",
           "seleccion_id": "",
           "liga": 30,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 2,
           "goles": 1,
           "asistencias": 2
@@ -4138,7 +4146,7 @@
           "equipo_id": "CD Basconia",
           "seleccion_id": "",
           "liga": 29,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 4,
           "goles": 0,
           "asistencias": 2
@@ -4147,7 +4155,7 @@
           "equipo_id": "Bilbao Athletic",
           "seleccion_id": "",
           "liga": 31,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 2,
           "goles": 0,
           "asistencias": 0
@@ -4156,7 +4164,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 6,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 1,
           "goles": 0,
           "asistencias": 0
@@ -4165,7 +4173,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 1,
           "goles": 0,
           "asistencias": 0
@@ -4192,7 +4200,7 @@
           "equipo_id": "Barakaldo CF",
           "seleccion_id": "",
           "liga": 31,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 20,
           "goles": 11,
           "asistencias": 0
@@ -4201,7 +4209,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 7,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 6,
           "goles": 0,
           "asistencias": 1
@@ -4210,7 +4218,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2024-25",
+          "temporada": "2024/25",
           "partidos": 16,
           "goles": 0,
           "asistencias": 1
@@ -4219,7 +4227,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 6,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 1,
           "goles": 0,
           "asistencias": 0
@@ -4228,7 +4236,7 @@
           "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
-          "temporada": "2025-26",
+          "temporada": "2025/26",
           "partidos": 8,
           "goles": 1,
           "asistencias": 0
@@ -4270,24 +4278,67 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2024/25",
+          "partidos": 1,
+          "goles": "",
+          "asistencias": "",
+          "porterias_a_cero": ""
+        },
+        {
+          "equipo_id": "Pumas",
+          "seleccion_id": "",
+          "liga": 32,
+          "temporada": "2025",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": "",
+          "porterias_a_cero": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 5,
+          "goles": 6,
+          "asistencias": "",
+          "porterias_a_cero": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
           "partidos": 0,
           "goles": 0,
-          "asistencias": 0
+          "asistencias": "",
+          "porterias_a_cero": 0
         },
-        "seleccion": {
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Sub-19",
+          "temporada": "",
+          "partidos": "",
+          "goles": "",
+          "asistencias": "",
+          "porterias_a_cero": ""
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 67,
+          "liga": "Amistosos",
+          "temporada": "Septiembre 2024",
           "partidos": 0,
-          "goles": 0
+          "goles": 0,
+          "asistencias": "",
+          "porterias_a_cero": 0
         }
-      },
+      ],
+      
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834483-1709676711.png?lm=1"
     },
     {
@@ -4305,24 +4356,34 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 19,
           "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 7,
+          "goles": 1,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 21,
+          "goles": 1,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/255488-1709675129.png?lm=1"
     },
     {
@@ -4340,24 +4401,88 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
           "partidos": 0,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": "Cádiz CF",
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 28,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1021,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1021,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 22,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 4,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 11,
+          "goles": 2,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Mundial Sub-17 (Sub-17)",
+          "temporada": "2019",
+          "partidos": 4,
+          "goles": 3,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Amistosos (Sub-21)",
+          "temporada": "2024",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Clasificacion Euro (Sub-21)",
+          "temporada": "2024/25",
+          "partidos": 2,
+          "goles": 1,
+          "asistencias": 0
         }
-      },
+      ], 
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/563137-1567246327.jpg?lm=1"
     },
     {
@@ -4375,24 +4500,43 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
+          "equipo_id": "CD Basconia",
+          "seleccion_id": "",
+          "liga": 29,
+          "temporada": "2021/22",
+          "partidos": 35,
+          "goles": "Por confirmar",
+          "asistencias": "Por confirmar"
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2022/23",
+          "partidos": 35,
+          "goles": 1,
+          "asistencias": "Por confirmar"
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2024/25",
+          "partidos": 1,
+          "goles": 1,
+          "asistencias": "Por confirmar"
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2024/25",
+          "partidos": 33,
+          "goles": 3,
+          "asistencias": "Por confirmar"
         }
       ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
-          "goles": 0,
-          "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
-        }
-      },
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834491-1709677367.png?lm=1"
     },
     {
@@ -4410,24 +4554,70 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª Grupo II",
+          "temporada": "2018/19",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": "Burgos CF",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2022/23",
+          "partidos": 39,
+          "goles": 0,
+          "asistencias": 5
+        },
+        {
+          "equipo_id": 1022,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 37,
+          "goles": 1,
+          "asistencias": 6
+        },
+        {
+          "equipo_id": 1022,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2024/25",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1022,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 36,
+          "goles": 0,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 11,
+          "goles": 0,
+          "asistencias": 1
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/488626-1675800186.jpg?lm=1"
     },
     {
@@ -4445,24 +4635,124 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2016-17",
+          "partidos": 37,
+          "goles": 7,
+          "asistencias": 5
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2017-18",
+          "partidos": 36,
+          "goles": 18,
+          "asistencias": 7
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2018/19",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": "CE Sabadell FC",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2020-21",
+          "partidos": 40,
+          "goles": 3,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": "SD Amorebieta",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2021/22",
+          "partidos": 38,
+          "goles": 13,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2024/25",
+          "partidos": 8,
+          "goles": 2,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 32,
+          "goles": 14,
+          "asistencias": 5
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 12,
+          "goles": 1,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 36,
+          "goles": 7,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2024/25",
+          "partidos": 2,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 3,
+          "goles": 3,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 10,
+          "goles": 1,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/340205-1709676375.png?lm=1"
     },
     {
@@ -4480,24 +4770,79 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 7,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 11,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 34,
+          "goles": 2,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2024/25",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": "Por confirmar"
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 4,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 12,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Eurocopa Sub-21",
+          "temporada": "2025",
+          "partidos": 4,
+          "goles": 1,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/938729-1709675994.png?lm=1"
     },
     {
