@@ -888,7 +888,6 @@
         100025,
         100026,
         100027,
-        100028,
         100029,
         100030,
         100031,
@@ -6220,11 +6219,74 @@
       "peso": "",
       "equipos_historial": [
         {
+          "equipo_id": "Osasuna Juvenil A",
+          "seleccion_id": "",
+          "liga": "División de Honor",
+          "temporada": "2020/21",
+          "partidos": 11,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Multivera",
+          "seleccion_id": "",
+          "liga": 33,
+          "temporada": "2021/22",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Osasuna Promesas",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2022/23",
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 33,
+          "temporada": "2023/24",
+          "partidos": 27,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
           "equipo_id": "Bilbao Athletic",
           "seleccion_id": "",
           "liga": 31,
-          "temporada": "2021/22",
-          "partidos": 30,
+          "temporada": "2024/25",
+          "partidos": 34,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 0,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 2,
           "goles": 0,
           "asistencias": 0
         }
@@ -6248,9 +6310,198 @@
         {
           "equipo_id": "Bilbao Athletic",
           "seleccion_id": "",
-          "liga": 31,
+          "liga": "2ª División B",
+          "temporada": "2014/15",
+          "partidos": 38,
+          "goles": 3,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2015/16",
+          "partidos": 41,
+          "goles": 3,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2016/17",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2016/17",
+          "partidos": 17,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2017/18",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2017/18",
+          "partidos": 11,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2018/19",
+          "partidos": 26,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2019/20",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2019/20",
+          "partidos": 19,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2020/21",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2020/21",
+          "partidos": 27,
+          "goles": 0,
+          "asistencias": 4
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
           "temporada": "2021/22",
-          "partidos": 30,
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2021/22",
+          "partidos": 25,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2022/23",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2022/23",
+          "partidos": 20,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023/24",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 27,
+          "goles": 3,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 7,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 25,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025/26",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 9,
           "goles": 0,
           "asistencias": 0
         }
@@ -6272,13 +6523,103 @@
       "peso": "",
      "equipos_historial": [
         {
-          "equipo_id": "Bilbao Athletic",
+          "equipo_id": 7004,
           "seleccion_id": "",
-          "liga": 31,
-          "temporada": "2021/22",
+          "liga": 12,
+          "temporada": "2022/23",
+          "partidos": 2,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 7004,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2022/23",
+          "partidos": 5,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 7004,
+          "seleccion_id": "",
+          "liga": "Primeira Liga",
+          "temporada": "2022/23",
+          "partidos": 25,
+          "goles": 3,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 7004,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2023/24",
+          "partidos": 2,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 7004,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2023/24",
+          "partidos": 5,
+          "goles": 2,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 7004,
+          "seleccion_id": "",
+          "liga": "Primeira Liga",
+          "temporada": "2023/24",
           "partidos": 30,
+          "goles": 8,
+          "asistencias": 5
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2023/24",
+          "partidos": 1,
           "goles": 0,
           "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 8,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 17,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Al-Gharafa SC",
+          "seleccion_id": "",
+          "liga": "Liga de Campeones Élite",
+          "temporada": "2025/26",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "Al-Gharafa SC",
+          "seleccion_id": "",
+          "liga": "Liga de fútbol de Qatar",
+          "temporada": "2025/26",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 1
         }
       ],
 
@@ -6299,13 +6640,130 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "Bilbao Athletic",
+          "equipo_id": "Real Sociedad B",
           "seleccion_id": "",
-          "liga": 31,
-          "temporada": "2021/22",
-          "partidos": 30,
+          "liga": "2ª División B",
+          "temporada": "2014/15",
+          "partidos": 37,
           "goles": 0,
           "asistencias": 0
+        },
+        {
+          "equipo_id": "Real Unión",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2015/16",
+          "partidos": 38,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "Real Sociedad B",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2016/17",
+          "partidos": 37,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2017/18",
+          "partidos": 17,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2018/19",
+          "partidos": 31,
+          "goles": 0,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2019/20",
+          "partidos": 23,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2020/21",
+          "partidos": 25,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2021/22",
+          "partidos": 28,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2022/23",
+          "partidos": 27,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1015,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 36,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 9,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 20,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 4,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 5,
+          "goles": 0,
+          "asistencias": 1
         }
       ],
 
