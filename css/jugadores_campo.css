@@ -699,9 +699,11 @@ header p {
   text-align: center;
 }
 
+/* Solo columnas 4, 5 y 6 en negrita */
 .tabla-historial td:nth-child(4),
 .tabla-historial td:nth-child(5),
 .tabla-historial td:nth-child(6) {
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -762,6 +764,26 @@ header p {
   background: rgba(255,255,255,0.15);
 }
 
+/* BANDERA TABLA */
+.escudo-tabla, .bandera-tabla {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+.entidad-col {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+.tabla-historial td.centrado { text-align: center; }
+
+@media (max-width: 600px) {
+  .escudo-tabla, .bandera-tabla { width: 22px; height: 22px; }
+}
 
 /* Animaciones */
 @keyframes fadeInDown {

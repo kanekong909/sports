@@ -274,62 +274,90 @@ function obtenerEstadisticas(historial) {
   return { club, seleccion };
 }
 
-function mostrarHistorialTabla(historial, data) {
+function mostrarHistorialTabla(historial, jugador) {
   const tbody = document.getElementById("tablaHistorialBody");
   tbody.innerHTML = "";
 
   if (!historial?.length) {
-    tbody.innerHTML = `
-      <tr><td colspan="6" style="text-align:center; padding:1rem;">Sin registro</td></tr>
-    `;
+    tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:1rem;">Sin registro</td></tr>`;
     return;
   }
 
-  const ligas = data.ligas || [];
-  const equipos = data.equipos || [];
-  const selecciones = data.selecciones || [];
+  // --- DETECTAR SI ES PORTERO ---
+  const esPortero = jugador.posiciones?.some(pos => 
+    pos.toLowerCase().includes("portero") || pos.toLowerCase().includes("goalkeeper")
+  );
 
-  // ---- ORDENAR POR TEMPORADA (más nueva arriba) ----
-  function obtenerAnio(temporada) {
-    if (!temporada) return 0;
-
-    // Caso: "2023/2024"
-    if (temporada.includes("/")) {
-      return parseInt(temporada.split("/")[0]) || 0;
-    }
-
-    // Caso: "2023"
-    return parseInt(temporada) || 0;
+  // --- CAMBIAR ENCABEZADO (ahora sí funciona porque tiene ID) ---
+  const headerColumna = document.getElementById("header-ultima-columna");
+  if (headerColumna) {
+    headerColumna.textContent = esPortero ? "Porterias a cero" : "Asistencias";
   }
 
-  historial.sort((a, b) => obtenerAnio(b.temporada) - obtenerAnio(a.temporada));
+  // Datos del JSON
+  const ligas = dataGlobal.deportes[0]?.ligas || [];
+  const equipos = dataGlobal.equipos || [];
+  const selecciones = dataGlobal.deportes[0]?.selecciones || [];
 
-  // ---- RENDER TABLA ----
+  const mapaLigas = {}; ligas.forEach(l => mapaLigas[l.id] = l.nombre);
+  const mapaEquipos = {}; equipos.forEach(eq => mapaEquipos[eq.id] = eq);
+  const mapaSelecciones = {}; selecciones.forEach(sel => mapaSelecciones[sel.id] = sel);
+
+  // Ordenar por temporada
+  historial.sort((a, b) => {
+    const getYear = t => t ? parseInt(String(t).match(/\d{4}/)?.[0] || 0) : 0;
+    return getYear(b.temporada) - getYear(a.temporada);
+  });
+
   historial.forEach(h => {
-    let nombreLiga;
+    // LIGA
+    let nombreLiga = typeof h.liga === "number" 
+      ? (mapaLigas[h.liga] || `Liga ID ${h.liga}`)
+      : (h.liga || "Competición");
 
-    if (typeof h.liga === "number") {
-      nombreLiga = ligas.find(l => l.id === h.liga)?.nombre || "N/A";
+    // ENTIDAD
+    let entidadHTML = "";
+    if (h.equipo_id) {
+      const eq = mapaEquipos[h.equipo_id];
+      const nombre = eq?.nombre || "Club";
+      const escudo = eq?.escudo_url;
+      entidadHTML = escudo 
+        ? `<img src="${escudo}" class="escudo-tabla" alt="${nombre}"> ${nombre}`
+        : `${nombre}`;
+    } else if (h.seleccion_id) {
+      const sel = mapaSelecciones[parseInt(h.seleccion_id)];
+      const nombre = sel?.nombre || "Selección";
+      const codigo = sel?.codigo_fifa?.toLowerCase();
+      const imagen = sel?.imagen;
+
+      if (imagen) {
+        entidadHTML = `<img src="${imagen}" class="escudo-tabla" alt="${nombre}"> ${nombre}`;
+      } else if (codigo) {
+        entidadHTML = `<img src="https://flagcdn.com/48x36/${codigo}.png" class="bandera-tabla" alt="${nombre}"> ${nombre}`;
+      } else {
+        entidadHTML = `${nombre}`;
+      }
     } else {
-      nombreLiga = h.liga || "N/A";
+      entidadHTML = "-";
     }
 
-    const nombreEntidad = h.equipo_id
-      ? (equipos.find(e => e.id === h.equipo_id)?.nombre || "Club")
-      : h.seleccion_id
-      ? (selecciones.find(s => s.id === h.seleccion_id)?.nombre || "Selección")
-      : "N/A";
+    // ESTADÍSTICAS
+    const partidos = h.partidos ?? "-";
+    const goles = h.goles ?? "-";
+    const ultimoCampo = esPortero 
+      ? (h.porterias_a_cero ?? "-")
+      : (h.asistencias ?? "-");
 
-    const fila = document.createElement("tr");
-    fila.innerHTML = `
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
       <td>${nombreLiga}</td>
-      <td>${h.temporada || "N/A"}</td>
-      <td>${nombreEntidad}</td>
-      <td>${isNaN(h.partidos) ? 0 : h.partidos}</td>
-      <td>${isNaN(h.goles) ? 0 : h.goles}</td>
-      <td>${isNaN(h.asistencias) ? 0 : h.asistencias}</td>
+      <td>${h.temporada || "-"}</td>
+      <td class="entidad-col">${entidadHTML}</td>
+      <td class="centrado">${partidos}</td>
+      <td class="centrado">${goles}</td>
+      <td class="centrado">${ultimoCampo}</td>
     `;
-    tbody.appendChild(fila);
+    tbody.appendChild(tr);
   });
 }
 
@@ -341,6 +369,7 @@ function abrirModal(j, data) {
   document.getElementById("modalPos").textContent =
     j.posiciones?.join(", ") || "Sin posición";
   document.getElementById("numeroCam").textContent = `#${j.numero_camiseta}`;
+  document.getElementById("modalLug").textContent = j.lugar_nacimiento || "N/A";
 
   // Nacionalidad + Bandera
   const nacionalidadElement = document.getElementById("modalNac");
@@ -375,7 +404,7 @@ function abrirModal(j, data) {
   document.getElementById("modalAsistSel").textContent = seleccion.asistencias;
 
   // Llenar tabla de historial
-  mostrarHistorialTabla(j.equipos_historial || [], data);
+  mostrarHistorialTabla(j.equipos_historial || [], j);
 
   // Mostrar modal
   modal.classList.remove("hidden");

@@ -337,13 +337,39 @@
           "nombre": "Liga Profesional Saudí",
           "pais": "Asia",
           "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Saudi_Pro_League_Logo.svg",
-          "equipos": []
+          "equipos": [
+            9001,
+            9002,
+            9003,
+            9004,
+            9005,
+            9006,
+            9007,
+            9008,
+            9009,
+            9010,
+            9011,
+            9012,
+            9013,
+            9014,
+            9015,
+            9016,
+            9017,
+            9018
+          ]
         },
         {
           "id": 27,
           "nombre": "Copa Africana de Naciones",
           "pais": "Africa",
           "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Finales_CAN_2021_%28137%29.jpg/330px-Finales_CAN_2021_%28137%29.jpg",
+          "equipos": []
+        },
+        {
+          "id": 28,
+          "nombre": "Eurocopa Sub-21",
+          "pais": "Europa",
+          "imagen_url": "https://i.pinimg.com/originals/86/31/de/8631ded8a599e5933069ee2cf53c7573.png",
           "equipos": []
         }
       ],
@@ -378,7 +404,8 @@
             21,
             22,
             23,
-            24
+            24,
+            28
           ]
         },
         {
@@ -402,6 +429,12 @@
           "ligas" : [
             25,
             26
+          ]
+        },
+        {
+          "nombre": "Africa",
+          "ligas" : [
+            27
           ]
         }
       ],
@@ -1512,7 +1545,7 @@
     },
     {
       "id": 3015,
-      "nombre": "1. FC Köln",
+      "nombre": "FC Köln",
       "fundacion": "1948",
       "entrenador": "Timo Schultz",
       "pais": "Alemania",
@@ -2534,6 +2567,204 @@
       "estadio": "Elindus Arena"
     },
     {
+      "id": 9001,
+      "nombre": "Al-Nassr",
+      "fundacion": "1955",
+      "entrenador": "Jorge Jesus",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/817.png",
+      "imagen_url": null,
+      "descripcion": "El Al-Nassr F. C. es un club de fútbol saudí fundado en 1955, cuya sede se ubica en la ciudad de Riad y que juega en la Liga Profesional Saudí. El equipo participó en representación del continente asiático en la primera Copa Mundial de Clubes de la FIFA después de haber ganado la Supercopa de Asia en 1998.",
+      "estadio": "Al -Awwal Park"
+    },
+    {
+      "id": 9002,
+      "nombre": "Al-Taawon",
+      "fundacion": "1956",
+      "entrenador": "Péricles Chamusca",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18459.png",
+      "imagen_url": null,
+      "descripcion": "El club Al-Taawoun FC es un equipo de fútbol de Arabia Saudita ubicado en la ciudad de Buraidah que juega en la Liga Profesional Saudí. También tiene sección de voleibol, tenis, tenis de mesa, natación, ciclismo, kárate, taekwondo y juegos electrónicos.​",
+      "estadio": "ing Abdullah Sport City Stadium"
+    },
+    {
+      "id": 9003,
+      "nombre": "Al-Hilal",
+      "fundacion": "1957",
+      "entrenador": "Simone Inzaghi",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/929.png",
+      "imagen_url": null,
+      "descripcion": "El Al-Hilal Saudi Football Club es un club de fútbol con sede en Riad, Arabia Saudí. Fue fundado el 16 de octubre de 1957 bajo la denominación de Olympic Club. El Al-Hilal compite en la Liga Profesional Saudí, la máxima categoría del fútbol en Arabia Saudita. ​",
+      "estadio": " KINGDOM ARENA, King Fahd Stadium"
+    },
+    {
+      "id": 9004,
+      "nombre": "Al-Qadsiah",
+      "fundacion": "1967",
+      "entrenador": "Michel Gonzáles",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Al-Qadsiah_Logo.svg/120px-Al-Qadsiah_Logo.svg.png",
+      "imagen_url": null,
+      "descripcion": "El Al-Qadsiah Club de Fútbol es un club de fútbol profesional de Arabia Saudita que compite en la Liga Profesional Saudí. Tiene su sede en Khobar​",
+      "estadio": "Prince Saud Bin Jalawi Stadium"
+    },
+    {
+      "id": 9005,
+      "nombre": "Al-Ahli Saudi",
+      "fundacion": "1937",
+      "entrenador": "Matthias Jaissle",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8346.png",
+      "imagen_url": null,
+      "descripcion": "El Al-Ahli Saudi Club de Fútbol es un club de fútbol de Arabia Saudita fundado en 1937 en la ciudad de Yeda. Ha ganado en cuatro ocasiones el campeonato nacional de liga en 1969, 1978, 1984 y 2016.​",
+      "estadio": "King Abdullah Sports City, Prince Mohammed bin Abdullah Al Faisal Stadium"
+    },
+    {
+      "id": 9006,
+      "nombre": "Al-Khaleej",
+      "fundacion": "1945",
+      "entrenador": "Georgios Donis",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21829.png",
+      "imagen_url": null,
+      "descripcion": "Al-Khaleej Club of Saihat es un equipo de fútbol de Arabia Saudita que milita en la Primera División de Arabia Saudita, la liga de fútbol más importante del país.​",
+      "estadio": "Prince Nayef bin Abdulaziz Stadium"
+    },
+    {
+      "id": 9007,
+      "nombre": "Neom Sports Club",
+      "fundacion": "1950",
+      "entrenador": "Christophe Galtier",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/34911.png?lm=1739550571",
+      "imagen_url": null,
+      "descripcion": "El Neom Sports Club es un club de fútbol profesional saudí que actualmente tiene su sede en Tabuk y debe su nombre al área urbana planificada de Neom. Actualmente juega en la Liga Profesional Saudí, la máxima categoría del país, y disputa sus encuentros en el Ciudad Deportiva Rey Khalid.​",
+      "estadio": "Ciudad Deportiva Rey Khalid"
+    },
+    {
+      "id": 9008,
+      "nombre": "Al-Ittihad",
+      "fundacion": "1927",
+      "entrenador": "Sérgio Conceição",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/8023.png?lm=1716885888",
+      "imagen_url": null,
+      "descripcion": "El Al-Ittihad de Arabia Saudí Club es un club deportivo saudí localizado en la ciudad de Yeda, en la costa del mar Rojo. Fundado en 1928, es el club en existencia más antiguo del país, además de uno de los más populares.​",
+      "estadio": "ing Abdullah Sports City"
+    },
+    {
+      "id": 9009,
+      "nombre": "Al-Fayha",
+      "fundacion": "1953",
+      "entrenador": "Christos Kontis",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/50531.png?lm=1755028110",
+      "imagen_url": null,
+      "descripcion": "El Al-Fayha F. C. es un club de fútbol árabe de la ciudad de Al Majma'ah, Provincia de Riad. Fue fundado en 1954 y actualmente juega en la Liga Profesional Saudí. Los colores del Al-Fayha FC son naranja y azul lo que les hizo ganar el apodo Al Burtuqali. ​",
+      "estadio": "AL Majma'ah Sports City"
+    },
+    {
+      "id": 9010,
+      "nombre": "Al-Khoolod",
+      "fundacion": "1970",
+      "entrenador": "Des Buckingham",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/91427.png?lm=1755109194",
+      "imagen_url": null,
+      "descripcion": "El Al-Kholood Club es un club de fútbol árabe de la ciudad de Ar Rass, Provincia de Casim. Fue fundado en 1970 y actualmente juega en la Liga Profesional Saudí.​Comparten su estadio el Al-Hazem Club Stadium con el Al-Hazem.​​",
+      "estadio": "Al-Hazem Club Stadium"
+    },
+    {
+      "id": 9011,
+      "nombre": "Al-Ettifaq",
+      "fundacion": "1944",
+      "entrenador": "Saad Al-Shehri",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/7732.png?lm=1754783076",
+      "imagen_url": null,
+      "descripcion": "El Al-Ettifaq Club, comúnmente conocido como Al-Ettifaq o simplemente Ettifaq, es un club de fútbol profesional en Dammam, Arabia Saudita, que compite en la Liga Profesional Saudí. El club se fundó en 1945 mediante la fusión de tres clubes de Dammam.",
+      "estadio": "Al-Ettifaq Club Stadium, Estadio Príncipe Mohamed bin Fahd"
+    },
+    {
+      "id": 9012,
+      "nombre": "Al-Riyadh",
+      "fundacion": "1953",
+      "entrenador": "Javier Calleja",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/21965.png",
+      "imagen_url": null,
+      "descripcion": "Al-Riyadh SC es un equipo de fútbol de Arabia Saudita que juega en la Liga Profesional Saudí la primera liga de fútbol más importante del país, luego de haber ascendido en la temporada 2022-23.",
+      "estadio": "Prince Turki bin Abdul Aziz Stadium"
+    },
+    {
+      "id": 9013,
+      "nombre": "Al-Shabab",
+      "fundacion": "1947",
+      "entrenador": "Imanol Alguacil",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/793.png",
+      "imagen_url": null,
+      "descripcion": "El Al-Shabab Club es un club de fútbol saudí de la capital Riad. Fue fundado en 1947 y al principio se llamó Shabab Al Riyadh., que significa Riadhi Youth, pero en 1967 pasó a llamarse Al Shabab.",
+      "estadio": "Prince Faisal Bin Fahd Stadium"
+    },
+    {
+      "id": 9014,
+      "nombre": "Al-Hazm",
+      "fundacion": "1957",
+      "entrenador": "Jalel Kadri",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21964.png",
+      "imagen_url": null,
+      "descripcion": "El Al-Hazem Sport Club es un club de fútbol de Arabia Saudita, de la ciudad de Ar Rass. Fue fundado en 1957 y juega en la Liga Profesional Saudí, máxima categoría del fútbol saudita.",
+      "estadio": " Al Hazam Club Stadium"
+    },
+    {
+      "id": 9015,
+      "nombre": "Al-Fateh",
+      "fundacion": "1958",
+      "entrenador": "José Manuel Gomes",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/13033.png",
+      "imagen_url": null,
+      "descripcion": "El Al-Fateh Club deportivo es un equipo de fútbol de Arabia Saudita que milita en la Primera División de Arabia Saudita, la liga de fútbol más importante del país..",
+      "estadio": "Estadio Príncipe Abdullah bin Jalawi"
+    },
+    {
+      "id": 9016,
+      "nombre": "Al-Okhdood",
+      "fundacion": "1976",
+      "entrenador": "Stjepan Tomas",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/71665.png?lm=1756255349",
+      "imagen_url": null,
+      "descripcion": "Al-Okhdood Club, también conocido como Al-Akhdoud, es un equipo de fútbol de Arabia Saudita con sede en Najran, en la región sur de Arabia Saudita. Fundado en 1976, el club compite en la Liga Profesional Saudí, el primer nivel del fútbol saudí.",
+      "estadio": "Prince Hathloul bin Abdulaziz Sports City Stadium"
+    },
+    {
+      "id": 9017,
+      "nombre": "Damac",
+      "fundacion": "1972",
+      "entrenador": "Armando Evangelista",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/71665.png?lm=1756255349",
+      "imagen_url": null,
+      "descripcion": "El Damac Club es un club deportivo de Arabia Saudita, de la ciudad de Khamis Mushait. Fue fundado en 1972 y juega en la Liga Profesional Saudí. El nombre del club es inspirado en el Monte Damac, localizado en la ciudad de Khamis Mushait. ​",
+      "estadio": "Estadio Príncipe Sultán bin Abdul Aziz"
+    },
+    {
+      "id": 9018,
+      "nombre": "Al-Najma SC",
+      "fundacion": "1960",
+      "entrenador": "Mário Silva",
+      "pais": "Arabia Saudita",
+      "escudo_url": "https://tmssl.akamaized.net//images/wappen/head/32328.png?lm=1758891956",
+      "imagen_url": null,
+      "descripcion": "ciudad de Unaizah, Provincia de Casim. Fue fundado en 1960 y actualmente juega en la Liga Profesional Saudí. El club tiene rivalidad con el club Al-Arabi, que generalmente se manifiesta en el derbi de Unaizah. ​",
+      "estadio": "Al-Najma Club Stadium"
+    },
+    {
       "id": 134880,
       "nombre": "Atlanta Hawks",
       "fundacion": "1946",
@@ -2574,7 +2805,7 @@
       "pais": "Estados Unidos",
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/cha.png",
       "imagen_url": null,
-      "descripcion": "The Charlotte Hornets are an American professional basketball team based in Charlotte, North Carolina, that competes in the National Basketball Association (NBA). They are members of the Southeast Division in the league's Eastern Conference. The team is largely owned by former NBA player Michael Jordan, who acquired controlling interest in the team in 2010. The Hornets play their home games at Time Warner Cable Arena in center-city Charlotte.\r\n\r\nThe original Charlotte Hornets franchise was established in 1988 as an expansion team. The team relocated to New Orleans following the 2001–02 season, becoming the New Orleans Hornets. In 2004, the NBA established a new expansion team in Charlotte, the Charlotte Bobcats. In 2013, the New Orleans franchise announced it would rename itself the New Orleans Pelicans, relinquishing the Hornets name, records, and official history for use by Charlotte. The Bobcats became the Charlotte Hornets for the 2014–15 NBA season.",
+      "descripcion": "The Charlotte Hornets are an American professional basketball team based in Charlotte, North Carolina, that competes in the National Basketball Association (NBA). They are members of the Southeast Division in the league's Eastern Conference. The team is largely owned by former NBA player Michael Jordan, who acquired controlling interest in the team in 2010. The Hornets play their home games at Time Warner Cable Arena in center-city Charlotte.\r\n\r\nThe original Charlotte Hornets franchise was established in 1988 as an expansion team. The team relocated to New Orleans following the 2001–02 season, becoming the New Orleans Hornets.",
       "estadio": "Spectrum Center"
     },
     {
@@ -3393,33 +3624,6 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "seleccion_id": 18,
-          "liga": 23,
-          "temporada": "2021",
-          "partidos": 6,
-          "goles": 1,
-          "asistencias": "-"
-        },
-        {
-          "equipo_id": "",
-          "seleccion_id": 18,
-          "liga": 22,
-          "temporada": "2022",
-          "partidos": 2,
-          "goles": 0,
-          "asistencias": 0
-        },
-        {
-          "equipo_id": "",
-          "seleccion_id": 18,
-          "liga": "Clasificacion Euro",
-          "temporada": "2023",
-          "partidos": 5,
-          "goles": 0,
-          "asistencias": 0
-        },
-        {
           "equipo_id": 2013,
           "seleccion_id": "",
           "liga": 2,
@@ -3429,7 +3633,7 @@
           "asistencias": 0
         },
         {
-          "equipo_id": "Al Nassr",
+          "equipo_id": 9001,
           "seleccion_id": "",
           "liga": 25,
           "temporada": "2023-24",
@@ -3438,7 +3642,7 @@
           "asistencias": 0
         },
         {
-          "equipo_id": "Al Nassr",
+          "equipo_id": 9001,
           "seleccion_id": "",
           "liga": 26,
           "temporada": "2023-24",
@@ -3447,16 +3651,7 @@
           "asistencias": 1
         },
         {
-          "equipo_id": "",
-          "seleccion_id": 18,
-          "liga": 23,
-          "temporada": "2024",
-          "partidos": 6,
-          "goles": 0,
-          "asistencias": 0
-        },
-        {
-          "equipo_id": "Al Nassr",
+          "equipo_id": 9001,
           "seleccion_id": "",
           "liga": "Supercopa de Arabia Saudita",
           "temporada": "2024",
@@ -3465,7 +3660,7 @@
           "asistencias": 0
         },
         {
-          "equipo_id": "Al Nassr",
+          "equipo_id": 9001,
           "seleccion_id": "",
           "liga": 25,
           "temporada": "2024-25",
@@ -3474,7 +3669,7 @@
           "asistencias": 0
         },
         {
-          "equipo_id": "Al Nassr",
+          "equipo_id": 9001,
           "seleccion_id": "",
           "liga": 26,
           "temporada": "2024-25",
@@ -3499,6 +3694,42 @@
           "partidos": 8,
           "goles": 0,
           "asistencias": 1
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Clasificacion Euro",
+          "temporada": "2023",
+          "partidos": 5,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 22,
+          "temporada": "2022",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 23,
+          "temporada": "2021",
+          "partidos": 6,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 23,
+          "temporada": "2024",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 0
         }
       ],
       
@@ -3706,6 +3937,33 @@
           "partidos": 9,
           "goles": 1,
           "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 28,
+          "temporada": "2021",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 28,
+          "temporada": "2023",
+          "partidos": 6,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Clasificacion Euro",
+          "temporada": "2023",
+          "partidos": 3,
+          "goles": 1,
+          "asistencias": 0
         }
       ],
 
@@ -3719,31 +3977,114 @@
       "nacionalidad": "España",
       "numero_camiseta": "1",
       "posiciones": [
-        "Mediocentro ofensivo"
+        "Portero"
       ],
       "estado": "Activo",
       "altura": "1.90",
       "peso": "",
       "equipos_historial": [
         {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023-24",
+          "partidos": 36,
+          "goles": 33,
+          "asistencias": "",
+          "porterias_a_cero": 18
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024-25",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": "",
+          "porterias_a_cero": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024-25",
+          "partidos": 21,
+          "goles": 14,
+          "asistencias": "",
+          "porterias_a_cero": 10
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": "",
+          "porterias_a_cero": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025-26",
+          "partidos": 4,
+          "goles": 9,
+          "asistencias": "",
+          "porterias_a_cero": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025-26",
+          "partidos": 12,
+          "goles": 13,
+          "asistencias": "",
+          "porterias_a_cero": 3
+        },
+        {
           "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
+          "seleccion_id": 18,
+          "liga": 23,
+          "temporada": "2020",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": "",
+          "porterias_a_cero": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 22,
+          "temporada": "2022",
+          "partidos": 4,
+          "goles": 0,
+          "asistencias": "",
+          "porterias_a_cero": 2
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": "Clasificacion Euro",
+          "temporada": "2024",
+          "partidos": 5,
+          "goles": 0,
+          "asistencias": "",
+          "porterias_a_cero": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 18,
+          "liga": 23,
+          "temporada": "2024",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": "",
+          "porterias_a_cero": 2
         }
       ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
-          "goles": 0,
-          "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
-        }
-      },
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/262396-1709674901.png?lm=1"
     },
     {
