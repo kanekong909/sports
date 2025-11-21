@@ -371,6 +371,27 @@
           "pais": "Europa",
           "imagen_url": "https://i.pinimg.com/originals/86/31/de/8631ded8a599e5933069ee2cf53c7573.png",
           "equipos": []
+        },
+        {
+          "id": 29,
+          "nombre": "Tercera Federación",
+          "pais": "España",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tercera_Federaci%C3%B3n.svg/250px-Tercera_Federaci%C3%B3n.svg.png",
+          "equipos": []
+        },
+        {
+          "id": 30,
+          "nombre": "Youth League",
+          "pais": "Europa",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/UEFA_Youth_League.png",
+          "equipos": []
+        },
+        {
+          "id": 31,
+          "nombre": "Primera Federación",
+          "pais": "Europa",
+          "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Primera_Federaci%C3%B3n.svg/508px-Primera_Federaci%C3%B3n.svg.png",
+          "equipos": []
         }
       ],
       "ligas_principales": [
@@ -405,7 +426,10 @@
             22,
             23,
             24,
-            28
+            28,
+            29,
+            30,
+            31
           ]
         },
         {
@@ -3526,7 +3550,7 @@
           "asistencias": 3
         },
         {
-          "equipo_id": 1001,
+          "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 1,
           "temporada": "2023-24",
@@ -3535,7 +3559,7 @@
           "asistencias": 11
         },
         {
-          "equipo_id": 1001,
+          "equipo_id": 1011,
           "seleccion_id": "",
           "liga": 20,
           "temporada": "2023-24",
@@ -4102,24 +4126,52 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Athletic Club (Juvenil)",
+          "seleccion_id": "",
+          "liga": 30,
+          "temporada": "2025-26",
+          "partidos": 2,
+          "goles": 1,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": "CD Basconia",
+          "seleccion_id": "",
+          "liga": 29,
+          "temporada": "2025-26",
+          "partidos": 4,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2025-26",
+          "partidos": 2,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025-26",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025-26",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+      
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1312698-1731353776.png?lm=1"
     },
     {
@@ -4137,24 +4189,70 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Barakaldo CF",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2024-25",
+          "partidos": 20,
+          "goles": 11,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024-25",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024-25",
+          "partidos": 16,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025-26",
+          "partidos": 1,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025-26",
+          "partidos": 8,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 133,
+          "liga": "Clasificacion Mundial",
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "",
+          "seleccion_id": 133,
+          "liga": "Amistosos",
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1054934-1736857054.jpg?lm=1"
     },
     {

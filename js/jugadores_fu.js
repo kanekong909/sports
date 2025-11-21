@@ -316,15 +316,34 @@ function mostrarHistorialTabla(historial, jugador) {
       : (h.liga || "Competición");
 
     // ENTIDAD
+        // === ENTIDAD (Club / Selección) - AHORA SOPORTA NOMBRE DIRECTO ===
     let entidadHTML = "";
-    if (h.equipo_id) {
-      const eq = mapaEquipos[h.equipo_id];
-      const nombre = eq?.nombre || "Club";
-      const escudo = eq?.escudo_url;
+
+    if (h.equipo_id || h.equipo_id === 0) {  // Incluye "" y 0 como válidos si hay nombre
+      let nombreEquipo = "Club desconocido";
+      let escudo = "";
+
+      // Caso 1: equipo_id es número → buscar en mapaEquipos
+      if (typeof h.equipo_id === "number" || (typeof h.equipo_id === "string" && !isNaN(h.equipo_id))) {
+        const idNum = Number(h.equipo_id);
+        const eq = mapaEquipos[idNum];
+        if (eq) {
+          nombreEquipo = eq.nombre;
+          escudo = eq.escudo_url || "";
+        }
+      }
+      // Caso 2: equipo_id es string con nombre directo (ej: "Barakaldo CF")
+      else if (typeof h.equipo_id === "string" && h.equipo_id.trim() !== "") {
+        nombreEquipo = h.equipo_id.trim();
+        // Aquí podrías añadir escudos genéricos si quieres
+        // escudo = "ruta/a/escudo-generico.png";
+      }
+
       entidadHTML = escudo 
-        ? `<img src="${escudo}" class="escudo-tabla" alt="${nombre}"> ${nombre}`
-        : `${nombre}`;
-    } else if (h.seleccion_id) {
+        ? `<img src="${escudo}" class="escudo-tabla" alt="${nombreEquipo}"> ${nombreEquipo}`
+        : `🏠 ${nombreEquipo}`;
+
+    } else if (h.seleccion_id && h.seleccion_id !== "") {
       const sel = mapaSelecciones[parseInt(h.seleccion_id)];
       const nombre = sel?.nombre || "Selección";
       const codigo = sel?.codigo_fifa?.toLowerCase();
@@ -335,7 +354,7 @@ function mostrarHistorialTabla(historial, jugador) {
       } else if (codigo) {
         entidadHTML = `<img src="https://flagcdn.com/48x36/${codigo}.png" class="bandera-tabla" alt="${nombre}"> ${nombre}`;
       } else {
-        entidadHTML = `${nombre}`;
+        entidadHTML = `🌍 ${nombre}`;
       }
     } else {
       entidadHTML = "-";
