@@ -378,6 +378,63 @@ function mostrarHistorialTabla(historial, jugador) {
     `;
     tbody.appendChild(tr);
   });
+
+  // BUSCADOR TABLA
+
+  // Después de generar todas las filas en tbody...
+  const filas = tbody.querySelectorAll("tr");
+
+  // Añadir data-search a cada fila para búsquedas rápidas (opcional pero más rápido)
+  filas.forEach(tr => {
+    const celdas = tr.querySelectorAll("td");
+    const texto = Array.from(celdas)
+      .map(td => td.textContent || td.innerText)
+      .join(" ")
+      .toLowerCase();
+    tr.dataset.search = texto;
+  });
+
+  // BUSCADOR EN TIEMPO REAL
+  const inputBuscar = document.getElementById("buscarHistorial");
+  if (inputBuscar) {
+    inputBuscar.addEventListener("input", () => {
+      const texto = inputBuscar.value.trim().toLowerCase();
+      let visibles = 0;
+
+      filas.forEach(tr => {
+        if (texto === "") {
+          tr.classList.remove("tr-oculta");
+          visibles++;
+        } else if (tr.dataset.search.includes(texto)) {
+          tr.classList.remove("tr-oculta");
+          visibles++;
+        } else {
+          tr.classList.add("tr-oculta");
+        }
+      });
+
+      // Mostrar mensaje si no hay resultados
+      let mensaje = tbody.querySelector(".no-resultados");
+      if (visibles === 0 && texto !== "") {
+        if (!mensaje) {
+          mensaje = document.createElement("tr");
+          mensaje.className = "no-resultados";
+          mensaje.innerHTML = `<td colspan="6">No se encontraron resultados para "${inputBuscar.value}"</td>`;
+          tbody.appendChild(mensaje);
+        }
+      } else if (mensaje) {
+        mensaje.remove();
+      }
+    });
+  }
+
+  // Limpiar buscador al cerrar modal (opcional)
+  closeModal.addEventListener("click", () => {
+    modal.classList.add("hidden");
+    if (inputBuscar) inputBuscar.value = "";
+    document.querySelectorAll(".tr-oculta").forEach(tr => tr.classList.remove("tr-oculta"));
+    document.querySelectorAll(".no-resultados").forEach(m => m.remove());
+  });
 }
 
 function abrirModal(j, data) {

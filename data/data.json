@@ -1085,7 +1085,10 @@
       "escudo_url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1538.png",
       "imagen_url": null,
       "descripcion": "Levante Unión Deportiva, S.A.D. (Spanish: , Valencian: Llevant Unió Esportiva ) is a Spanish football club in Valencia, in the namesake autonomous community.\r\n\r\nFounded on 9 September 1909, Levante play in Segunda División, holding home games at Ciutat de València Stadium.",
-      "estadio": "Estadio Ciudad de Valencia"
+      "estadio": "Estadio Ciudad de Valencia",
+      "jugadores": [
+        100024
+      ]
     },
     {
       "id": 1021,
@@ -5263,24 +5266,187 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Cheltenham Town",
+          "seleccion_id": "",
+          "liga": "League Two",
+          "temporada": "2009/10",
+          "partidos": 7,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": "Real Unión",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2010/11",
+          "partidos": 16,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Real Unión",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2011/12",
+          "partidos": 31,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "SB Eibar",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2012/13",
+          "partidos": 30,
+          "goles": 4,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": "SB Eibar",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2013/14",
+          "partidos": 37,
+          "goles": 3,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2014/15",
+          "partidos": 21,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2015/16",
+          "partidos": 21,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1027,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2016/17",
+          "partidos": 35,
+          "goles": 3,
+          "asistencias": 4
+        },
+        {
+          "equipo_id": 4001,
+          "seleccion_id": "",
+          "liga": 4,
+          "temporada": "2017/18",
+          "partidos": 22,
+          "goles": 2,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2018/19",
+          "partidos": 35,
+          "goles": 2,
+          "asistencias": 5
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2019/20",
+          "partidos": 33,
+          "goles": 6,
+          "asistencias": 4
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2020/21",
+          "partidos": 26,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2020/21",
+          "partidos": 26,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2021/22",
+          "partidos": 12,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2022/23",
+          "partidos": 29,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 27,
+          "goles": 3,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 11,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 30,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 12,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/61812-1709675167.png?lm=1"
     },
     {
@@ -5298,24 +5464,79 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "CD Basconia",
+          "seleccion_id": "",
+          "liga": "3 División",
+          "temporada": "2021/22",
+          "partidos": 1,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2022/23",
+          "partidos": 35,
+          "goles": 2,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023/24",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 25,
+          "goles": 2,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 13,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 32,
+          "goles": 1,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834752-1709676122.png?lm=1"
     },
     {
@@ -5333,24 +5554,115 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
+          "equipo_id": "CD Basconia",
+          "seleccion_id": "",
+          "liga": "3 División",
+          "temporada": "2019/20",
+          "partidos": 47,
+          "goles": 2,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2020/21",
+          "partidos": 33,
+          "goles": 2,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 36,
+          "goles": 2,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "CD Mirandés",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2022/23",
+          "partidos": 41,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": "CD Mirandés",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2022/23",
+          "partidos": 41,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023/24",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 26,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 13,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 30,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2025",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
           "partidos": 0,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/625047-1709675858.png?lm=1"
     },
     {
@@ -5366,26 +5678,90 @@
       "estado": "Activo",
       "altura": "1.83",
       "peso": "",
-      "equipos_historial": [
+     "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Osasuna Promesas",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2022/23",
+          "partidos": 19,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": "Osasuna Promesas",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2023/24",
+          "partidos": 19,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 33,
+          "temporada": "2023/24",
+          "partidos": 13,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2024/25",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 1,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 18,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/710671-1709677000.png?lm=1"
     },
     {
@@ -5403,24 +5779,124 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "CD Basconia",
+          "seleccion_id": "",
+          "liga": "3 División",
+          "temporada": "2019/20",
+          "partidos": 8,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2019/20",
+          "partidos": 10,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2020/21",
+          "partidos": 27,
+          "goles": 3,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 16,
+          "goles": 3,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2021/22",
+          "partidos": 14,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "CD Mirandés",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2022/23",
+          "partidos": 22,
+          "goles": 1,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 6018,
+          "seleccion_id": "",
+          "liga": 9,
+          "temporada": "2023/24",
+          "partidos": 10,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": "Racing De Ferrol",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2023/24",
+          "partidos": 14,
+          "goles": 4,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": "Sporting Gijón",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2024/25",
+          "partidos": 18,
+          "goles": 2,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 3,
+          "goles": 1,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 4,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 4,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/668183-1731352737.png?lm=1"
     },
     {
@@ -5438,24 +5914,70 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2019/20",
+          "partidos": 3,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2020/21",
+          "partidos": 34,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2021/22",
+          "partidos": 30,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2022/23",
+          "partidos": 15,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": "SD Eibar",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2023/24",
+          "partidos": 38,
+          "goles": 2,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": "Racing de Santander",
+          "seleccion_id": "",
+          "liga": "2ª División",
+          "temporada": "2024/25",
+          "partidos": 39,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1020,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 7,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/610083-1671998817.png?lm=1"
     },
     {
@@ -5473,24 +5995,214 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2013/14",
+          "partidos": 27,
+          "goles": 0,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": "2ª División B",
+          "temporada": "2014/15",
+          "partidos": 37,
+          "goles": 0,
+          "asistencias": 7
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2015/16",
+          "partidos": 12,
+          "goles": 0,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2015/16",
+          "partidos": 24,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2016/17",
+          "partidos": 2,
           "goles": 0,
           "asistencias": 0
         },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2016/17",
+          "partidos": 25,
+          "goles": 1,
+          "asistencias": 2
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2017/18",
+          "partidos": 12,
+          "goles": 0,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2017/18",
+          "partidos": 32,
+          "goles": 0,
+          "asistencias": 4
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2019/20",
+          "partidos": 2,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2019/20",
+          "partidos": 19,
+          "goles": 1,
+          "asistencias": 1
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2020/21",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2020/21",
+          "partidos": 27,
+          "goles": 0,
+          "asistencias": 4
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2021/22",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2021/22",
+          "partidos": 25,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2022/23",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2022/23",
+          "partidos": 20,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 20,
+          "temporada": "2023/24",
+          "partidos": 6,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2023/24",
+          "partidos": 27,
+          "goles": 0,
+          "asistencias": 3
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 24,
+          "temporada": "2024/25",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 7,
+          "temporada": "2024/25",
+          "partidos": 4,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2024/25",
+          "partidos": 16,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 6,
+          "temporada": "2025/26",
+          "partidos": 1,
+          "goles": 0,
+          "asistencias": 0
+        },
+        {
+          "equipo_id": 1011,
+          "seleccion_id": "",
+          "liga": 1,
+          "temporada": "2025/26",
+          "partidos": 3,
+          "goles": 0,
+          "asistencias": 0
         }
-      },
+      ],
+      
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/255501-1709675295.png?lm=1"
     },
     {
@@ -5508,24 +6220,15 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/905015-1709676835.png?lm=1"
     },
     {
@@ -5543,24 +6246,15 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/300168-1709675412.png?lm=1"
     },
     {
@@ -5576,26 +6270,18 @@
       "estado": "Activo",
       "altura": "1.75",
       "peso": "",
-      "equipos_historial": [
+     "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/671649-1762259842.jpg?lm=1"
     },
     {
@@ -5613,24 +6299,16 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/289255-1739190147.jpeg?lm=1"
     },
     {
@@ -5648,24 +6326,16 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+      
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834485-1709676798.png?lm=1"
     },
     {
@@ -5683,24 +6353,17 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/625014-1709674945.png?lm=1"
     },
     {
@@ -5718,24 +6381,16 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/126751-1709675810.png?lm=1"
     },
     {
@@ -5753,24 +6408,16 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834487-1709677097.png?lm=1"
     },
     {
@@ -5788,24 +6435,16 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+      
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1056956-1709678933.png?lm=1"
     },
     {
@@ -5823,24 +6462,16 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+      
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1056971-1709678151.png?lm=1"
     },
     {
@@ -5858,24 +6489,16 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/938730-1709678063.png?lm=1"
     },
     {
@@ -5893,24 +6516,16 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
+      
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1162017-1731353883.png?lm=1"
     },
     {
@@ -5925,27 +6540,17 @@
       ],
       "estado": "Activo",
       "altura": "1.73",
-      "peso": "",
-      "equipos_historial": [
+     "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/709214-1709677208.png?lm=1"
     },
     {
@@ -5963,24 +6568,15 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/834492-1709678194.png?lm=1"
     },
     {
@@ -5998,24 +6594,15 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1124051-1731353342.png?lm=1"
     },
     {
@@ -6033,24 +6620,15 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/938722-1709676754.png?lm=1"
     },
     {
@@ -6068,24 +6646,15 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1189292-1731350634.png?lm=1"
     },
     {
@@ -6103,24 +6672,15 @@
       "peso": "",
       "equipos_historial": [
         {
-          "equipo_id": "",
-          "desde": "",
-          "hasta": "",
-          "camiseta": "",
-          "liga": null
-        }
-      ],
-      "estadisticas": {
-        "club": {
-          "partidos": 0,
+          "equipo_id": "Bilbao Athletic",
+          "seleccion_id": "",
+          "liga": 31,
+          "temporada": "2021/22",
+          "partidos": 30,
           "goles": 0,
           "asistencias": 0
-        },
-        "seleccion": {
-          "partidos": 0,
-          "goles": 0
         }
-      },
+      ],
       "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/1056970-1709678306.png?lm=1"
     },
     {

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Just+Another+Hand&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Just+Another+Hand&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light+Two&display=swap');
 
 * {
   margin: 0;
@@ -23,6 +23,7 @@
   --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
   --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
   --pirata-one: 'Pirata One', serif;
+  --shadows-into-light-two: 'Shadows Into Light Two', cursive;
 }
 
 body {
@@ -705,6 +706,8 @@ header p {
 .tabla-historial td:nth-child(6) {
   font-size: 17px;
   font-weight: bold;
+  color: gold;
+  font-family: var(--shadows-into-light-two);
 }
 
 /* Filas alternadas */
@@ -726,6 +729,53 @@ header p {
 .historial-container::-webkit-scrollbar-track {
   background: #f0f0f0;
   border-radius: 10px;
+}
+
+.buscador-historial {
+  position: relative;
+  margin: 15px 0;
+  max-width: 500px;
+}
+
+.buscador-historial input {
+  width: 100%;
+  padding: 12px 45px 12px 15px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #fafafa;
+}
+
+.buscador-historial input:focus {
+  border-color: #1a73e8;
+  background-color: white;
+  box-shadow: 0 0 0 4px rgba(26, 115, 232, 0.15);
+}
+
+.icono-busqueda {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.3rem;
+  pointer-events: none;
+  color: #666;
+}
+
+/* Ocultar filas que no coinciden */
+.tr-oculta {
+  display: none !important;
+}
+
+/* Mensaje cuando no hay resultados */
+.no-resultados {
+  text-align: center;
+  padding: 30px;
+  color: #666;
+  font-style: italic;
+  grid-column: 1 / -1;
 }
 
 .historial-container::-webkit-scrollbar-thumb {
