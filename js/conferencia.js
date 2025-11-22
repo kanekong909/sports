@@ -1,0 +1,86 @@
+// Obtener los parámetros de la URL
+const params = new URLSearchParams(window.location.search);
+const nombreConf = params.get("conferencia");
+const nombreLiga = params.get("liga");
+
+fetch("./../data/data.json")
+  .then((res) => res.json())
+  .then((data) => {
+    const basket = data.deportes.find(
+      (d) => d.nombre.toLowerCase() === "baloncesto"
+    );
+
+    if (!basket) {
+      document.getElementById("descripcionLiga").textContent =
+        "No se encontró el deporte Baloncesto.";
+      return;
+    }
+
+    let conferenciaEncontrada = null;
+    let ligaEncontrada = null;
+
+    // Buscar la conferencia
+    if (Array.isArray(basket.conferencias)) {
+      conferenciaEncontrada = basket.conferencias.find(
+        (c) => c.nombre === nombreConf
+      );
+      if (conferenciaEncontrada) {
+        ligaEncontrada = conferenciaEncontrada.ligas.find(
+          (l) => l.nombre === nombreLiga
+        );
+      }
+    }
+
+    // Si no existe imagen de la liga, ocultar el logo
+    if (!ligaEncontrada.imagen_url) {
+      document.getElementById("logoLiga").style.display = "none";
+    }
+
+    const titulo = document.getElementById("tituloConferencia");
+    const logo = document.getElementById("logoLiga");
+    const contenedor = document.getElementById("equiposContainer");
+
+    if (!ligaEncontrada) {
+      titulo.textContent = nombreConf || "Conferencia desconocida";
+      contenedor.innerHTML = `<p>No se encontró información para la liga "${nombreLiga}".</p>`;
+      return;
+    }
+
+    // Mostrar información de la conferencia
+    titulo.textContent = `${nombreConf} - ${ligaEncontrada.nombre}`;
+    // logo.src = ligaEncontrada.imagen_url || "../assets/img/default_league.png";
+    logo.alt = ligaEncontrada.nombre;
+    document.getElementById("descripcionLiga").textContent =
+      "Equipos participantes:";
+
+    // Renderizar equipos
+    contenedor.innerHTML = "";
+    ligaEncontrada.equipos.forEach((id) => {
+      const eq = data.equipos.find((e) => e.id === id);
+      if (!eq) return;
+
+      const card = document.createElement("div");
+      card.classList.add("card");
+      card.innerHTML = `
+            <img src="${
+              eq.escudo_url || "../assets/img/default_team.png"
+            }" alt="${eq.nombre}" />
+            <div class="card-info">
+              <h2>${eq.nombre}</h2>
+              <p>${eq.entrenador || "Entrenador no disponible"}</p>
+            </div>
+          `;
+
+      // Al hacer clic → equipo.html
+      card.addEventListener("click", () => {
+        window.location.href = `jugadores_ba.html?equipo_id=${eq.id}`;
+      });
+
+      contenedor.appendChild(card);
+    });
+  })
+  .catch((err) => console.error("Error cargando conferencia:", err));
+
+document.getElementById("volverBtn").addEventListener("click", () => {
+  window.location.href = "baloncesto.html";
+});

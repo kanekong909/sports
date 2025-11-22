@@ -179,6 +179,11 @@ header h1 {
   }
 }
 
+.info {
+  padding: 14px;
+  text-align: center;
+}
+
 /* Nombre de la selección */
 .card .nombre {
   font-family: 'Space Grotesk', sans-serif;

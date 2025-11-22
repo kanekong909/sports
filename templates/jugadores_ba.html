@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jugadores del Equipo</title>
+  <link rel="stylesheet" href="./../css/jugadores_ba.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1 id="nombreEquipo">Jugadores</h1>
+    <div class="logo-equipo-header">
+      <img id="escudoEquipo" src="" alt="Escudo" />
+    </div>
+  </header>
+
+  <div class="buscador-container">
+    <input type="text" id="buscadorJugadores" placeholder="Buscar jugador..." />
+  </div>
+
+  <main id="contenedorJugadores">
+    <!-- Aquí se cargan los jugadores -->
+  </main>
+
+  <footer>
+    <button id="volverBtn">Volver al equipo</button>
+  </footer>
+
+  <!-- MODAL JUGADOR -->
+  <div id="modalJugador" class="modal-jugador hidden">
+    <div class="modal-content-jugador">
+      <span id="cerrarModalJugador" class="cerrar-modal">×</span>
+
+      <div class="jugador-header">
+        <img id="modalFoto" src="" alt="Jugador">
+        <div class="jugador-info-header">
+          <h2 id="modalNombre"></h2>
+          <div class="dorsal-grande" id="modalDorsal">#</div>
+          <p id="modalPosicion"></p>
+          <div class="datos-rapidos">
+            <span id="modalEdad"></span> • 
+            <span id="modalAltura"></span> • 
+            <span id="modalPeso"></span> • 
+            <img id="modalBandera" src="" alt="País" style="width:28px;height:20px;border-radius:4px;vertical-align:middle;">
+            <span id="modalNacionalidad"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="jugador-body">
+        <!-- Estadísticas de carrera -->
+        <div class="stats-carrera">
+          <h3>Estadísticas de Carrera</h3>
+          <div class="grid-stats">
+            <div><strong id="modalPartidos">0</strong><br><small>Partidos</small></div>
+            <div><strong id="modalPuntos">0.0</strong><br><small>Puntos</small></div>
+            <div><strong id="modalRebotes">0.0</strong><br><small>Rebotes</small></div>
+            <div><strong id="modalAsistencias">0.0</strong><br><small>Asistencias</small></div>
+          </div>
+        </div>
+
+        <!-- Gráfico de evolución -->
+        <div class="grafico-evolucion">
+          <h3>Evolución de Puntos por Temporada</h3>
+          <canvas id="graficoPuntos"></canvas>
+        </div>
+
+        <!-- Tabla de temporadas -->
+        <div class="tabla-temporadas">
+          <h3>Historial por Temporada</h3>
+          <div id="tablaTemporadas"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./../js/jugadores_ba.js"></script>
+</body>
+</html>
