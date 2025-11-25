@@ -31,6 +31,26 @@
     <button id="volverBtn">⬅ Volver</button>
   </footer>
 
+  <!-- Modal de Historial de Partidos -->
+  <div id="modalPartidos" class="modal-partidos hidden">
+    <div class="modal-content-partidos">
+      <div class="modal-header-partidos">
+        <div class="equipo-titulo-modal">
+          <img id="escudoModalPartidos" src="" alt="" class="escudo-modal-partidos">
+          <h2 id="nombreEquipoModal">Historial de Partidos</h2>
+        </div>
+        <button id="cerrarModalPartidos" class="cerrar-modal">×</button>
+      </div>
+
+      <div class="modal-body-partidos">
+        <div id="listaPartidos"></div>
+        <div id="sinPartidos" class="sin-resultados-modal">
+          No hay partidos registrados aún para este equipo.
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="./../js/selecciones.js"></script>
 </body>
 </html>

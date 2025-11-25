@@ -446,6 +446,67 @@
                     { "id": 210, "nombre": "Tahití",             "codigo_fifa": "TAH", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
                     { "id": 211, "nombre": "Tonga",              "codigo_fifa": "TGA", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" },
                     { "id": 212, "nombre": "Vanuatu",            "codigo_fifa": "VAN", "continente": "Oceanía", "confederacion": "OFC", "imagen": "" }
+            ],
+            "partidos": [
+                    {
+                    "id": "PART_1001",
+                    "fecha": "2003-11-19",
+                    "tipo": "Clasificación - Preliminar",
+                    "estadio": "National Stadium",
+                    "ciudad": "Kabul, Afganistán",
+                    "equipo_local": "SEL_1",
+                    "equipo_visitante": "SEL_197",
+                    "goles_local": 0,
+                    "goles_visitante": 2,
+                    "goleadores": [
+                        {
+                        "jugador": "",
+                        "minuto": "",
+                        "equipo": ""
+                        }
+                    ]
+                    },
+                    {
+                    "id": "PART_1002",
+                    "fecha": "2003-11-22",
+                    "tipo": "Clasificación - Preliminar",
+                    "estadio": "Olympic Stadium (Ashgabat)",
+                    "ciudad": "Asjabad, Turkmenistán",
+                    "equipo_local": "SEL_197",
+                    "equipo_visitante": "SEL_1",
+                    "goles_local": 11,
+                    "goles_visitante": 0,
+                    "goleadores": [
+                        {
+                        "jugador": "",
+                        "minuto": "",
+                        "equipo": ""
+                        }
+                    ]
+                    },
+                    {
+                    "id": 1002,
+                    "fecha": "2024-10-05",
+                    "tipo": "Eliminatorias",
+                    "estadio": "Maracaná",
+                    "ciudad": "Río de Janeiro",
+                    "equipo_local": 2,
+                    "equipo_visitante": 1,
+                    "goles_local": 1,
+                    "goles_visitante": 1,
+                    "goleadores": [
+                        {
+                        "jugador": "Neymar",
+                        "minuto": 55,
+                        "equipo": 2
+                        },
+                        {
+                        "jugador": "Messi",
+                        "minuto": 78,
+                        "equipo": 1
+                        }
+                    ]
+                    }
             ]
         }
     ],
@@ -505,169 +566,6 @@
             100042,
             100043
         ]
-        }
-    ],
-     "jugadores": [
-        {
-        "id": 100001,
-        "nombre": "Nico Williams",
-        "fecha_nacimiento": "12-07-2002",
-        "lugar_nacimiento": "Pamplona",
-        "nacionalidad": "España",
-        "numero_camiseta": "10",
-        "posiciones": [
-            "Extremo izquierdo"
-        ],
-        "estado": "Activo",
-        "altura": "1.81",
-        "peso": "",
-        "equipos_historial": [
-            {
-            "equipo_id": 1011,
-            "seleccion_id": "",
-            "liga": 20,
-            "temporada": "2021-22",
-            "partidos": "-",
-            "goles": "-",
-            "asistencias": "-"
-            },
-            {
-            "equipo_id": 1011,
-            "seleccion_id": "",
-            "liga": 1,
-            "temporada": "2021-22",
-            "partidos": 34,
-            "goles": "-",
-            "asistencias": "-"
-            },
-            {
-            "equipo_id": "",
-            "seleccion_id": 18,
-            "liga": 21,
-            "temporada": "2022-23",
-            "partidos": 10,
-            "goles": 2,
-            "asistencias": "-"
-            },
-            {
-            "equipo_id": "",
-            "seleccion_id": 18,
-            "liga": 22,
-            "temporada": "2022",
-            "partidos": 4,
-            "goles": 0,
-            "asistencias": 0
-            },
-            {
-            "equipo_id": 1011,
-            "seleccion_id": "",
-            "liga": 20,
-            "temporada": "2022-23",
-            "partidos": "-",
-            "goles": "-",
-            "asistencias": "-"
-            },
-            {
-            "equipo_id": 1011,
-            "seleccion_id": "",
-            "liga": 1,
-            "temporada": "2022-23",
-            "partidos": 36,
-            "goles": 6,
-            "asistencias": "-"
-            },
-            {
-            "equipo_id": "",
-            "seleccion_id": 18,
-            "liga": "Clasificacion Euro",
-            "temporada": "2024",
-            "partidos": 4,
-            "goles": 1,
-            "asistencias": 3
-            },
-            {
-            "equipo_id": 1001,
-            "seleccion_id": "",
-            "liga": 1,
-            "temporada": "2023-24",
-            "partidos": 31,
-            "goles": 5,
-            "asistencias": 11
-            },
-            {
-            "equipo_id": 1001,
-            "seleccion_id": "",
-            "liga": 20,
-            "temporada": "2023-24",
-            "partidos": 6,
-            "goles": 3,
-            "asistencias": 5
-            },
-            {
-            "equipo_id": "",
-            "seleccion_id": 18,
-            "liga": 23,
-            "temporada": "2024",
-            "partidos": 6,
-            "goles": 2,
-            "asistencias": 1
-            },
-            {
-            "equipo_id": 1011,
-            "seleccion_id": "",
-            "liga": 7,
-            "temporada": "2024-25",
-            "partidos": 13,
-            "goles": 5,
-            "asistencias": 2
-            },
-            {
-            "equipo_id": 1011,
-            "seleccion_id": "",
-            "liga": 1,
-            "temporada": "2024-25",
-            "partidos": 29,
-            "goles": 5,
-            "asistencias": 5
-            },
-            {
-            "equipo_id": 1011,
-            "seleccion_id": "",
-            "liga": 20,
-            "temporada": "2024-25",
-            "partidos": 2,
-            "goles": 1,
-            "asistencias": "-"
-            },
-            {
-            "equipo_id": 1011,
-            "seleccion_id": "",
-            "liga": 24,
-            "temporada": "2025",
-            "partidos": 1,
-            "goles": 0,
-            "asistencias": 0
-            },
-            {
-            "equipo_id": "",
-            "seleccion_id": 18,
-            "liga": "Clasificacion Mundial",
-            "temporada": "2026",
-            "partidos": "-",
-            "goles": "-",
-            "asistencias": "-"
-            },
-            {
-            "equipo_id": 1011,
-            "seleccion_id": "",
-            "liga": 2,
-            "temporada": "2025-26",
-            "partidos": 8,
-            "goles": 2,
-            "asistencias": 2
-            }
-        ],
-        "imagen_url": "https://img.a.transfermarkt.technology/portrait/header/709187-1709676169.png?lm=1"
         }
     ]
 }

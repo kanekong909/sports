@@ -315,49 +315,79 @@ function mostrarHistorialTabla(historial, jugador) {
       ? (mapaLigas[h.liga] || `Liga ID ${h.liga}`)
       : (h.liga || "Competición");
 
-    // ENTIDAD
-        // === ENTIDAD (Club / Selección) - AHORA SOPORTA NOMBRE DIRECTO ===
+    // === ENTIDAD (CLUB O SELECCIÓN) - SOPORTA CLUB_XXXX y SEL_XXXX ===
     let entidadHTML = "";
 
-    if (h.equipo_id || h.equipo_id === 0) {  // Incluye "" y 0 como válidos si hay nombre
-      let nombreEquipo = "Club desconocido";
+    if (h.equipo_id && h.equipo_id !== "") {
+      let nombreEquipo = "Club";
       let escudo = "";
 
-      // Caso 1: equipo_id es número → buscar en mapaEquipos
-      if (typeof h.equipo_id === "number" || (typeof h.equipo_id === "string" && !isNaN(h.equipo_id))) {
-        const idNum = Number(h.equipo_id);
-        const eq = mapaEquipos[idNum];
+      // Caso 1: Formato nuevo → CLUB_1011 (string)
+      if (typeof h.equipo_id === "string" && h.equipo_id.startsWith("CLUB_")) {
+        const eq = mapaEquipos[h.equipo_id];
+        if (eq) {
+          nombreEquipo = eq.nombre;
+          escudo = eq.escudo_url || "";
+        } else {
+          nombreEquipo = h.equipo_id.replace("CLUB_", "Club #"); // fallback bonito
+        }
+      }
+      // Caso 2: Número antiguo (por si queda alguno)
+      else if (!isNaN(h.equipo_id)) {
+        const eq = mapaEquipos[Number(h.equipo_id)];
         if (eq) {
           nombreEquipo = eq.nombre;
           escudo = eq.escudo_url || "";
         }
       }
-      // Caso 2: equipo_id es string con nombre directo (ej: "Barakaldo CF")
-      else if (typeof h.equipo_id === "string" && h.equipo_id.trim() !== "") {
-        nombreEquipo = h.equipo_id.trim();
-        // Aquí podrías añadir escudos genéricos si quieres
-        // escudo = "ruta/a/escudo-generico.png";
+      // Caso 3: Texto plano (ej: "Juvenil A", "Barakaldo CF")
+      else if (typeof h.equipo_id === "string") {
+        nombreEquipo = h.equipo_id;
       }
 
-      entidadHTML = escudo 
+      entidadHTML = escudo
         ? `<img src="${escudo}" class="escudo-tabla" alt="${nombreEquipo}"> ${nombreEquipo}`
-        : `🏠 ${nombreEquipo}`;
+        : `${nombreEquipo}`;
 
-    } else if (h.seleccion_id && h.seleccion_id !== "") {
-      const sel = mapaSelecciones[parseInt(h.seleccion_id)];
-      const nombre = sel?.nombre || "Selección";
-      const codigo = sel?.codigo_fifa?.toLowerCase();
-      const imagen = sel?.imagen;
+    } 
+    else if (h.seleccion_id && h.seleccion_id !== "") {
+      let nombreSeleccion = "Selección";
+      let imagen = "";
 
-      if (imagen) {
-        entidadHTML = `<img src="${imagen}" class="escudo-tabla" alt="${nombre}"> ${nombre}`;
-      } else if (codigo) {
-        entidadHTML = `<img src="https://flagcdn.com/48x36/${codigo}.png" class="bandera-tabla" alt="${nombre}"> ${nombre}`;
-      } else {
-        entidadHTML = `🌍 ${nombre}`;
+      // Caso 1: Formato nuevo → SEL_18 (string)
+      if (typeof h.seleccion_id === "string" && h.seleccion_id.startsWith("SEL_")) {
+        const sel = mapaSelecciones[h.seleccion_id];
+        if (sel) {
+          nombreSeleccion = sel.nombre;
+          imagen = sel.imagen || sel.escudo_url || "";
+        } else {
+          nombreSeleccion = h.seleccion_id.replace("SEL_", "Sel. #");
+        }
       }
-    } else {
-      entidadHTML = "-";
+      // Caso 2: Número antiguo (por compatibilidad)
+      else if (!isNaN(h.seleccion_id)) {
+        const sel = mapaSelecciones[parseInt(h.seleccion_id)];
+        if (sel) {
+          nombreSeleccion = sel.nombre;
+          imagen = sel.imagen || sel.escudo_url || "";
+        }
+      }
+
+      // Mostrar escudo o bandera
+      if (imagen) {
+        entidadHTML = `<img src="${imagen}" class="escudo-tabla" alt="${nombreSeleccion}"> ${nombreSeleccion}`;
+      } else {
+        const codigo = mapaSelecciones[h.seleccion_id]?.codigo_fifa?.toLowerCase() || 
+                      (typeof h.seleccion_id === "string" ? h.seleccion_id.replace("SEL_", "").toLowerCase() : "");
+        if (codigo && codigo.length === 3) {
+          entidadHTML = `<img src="https://flagcdn.com/48x36/${codigo}.png" class="bandera-tabla" alt="${nombreSeleccion}"> ${nombreSeleccion}`;
+        } else {
+          entidadHTML = `Mundo ${nombreSeleccion}`;
+        }
+      }
+    } 
+    else {
+      entidadHTML = "—";
     }
 
     // ESTADÍSTICAS
