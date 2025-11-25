@@ -104,6 +104,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 // === FUNCIÓN PARA ABRIR EL MODAL DE PARTIDOS ===
+let partidosFiltrados = []; // Para guardar los partidos filtrados
+
 function abrirHistorialPartidos(seleccionId, nombre, escudoUrl) {
   const modal = document.getElementById("modalPartidos");
   const lista = document.getElementById("listaPartidos");
@@ -111,74 +113,163 @@ function abrirHistorialPartidos(seleccionId, nombre, escudoUrl) {
   const tituloEscudo = document.getElementById("escudoModalPartidos");
   const tituloNombre = document.getElementById("nombreEquipoModal");
 
+  // Reset filtros
+  document.getElementById("buscarPartido").value = "";
+  document.getElementById("filtroTipo").value = "TODOS";
+  document.getElementById("filtroResultado").value = "TODOS";
+
   tituloEscudo.src = escudoUrl;
   tituloNombre.textContent = nombre;
 
-  lista.innerHTML = "";
-  sinPartidos.style.display = "none";
-
-  // Filtrar partidos de esta selección
-  const partidos = (dataGlobal.deportes[0].partidos || []).filter(p =>
+  // Todos los partidos de esta selección
+  const todosLosPartidos = (dataGlobal.deportes[0].partidos || []).filter(p =>
     String(p.equipo_local) === String(seleccionId) || 
     String(p.equipo_visitante) === String(seleccionId)
   );
 
-  if (partidos.length === 0) {
-    sinPartidos.style.display = "block";
-  } else {
-    partidos
-      .sort((a, b) => new Date(b.fecha) - new Date(a.fecha))
-      .forEach(p => {
-        const local = obtenerInfoEquipo(p.equipo_local);
-        const visitante = obtenerInfoEquipo(p.equipo_visitante);
+  partidosFiltrados = [...todosLosPartidos]
+    .sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
 
+  // Actualizar contador total
+  document.getElementById("contadorTotal").textContent = partidosFiltrados.length;
+
+  function renderizarPartidos() {
+    lista.innerHTML = "";
+    const texto = document.getElementById("buscarPartido").value.toLowerCase();
+    const tipo = document.getElementById("filtroTipo").value;
+    const resultado = document.getElementById("filtroResultado").value;
+
+    const filtrados = partidosFiltrados.filter(p => {
+      const local = obtenerInfoEquipo(p.equipo_local);
+      const visitante = obtenerInfoEquipo(p.equipo_visitante);
+      const rival = String(p.equipo_local) === String(seleccionId) ? visitante.nombre : local.nombre;
+
+      // Filtro búsqueda
+      if (texto && !rival.toLowerCase().includes(texto) && 
+          !(p.estadio?.toLowerCase().includes(texto)) && 
+          !(p.ciudad?.toLowerCase().includes(texto))) return false;
+
+      // FILTRO POR TIPO DE PARTIDO (inteligente)
+      if (tipo !== "TODOS") {
+        const tipoTexto = (p.tipo || "").toLowerCase();
+        let coincide = false;
+
+        switch(tipo) {
+          case "Amistoso":
+            coincide = tipoTexto.includes("amistoso");
+            break;
+          case "Clasificación":
+            coincide = tipoTexto.includes("clasificación") || 
+                      tipoTexto.includes("eliminatoria") || 
+                      tipoTexto.includes("preliminar") || 
+                      tipoTexto.includes("qualifying");
+            break;
+          case "Nations League":
+            coincide = tipoTexto.includes("nations league") || 
+                      tipoTexto.includes("liga de naciones");
+            break;
+          case "Eurocopa":
+            coincide = tipoTexto.includes("eurocopa") || tipoTexto.includes("euro");
+            break;
+          case "Mundial":
+            coincide = tipoTexto.includes("mundial") || tipoTexto.includes("copa del mundo");
+            break;
+          case "Copa América":
+            coincide = tipoTexto.includes("copa américa") || tipoTexto.includes("copa america");
+            break;
+          case "Copa Africana":
+            coincide = tipoTexto.includes("africa") || tipoTexto.includes("afcon");
+            break;
+          case "Copa Asia":
+            coincide = tipoTexto.includes("asia") || tipoTexto.includes("afc");
+            break;
+        }
+
+        if (!coincide) return false;
+      }
+
+      // Filtro resultado
+      if (resultado !== "TODOS") {
         const esLocal = String(p.equipo_local) === String(seleccionId);
-        const resultado = `${p.goles_local || 0} - ${p.goles_visitante || 0}`;
+        const gLocal = p.goles_local || 0;
+        const gVisitante = p.goles_visitante || 0;
+        const gano = esLocal ? gLocal > gVisitante : gVisitante > gLocal;
+        const empato = gLocal === gVisitante;
 
-        // GOLEADORES AL LADO CORRECTO (izquierda = local, derecha = visitante)
-        const golesLocal = (p.goleadores || [])
-          .filter(g => g.jugador && String(g.equipo) === String(p.equipo_local))
-          .map(g => `<div class="goleador-item local">⚽ ${g.jugador} ${g.minuto ? `<small>(${g.minuto}')</small>` : ""}</div>`)
-          .join("");
+        if (resultado === "V" && !gano) return false;
+        if (resultado === "E" && !empato) return false;
+        if (resultado === "D" && (gano || empato)) return false;
+      }
 
-        const golesVisitante = (p.goleadores || [])
-          .filter(g => g.jugador && String(g.equipo) === String(p.equipo_visitante))
-          .map(g => `<div class="goleador-item visitante">${g.jugador} ${g.minuto ? `<small>(${g.minuto}')</small>` : ""} ⚽</div>`)
-          .join("");
+      return true;
+    });
 
-        const goleadoresHTML = `
-          <div class="goleadores-container">
-            <div class="goleadores-local">${golesLocal || ""}</div>
-            <div class="goleadores-visitante">${golesVisitante || ""}</div>
+    document.getElementById("contadorMostrar").textContent = filtrados.length;
+
+    if (filtrados.length === 0) {
+      sinPartidos.style.display = "block";
+      return;
+    }
+
+    sinPartidos.style.display = "none";
+
+    filtrados.forEach(p => {
+      const local = obtenerInfoEquipo(p.equipo_local);
+      const visitante = obtenerInfoEquipo(p.equipo_visitante);
+      const esLocal = String(p.equipo_local) === String(seleccionId);
+      const resultado = `${p.goles_local || 0} - ${p.goles_visitante || 0}`;
+
+      // Goleadores alineados
+      const golesLocal = (p.goleadores || [])
+        .filter(g => g.jugador && String(g.equipo) === String(p.equipo_local))
+        .map(g => `<div class="goleador-item local"> ${g.jugador} ${g.minuto ? `<small>(${g.minuto}')</small>` : ""}</div>`)
+        .join("");
+
+      const golesVisitante = (p.goleadores || [])
+        .filter(g => g.jugador && String(g.equipo) === String(p.equipo_visitante))
+        .map(g => `<div class="goleador-item visitante">${g.jugador} ${g.minuto ? `<small>(${g.minuto}')</small>` : ""} </div>`)
+        .join("");
+
+      const goleadoresHTML = golesLocal || golesVisitante ? `
+        <div class="goleadores-container">
+          <div class="goleadores-local">${golesLocal}</div>
+          <div class="goleadores-visitante">${golesVisitante}</div>
+        </div>
+      ` : "";
+
+      const card = document.createElement("div");
+      card.className = "partido-card";
+      card.innerHTML = `
+        <div class="partido-header">
+          <div class="partido-fecha">${formatearFecha(p.fecha)}</div>
+          <div class="partido-tipo">${p.tipo || "Amistoso"}</div>
+        </div>
+        <div class="partido-equipos">
+          <div class="equipo-partido ${esLocal ? 'destacado' : ''}">
+            <img src="${local.escudo}" alt="${local.nombre}">
+            <span class="equipo-nombre">${local.nombre}</span>
           </div>
-        `;
-
-        const card = document.createElement("div");
-        card.className = "partido-card";
-        card.innerHTML = `
-          <div class="partido-header">
-            <div class="partido-fecha">${formatearFecha(p.fecha)}</div>
-            <div class="partido-tipo">${p.tipo || "Amistoso"}</div>
+          <div class="resultado">${resultado}</div>
+          <div class="equipo-partido ${!esLocal ? 'destacado' : ''}">
+            <img src="${visitante.escudo}" alt="${visitante.nombre}">
+            <span class="equipo-nombre">${visitante.nombre}</span>
           </div>
-          <div class="partido-equipos">
-            <div class="equipo-partido ${esLocal ? 'destacado' : ''}">
-              <img src="${local.escudo}" alt="${local.nombre}">
-              <span class="equipo-nombre">${local.nombre}</span>
-            </div>
-            <div class="resultado">${resultado}</div>
-            <div class="equipo-partido ${!esLocal ? 'destacado' : ''}">
-              <img src="${visitante.escudo}" alt="${visitante.nombre}">
-              <span class="equipo-nombre">${visitante.nombre}</span>
-            </div>
-          </div>
-          ${p.estadio ? `<div class="estadio-info">${p.estadio} • ${p.ciudad || ""}</div>` : ""}
-          ${goleadoresHTML}
-        `;
-
-        lista.appendChild(card);
-      });
+        </div>
+        ${p.estadio ? `<div class="estadio-info">${p.estadio} • ${p.ciudad || ""}</div>` : ""}
+        ${goleadoresHTML}
+      `;
+      lista.appendChild(card);
+    });
   }
 
+  // Eventos de filtros (en tiempo real)
+  const inputs = ["buscarPartido", "filtroTipo", "filtroResultado"];
+  inputs.forEach(id => {
+    const el = document.getElementById(id);
+    el.oninput = el.onchange = renderizarPartidos;
+  });
+
+  renderizarPartidos();
   modal.classList.add("active");
 }
 

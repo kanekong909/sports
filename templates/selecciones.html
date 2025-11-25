@@ -42,10 +42,38 @@
         <button id="cerrarModalPartidos" class="cerrar-modal">×</button>
       </div>
 
+      <!-- FILTROS DEL MODAL -->
+      <div class="modal-filtros">
+        <div class="filtro-izq">
+          <input type="text" id="buscarPartido" placeholder="Buscar rival, estadio..." class="input-filtro">
+          
+          <select id="filtroTipo" class="select-filtro">
+            <option value="TODOS">Todos los partidos</option>
+            <option value="Clasificación">Clasificación</option>
+            <option value="Amistoso">Amistoso</option>
+            <option value="Mundial">Mundial</option>
+            <option value="Copa América">Copa América</option>
+            <option value="Eurocopa">Eurocopa</option>
+            <option value="Eliminatorias">Eliminatorias</option>
+          </select>
+
+          <select id="filtroResultado" class="select-filtro">
+            <option value="TODOS">Todos los resultados</option>
+            <option value="V">Victorias</option>
+            <option value="E">Empates</option>
+            <option value="D">Derrotas</option>
+          </select>
+        </div>
+
+        <div class="contador-partidos">
+          <span id="contadorMostrar">0</span> / <span id="contadorTotal">0</span> partidos
+        </div>
+      </div>
+
       <div class="modal-body-partidos">
         <div id="listaPartidos"></div>
         <div id="sinPartidos" class="sin-resultados-modal">
-          No hay partidos registrados aún para este equipo.
+          No hay partidos que coincidan con los filtros
         </div>
       </div>
     </div>
