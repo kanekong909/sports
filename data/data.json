@@ -389,7 +389,7 @@
         {
           "id": 31,
           "nombre": "Primera Federación",
-          "pais": "Europa",
+          "pais": "España",
           "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Primera_Federaci%C3%B3n.svg/508px-Primera_Federaci%C3%B3n.svg.png",
           "equipos": []
         },
@@ -403,7 +403,7 @@
         {
           "id": 33,
           "nombre": "Segunda Federación",
-          "pais": "Europa",
+          "pais": "España",
           "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Segunda_Federaci%C3%B3n.svg/801px-Segunda_Federaci%C3%B3n.svg.png",
           "equipos": []
         }
