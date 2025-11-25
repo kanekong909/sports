@@ -2241,6 +2241,231 @@
               "equipo": "SEL_52"
             }
           ]
+        },
+        {
+          "id": "PART_1003",
+          "fecha": "2018-09-07",
+          "tipo": "UEFA Nations League - Liga C - Jornada 1",
+          "estadio": "Elbasan Arena",
+          "ciudad": "Elbasani, Albania",
+          "equipo_local": "SEL_1",
+          "equipo_visitante": "SEL_29",
+          "goles_local": 1,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Xhaka T.",
+              "minuto": "55",
+              "equipo": "SEL_1"
+            }
+          ]
+        },
+        {
+          "id": "PART_1005",
+          "fecha": "2018-09-10",
+          "tipo": "UEFA Nations League - Liga C - Jornada 2",
+          "estadio": "Hampden Park",
+          "ciudad": "Glasgow, Escocia",
+          "equipo_local": "SEL_15",
+          "equipo_visitante": "SEL_1",
+          "goles_local": 2,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Djimsiti B. (Autogol)",
+              "minuto": "47",
+              "equipo": "SEL_1"
+            },
+             {
+              "jugador": "Naismith S.",
+              "minuto": "68",
+              "equipo": "SEL_15"
+            }
+          ]
+        },
+        {
+          "id": "PART_1006",
+          "fecha": "2018-10-10",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_1",
+          "equipo_visitante": "SEL_177",
+          "goles_local": 0,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1007",
+          "fecha": "2018-10-14",
+          "tipo": "UEFA Nations League - Liga C - Jornada 4",
+          "estadio": "Toto Turner Stadium",
+          "ciudad": "Beerseba, Israel",
+          "equipo_local": "SEL_29",
+          "equipo_visitante": "SEL_1",
+          "goles_local": 2,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Hemed T.",
+              "minuto": "8",
+              "equipo": "SEL_29"
+            },
+            {
+              "jugador": "Saba D.",
+              "minuto": "83",
+              "equipo": "SEL_29"
+            }
+          ]
+        },
+        {
+          "id": "PART_1008",
+          "fecha": "2018-10-17",
+          "tipo": "UEFA Nations League - Liga C - Jornada 5",
+          "estadio": "Loro Borici Stadium",
+          "ciudad": "Shkoder, Albania",
+          "equipo_local": "SEL_1",
+          "equipo_visitante": "SEL_15",
+          "goles_local": 0,
+          "goles_visitante": 4,
+          "goleadores": [
+            {
+              "jugador": "Fraser R",
+              "minuto": "14",
+              "equipo": "SEL_15"
+            },
+            {
+              "jugador": "Fletcher S. (Penalti)",
+              "minuto": "45+2",
+              "equipo": "SEL_15"
+            },
+            {
+              "jugador": "Forrest J",
+              "minuto": "55",
+              "equipo": "SEL_15"
+            },
+            {
+              "jugador": "Forrest J",
+              "minuto": "67",
+              "equipo": "SEL_15"
+            }
+          ]
+        },
+        {
+          "id": "PART_1009",
+          "fecha": "2018-11-20",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "Elbasan Arena",
+          "ciudad": "Elbasani, Albania",
+          "equipo_local": "SEL_1",
+          "equipo_visitante": "SEL_53",
+          "goles_local": 1,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Balaj B. (Penalti)",
+              "minuto": "59",
+              "equipo": "SEL_1"
+            }
+          ]
+        },
+        {
+          "id": "PART_1010",
+          "fecha": "2019-03-22",
+          "tipo": "Eurocopa - Clasificación - Jornada 1",
+          "estadio": "Loro Borici Stadium",
+          "ciudad": "Shkoder, Albania",
+          "equipo_local": "SEL_1",
+          "equipo_visitante": "SEL_51",
+          "goles_local": 0,
+          "goles_visitante": 2,
+          "goleadores": [
+            {
+              "jugador": "Yilmaz B.",
+              "minuto": "21",
+              "equipo": "SEL_51"
+            },
+            {
+              "jugador": "Calhanoglu H.",
+              "minuto": "55",
+              "equipo": "SEL_51"
+            }
+          ]
+        },
+        {
+          "id": "PART_1011",
+          "fecha": "2019-03-25",
+          "tipo": "Eurocopa - Clasificación - Jornada 2",
+          "estadio": "Estadi Nacional",
+          "ciudad": "Andorra la Vella",
+          "equipo_local": "SEL_3",
+          "equipo_visitante": "SEL_1",
+          "goles_local": 0,
+          "goles_visitante": 3,
+          "goleadores": [
+            {
+              "jugador": "Sadiku A.",
+              "minuto": "21",
+              "equipo": "SEL_1"
+            },
+            {
+              "jugador": "Balaj B.",
+              "minuto": "87",
+              "equipo": "SEL_1"
+            },
+            {
+              "jugador": "Abrashi A.",
+              "minuto": "90+6",
+              "equipo": "SEL_1"
+            }
+          ]
+        },
+        {
+          "id": "PART_1012",
+          "fecha": "2019-06-08",
+          "tipo": "Eurocopa - Clasificación - Jornada 3",
+          "estadio": "Laugardalsvöllur",
+          "ciudad": "Reikiavik, Islandia",
+          "equipo_local": "SEL_28",
+          "equipo_visitante": "SEL_1",
+          "goles_local": 1,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Gudmundsson J",
+              "minuto": "22",
+              "equipo": "SEL_28"
+            }
+          ]
+        },
+        {
+          "id": "PART_1013",
+          "fecha": "2019-06-11",
+          "tipo": "Eurocopa - Clasificación - Jornada 4",
+          "estadio": "Elbasan Arena",
+          "ciudad": "Elbasani, Albania",
+          "equipo_local": "SEL_1",
+          "equipo_visitante": "SEL_39",
+          "goles_local": 2,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Cikalleshi S.",
+              "minuto": "66",
+              "equipo": "SEL_1"
+            },
+            {
+              "jugador": "Ramadani Y.",
+              "minuto": "90+3",
+              "equipo": "SEL_1"
+            }
+          ]
         }
       ]
     },

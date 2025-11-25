@@ -117,7 +117,7 @@ function abrirHistorialPartidos(seleccionId, nombre, escudoUrl) {
   lista.innerHTML = "";
   sinPartidos.style.display = "none";
 
-  // Buscar partidos donde juegue esta selección
+  // Filtrar partidos de esta selección
   const partidos = (dataGlobal.deportes[0].partidos || []).filter(p =>
     String(p.equipo_local) === String(seleccionId) || 
     String(p.equipo_visitante) === String(seleccionId)
@@ -135,15 +135,23 @@ function abrirHistorialPartidos(seleccionId, nombre, escudoUrl) {
         const esLocal = String(p.equipo_local) === String(seleccionId);
         const resultado = `${p.goles_local || 0} - ${p.goles_visitante || 0}`;
 
-        const goleadoresHTML = (p.goleadores || [])
-          .filter(g => g.jugador)
-          .map(g => {
-            const equipo = String(g.equipo) === String(p.equipo_local) ? local.nombre : visitante.nombre;
-            return `<div class="goleador-item">
-              <strong>${g.jugador}</strong> ${g.minuto ? `(${g.minuto}')` : ""}
-              <small>(${equipo})</small>
-            </div>`;
-          }).join("") || "<em>Sin goleadores</em>";
+        // GOLEADORES AL LADO CORRECTO (izquierda = local, derecha = visitante)
+        const golesLocal = (p.goleadores || [])
+          .filter(g => g.jugador && String(g.equipo) === String(p.equipo_local))
+          .map(g => `<div class="goleador-item local">⚽ ${g.jugador} ${g.minuto ? `<small>(${g.minuto}')</small>` : ""}</div>`)
+          .join("");
+
+        const golesVisitante = (p.goleadores || [])
+          .filter(g => g.jugador && String(g.equipo) === String(p.equipo_visitante))
+          .map(g => `<div class="goleador-item visitante">${g.jugador} ${g.minuto ? `<small>(${g.minuto}')</small>` : ""} ⚽</div>`)
+          .join("");
+
+        const goleadoresHTML = `
+          <div class="goleadores-container">
+            <div class="goleadores-local">${golesLocal || ""}</div>
+            <div class="goleadores-visitante">${golesVisitante || ""}</div>
+          </div>
+        `;
 
         const card = document.createElement("div");
         card.className = "partido-card";
@@ -164,8 +172,9 @@ function abrirHistorialPartidos(seleccionId, nombre, escudoUrl) {
             </div>
           </div>
           ${p.estadio ? `<div class="estadio-info">${p.estadio} • ${p.ciudad || ""}</div>` : ""}
-          <div class="goleadores">${goleadoresHTML}</div>
+          ${goleadoresHTML}
         `;
+
         lista.appendChild(card);
       });
   }
