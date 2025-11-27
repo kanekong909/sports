@@ -2656,16 +2656,16 @@
         },
         {
           "id": "PART_1027",
-          "fecha": "2023-11-16",
-          "tipo": "Desconocida",
+          "fecha": "2011-12-09",
+          "tipo": "Amistosos Internacionales",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Catar",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 8,
-          "goles_visitante": 1,
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_187",
+          "goles_local": 1,
+          "goles_visitante": 0,
           "goleadores": [
-             {
+            {
               "jugador": ".",
               "minuto": "",
               "equipo": ""
@@ -2673,100 +2673,198 @@
           ]
         },
         {
-          "id": "PART_1764262393599_FRQVC",
-          "fecha": "2023-10-17",
-          "tipo": "Desconocida",
+          "id": "PART_1028",
+          "fecha": "2011-12-11",
+          "tipo": "Amistosos Internacionales",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Mongolia",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 0,
-          "goles_visitante": 1,
-          "goleadores": []
+          "equipo_local": "SEL_172",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 4,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": ".",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
         },
         {
-          "id": "PART_1764262409971_40GY1",
-          "fecha": "2023-10-12",
-          "tipo": "Desconocida",
+          "id": "PART_1029",
+          "fecha": "2013-03-02",
+          "tipo": "Copa Challenge AFC - Clasificación",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "Mongolia",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_193",
           "goles_local": 1,
           "goles_visitante": 0,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Arezou B.",
+              "minuto": "45",
+              "equipo": "SEL_156"
+            }
+          ]
         },
         {
-          "id": "PART_1764262426950_R74QY",
-          "fecha": "2023-09-12",
-          "tipo": "Desconocida",
+          "id": "PART_1030",
+          "fecha": "2013-03-04",
+          "tipo": "Copa Challenge AFC - Clasificación",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Filipinas",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 2,
+          "equipo_local": "SEL_186",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 0,
           "goles_visitante": 1,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Arezou B.",
+              "minuto": "60",
+              "equipo": "SEL_156"
+            }
+          ]
         },
         {
-          "id": "PART_1764262443265_W9UI5",
-          "fecha": "2023-09-07",
-          "tipo": "Desconocida",
+          "id": "PART_1031",
+          "fecha": "2013-03-05",
+          "tipo": "Copa Challenge AFC - Clasificación",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Bangladés",
-          "equipo_visitante": "Afganistán",
+          "equipo_local": "SEL_181",
+          "equipo_visitante": "SEL_156",
           "goles_local": 1,
           "goles_visitante": 1,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Sayavutthi K.",
+              "minuto": "30",
+              "equipo": "SEL_181"
+            },
+            {
+              "jugador": "Sandjar A.",
+              "minuto": "58",
+              "equipo": "SEL_156"
+            }
+          ]
         },
         {
-          "id": "PART_1764262459639_LNO50",
-          "fecha": "2023-09-03",
-          "tipo": "Desconocida",
+          "id": "PART_1032",
+          "fecha": "2013-06-04",
+          "tipo": "Amistosos Internacionales",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Bangladés",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 0,
-          "goles_visitante": 0,
-          "goleadores": []
+          "equipo_local": "SEL_195",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 3,
+          "goles_visitante": 2,
+          "goleadores": [
+            {
+              "jugador": "Khan H.",
+              "minuto": "5",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Fatkhulloev F.",
+              "minuto": "17",
+              "equipo": "SEL_195"
+            },
+            {
+              "jugador": "Hamidullah Nesar A.",
+              "minuto": "41",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Makhmudov K. (Penalti)",
+              "minuto": "44",
+              "equipo": "SEL_195"
+            },
+            {
+              "jugador": "Savankulov S.",
+              "minuto": "74",
+              "equipo": "SEL_195"
+            }
+          ]
         },
         {
-          "id": "PART_1764262475947_35ARH",
-          "fecha": "2023-06-13",
-          "tipo": "Desconocida",
+          "id": "PART_1033",
+          "fecha": "2013-08-20",
+          "tipo": "Amistosos Internacionales",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Irán",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 6,
-          "goles_visitante": 1,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262492260_PX2GB",
-          "fecha": "2023-06-10",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Kirguistán",
-          "equipo_visitante": "Afganistán",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_189",
           "goles_local": 3,
           "goles_visitante": 0,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
         },
         {
-          "id": "PART_1764262508611_3HU9V",
-          "fecha": "2022-06-14",
-          "tipo": "Desconocida",
+          "id": "PART_1034",
+          "fecha": "2013-09-02",
+          "tipo": "SAFF Championship",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "Camboya",
-          "goles_local": 2,
-          "goles_visitante": 2,
-          "goleadores": []
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_163",
+          "goles_local": 3,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Amiri Z.",
+              "minuto": "37",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Azadzoy M.",
+              "minuto": "76",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Hashmatullah M.",
+              "minuto": "88",
+              "equipo": "SEL_156"
+            }
+          ]
+        },
+        {
+          "id": "PART_1035",
+          "fecha": "2013-09-04",
+          "tipo": "SAFF Championship",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_193",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 1,
+          "goles_visitante": 3,
+          "goleadores": [
+            {
+              "jugador": "Fazaluzzaman M.",
+              "minuto": "36",
+              "equipo": "SEL_193"
+            },
+            {
+              "jugador": "Rafi M.",
+              "minuto": "62",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Fakhruddin H.",
+              "minuto": "76",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Hashmatullah M.",
+              "minuto": "87",
+              "equipo": "SEL_156"
+            }
+          ]
         },
         {
           "id": "PART_1764262524911_IRI6U",
