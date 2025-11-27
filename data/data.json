@@ -2178,120 +2178,103 @@
       "partidos": [
         {
           "id": "PART_1001",
-          "fecha": "2018-05-29",
-          "tipo": "Amistosos Internacionales",
-          "estadio": "Estadio neutrál",
+          "fecha": "2003-11-19",
+          "tipo": "Mundial - Clasificación - Preliminar - Final",
+          "estadio": "",
           "ciudad": "",
-          "equipo_local": "SEL_1",
-          "equipo_visitante": "SEL_32",
-          "goles_local": 0,
-          "goles_visitante": 3,
+          "equipo_local": "SEL_197",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 11,
+          "goles_visitante": 0,
           "goleadores": [
             {
-              "jugador": "Zeneli A.",
-              "minuto": "21",
-              "equipo": "SEL_32"
-            },
-            {
-              "jugador": "Zeneli A.",
-              "minuto": "51",
-              "equipo": "SEL_32"
-            },
-            {
-              "jugador": "Zhegrova E.",
-              "minuto": "67",
-              "equipo": "SEL_32"
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
             }
           ]
         },
         {
           "id": "PART_1002",
-          "fecha": "2018-06-03",
-          "tipo": "Amistosos Internacionales",
-          "estadio": "Estadio neutrál",
+          "fecha": "2003-11-22",
+          "tipo": "Mundial - Clasificación - Preliminar - Final",
+          "estadio": "",
           "ciudad": "",
-          "equipo_local": "SEL_1",
-          "equipo_visitante": "SEL_52",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_197",
           "goles_local": 0,
-          "goles_visitante": 4,
+          "goles_visitante": 2,
           "goleadores": [
             {
-              "jugador": "Konoplyanka E.",
-              "minuto": "31",
-              "equipo": "SEL_52"
-            },
-            {
-              "jugador": "Yarmolengo A.",
-              "minuto": "35",
-              "equipo": "SEL_52"
-            },
-            {
-              "jugador": "Yarmolengo A.",
-              "minuto": "45 + 1",
-              "equipo": "SEL_52"
-            },
-            {
-              "jugador": "Ndoj E.",
-              "minuto": "88",
-              "equipo": "SEL_1"
-            },
-            {
-              "jugador": "Konoplyanka E.",
-              "minuto": "90",
-              "equipo": "SEL_52"
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
             }
           ]
         },
         {
           "id": "PART_1003",
-          "fecha": "2018-09-07",
-          "tipo": "UEFA Nations League - Liga C - Jornada 1",
-          "estadio": "Elbasan Arena",
-          "ciudad": "Elbasani, Albania",
-          "equipo_local": "SEL_1",
-          "equipo_visitante": "SEL_29",
-          "goles_local": 1,
+          "fecha": "2006-04-01",
+          "tipo": "Copa Challenge AFC",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_172",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 2,
           "goles_visitante": 0,
           "goleadores": [
             {
-              "jugador": "Xhaka T.",
-              "minuto": "55",
-              "equipo": "SEL_1"
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1004",
+          "fecha": "2006-04-03",
+          "tipo": "Copa Challenge AFC",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "China Taipei",
+          "goles_local": 2,
+          "goles_visitante": 2,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
             }
           ]
         },
         {
           "id": "PART_1005",
-          "fecha": "2018-09-10",
-          "tipo": "UEFA Nations League - Liga C - Jornada 2",
-          "estadio": "Hampden Park",
-          "ciudad": "Glasgow, Escocia",
-          "equipo_local": "SEL_15",
-          "equipo_visitante": "SEL_1",
-          "goles_local": 2,
-          "goles_visitante": 0,
+          "fecha": "2006-04-05",
+          "tipo": "Copa Challenge AFC",
+          "estadio": "MA Aziz Stadium",
+          "ciudad": "Chittagong, Bangladesh",
+          "equipo_local": "SEL_169",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 1,
+          "goles_visitante": 1,
           "goleadores": [
             {
-              "jugador": "Djimsiti B. (Autogol)",
-              "minuto": "47",
-              "equipo": "SEL_1"
-            },
-             {
-              "jugador": "Naismith S.",
-              "minuto": "68",
-              "equipo": "SEL_15"
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
             }
           ]
         },
         {
           "id": "PART_1006",
-          "fecha": "2018-10-10",
-          "tipo": "Amistosos Internacionales",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "SEL_1",
-          "equipo_visitante": "SEL_177",
-          "goles_local": 0,
+          "fecha": "2007-10-08",
+          "tipo": "Mundial - Clasificación - Primera ronda - Final",
+          "estadio": "bbasiyyin Stadium",
+          "ciudad": "Damasco",
+          "equipo_local": "SEL_192",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 3,
           "goles_visitante": 0,
           "goleadores": [
             {
@@ -2303,169 +2286,715 @@
         },
         {
           "id": "PART_1007",
-          "fecha": "2018-10-14",
-          "tipo": "UEFA Nations League - Liga C - Jornada 4",
-          "estadio": "Toto Turner Stadium",
-          "ciudad": "Beerseba, Israel",
-          "equipo_local": "SEL_29",
-          "equipo_visitante": "SEL_1",
-          "goles_local": 2,
-          "goles_visitante": 0,
+          "fecha": "2007-10-26",
+          "tipo": "Mundial - Clasificación - Primera Ronda - Final",
+          "estadio": "Pamir Stadium",
+          "ciudad": "Dushanbe",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_192",
+          "goles_local": 1,
+          "goles_visitante": 2,
           "goleadores": [
             {
-              "jugador": "Hemed T.",
-              "minuto": "8",
-              "equipo": "SEL_29"
-            },
-            {
-              "jugador": "Saba D.",
-              "minuto": "83",
-              "equipo": "SEL_29"
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
             }
           ]
         },
         {
           "id": "PART_1008",
-          "fecha": "2018-10-17",
-          "tipo": "UEFA Nations League - Liga C - Jornada 5",
-          "estadio": "Loro Borici Stadium",
-          "ciudad": "Shkoder, Albania",
-          "equipo_local": "SEL_1",
-          "equipo_visitante": "SEL_15",
+          "fecha": "2008-05-05",
+          "tipo": "Copa Challenge AFC - Clasificación",
+          "estadio": "Dolen Omurzakov Stadium",
+          "ciudad": "Bishkek",
+          "equipo_local": "SEL_160",
+          "equipo_visitante": "SEL_156",
           "goles_local": 0,
-          "goles_visitante": 4,
+          "goles_visitante": 0,
           "goleadores": [
             {
-              "jugador": "Fraser R",
-              "minuto": "14",
-              "equipo": "SEL_15"
-            },
-            {
-              "jugador": "Fletcher S. (Penalti)",
-              "minuto": "45+2",
-              "equipo": "SEL_15"
-            },
-            {
-              "jugador": "Forrest J",
-              "minuto": "55",
-              "equipo": "SEL_15"
-            },
-            {
-              "jugador": "Forrest J",
-              "minuto": "67",
-              "equipo": "SEL_15"
+              "jugador": "-",
+              "minuto": "-",
+              "equipo": "-"
             }
           ]
         },
         {
           "id": "PART_1009",
-          "fecha": "2018-11-20",
-          "tipo": "Amistosos Internacionales",
-          "estadio": "Elbasan Arena",
-          "ciudad": "Elbasani, Albania",
-          "equipo_local": "SEL_1",
-          "equipo_visitante": "SEL_53",
+          "fecha": "2008-05-07",
+          "tipo": "Copa Challenge AFC - Clasificación",
+          "estadio": "Dolen Omurzakov Stadium",
+          "ciudad": "Bishkek",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_179",
           "goles_local": 1,
           "goles_visitante": 0,
           "goleadores": [
             {
-              "jugador": "Balaj B. (Penalti)",
-              "minuto": "59",
-              "equipo": "SEL_1"
+              "jugador": "-",
+              "minuto": "-",
+              "equipo": "-"
             }
           ]
         },
         {
           "id": "PART_1010",
-          "fecha": "2019-03-22",
-          "tipo": "Eurocopa - Clasificación - Jornada 1",
-          "estadio": "Loro Borici Stadium",
-          "ciudad": "Shkoder, Albania",
-          "equipo_local": "SEL_1",
-          "equipo_visitante": "SEL_51",
-          "goles_local": 0,
-          "goles_visitante": 2,
+          "fecha": "2008-07-30",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_172",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 1,
+          "goles_visitante": 0,
           "goleadores": [
             {
-              "jugador": "Yilmaz B.",
-              "minuto": "21",
-              "equipo": "SEL_51"
-            },
-            {
-              "jugador": "Calhanoglu H.",
-              "minuto": "55",
-              "equipo": "SEL_51"
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
             }
           ]
         },
         {
           "id": "PART_1011",
-          "fecha": "2019-03-25",
-          "tipo": "Eurocopa - Clasificación - Jornada 2",
-          "estadio": "Estadi Nacional",
-          "ciudad": "Andorra la Vella",
-          "equipo_local": "SEL_3",
-          "equipo_visitante": "SEL_1",
-          "goles_local": 0,
-          "goles_visitante": 3,
+          "fecha": "2008-07-30",
+          "tipo": "Copa Challenge AFC",
+          "estadio": "G. M. C. Balayogi Athletic Stadium",
+          "ciudad": "Hyderabad, India",
+          "equipo_local": "SEL_172",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 1,
+          "goles_visitante": 0,
           "goleadores": [
             {
-              "jugador": "Sadiku A.",
-              "minuto": "21",
-              "equipo": "SEL_1"
-            },
-            {
-              "jugador": "Balaj B.",
-              "minuto": "87",
-              "equipo": "SEL_1"
-            },
-            {
-              "jugador": "Abrashi A.",
-              "minuto": "90+6",
-              "equipo": "SEL_1"
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
             }
           ]
         },
         {
           "id": "PART_1012",
-          "fecha": "2019-06-08",
-          "tipo": "Eurocopa - Clasificación - Jornada 3",
-          "estadio": "Laugardalsvöllur",
-          "ciudad": "Reikiavik, Islandia",
-          "equipo_local": "SEL_28",
-          "equipo_visitante": "SEL_1",
-          "goles_local": 1,
-          "goles_visitante": 0,
+          "fecha": "2008-08-01",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_192",
+          "goles_local": 0,
+          "goles_visitante": 5,
           "goleadores": [
             {
-              "jugador": "Gudmundsson J",
-              "minuto": "22",
-              "equipo": "SEL_28"
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
             }
           ]
         },
         {
           "id": "PART_1013",
-          "fecha": "2019-06-11",
-          "tipo": "Eurocopa - Clasificación - Jornada 4",
-          "estadio": "Elbasan Arena",
-          "ciudad": "Elbasani, Albania",
-          "equipo_local": "SEL_1",
-          "equipo_visitante": "SEL_39",
+          "fecha": "2008-08-03",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "Lal Bahadur Shastri Stadium",
+          "ciudad": "Hyderabad, India",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_195",
+          "goles_local": 0,
+          "goles_visitante": 4,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1014",
+          "fecha": "2009-12-05",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_172",
+          "goles_local": 1,
+          "goles_visitante": 0,
+          "goleadores": [
+             {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1015",
+          "fecha": "2009-12-07",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_185",
+          "goles_local": 1,
+          "goles_visitante": 3,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1016",
+          "fecha": "2009-12-09",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_187",
+          "goles_local": 0,
+          "goles_visitante": 3,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1018",
+          "fecha": "2011-03-23",
+          "tipo": "Mundial - Clasificación - Preliminar - Final",
+          "estadio": "Tau Devi Lal Stadium",
+          "ciudad": "Gurgaon, India",
+          "equipo_local": "SEL_163",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 0,
+          "goles_visitante": 3,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1018",
+          "fecha": "2011-03-25",
+          "tipo": "Mundial - Clasificación - Preliminar - Final",
+          "estadio": "Tau Devi Lal Stadium",
+          "ciudad": "Gurgaon, India",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_163",
           "goles_local": 2,
           "goles_visitante": 0,
           "goleadores": [
             {
-              "jugador": "Cikalleshi S.",
-              "minuto": "66",
-              "equipo": "SEL_1"
-            },
-            {
-              "jugador": "Ramadani Y.",
-              "minuto": "90+3",
-              "equipo": "SEL_1"
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
             }
           ]
+        },
+        {
+          "id": "PART_1019",
+          "fecha": "2011-04-07",
+          "tipo": "Copa Challenge AFC - Clasificación",
+          "estadio": "Dasharath Rangasala",
+          "ciudad": "Kathmandu, Nepal",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_187",
+          "goles_local": 0,
+          "goles_visitante": 1,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1020",
+          "fecha": "2011-04-09",
+          "tipo": "Copa Challenge AFC - Clasificación",
+          "estadio": "Halchowk Stadium, Nepal",
+          "ciudad": "Kathmandu, Nepal",
+          "equipo_local": "SEL_193",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 0,
+          "goles_visitante": 1,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1021",
+          "fecha": "2011-04-11",
+          "tipo": "Copa Challenge AFC - Clasificación",
+          "estadio": "Halchowk Stadium",
+          "ciudad": "Kathmandu, Nepal",
+          "equipo_local": "SEL_167",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 2,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1022",
+          "fecha": "2011-06-29",
+          "tipo": "Mundial - Clasificación - Primera Fase - Semifinales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_190",
+          "goles_local": 0,
+          "goles_visitante": 2,
+          "goleadores": [
+            {
+              "jugador": "Alyan M.",
+              "minuto": "22",
+              "equipo": "SEL_190"
+            },
+            {
+              "jugador": "Al-Amour l.",
+              "minuto": "88",
+              "equipo": "SEL_190"
+            }
+          ]
+        },
+        {
+          "id": "PART_1023",
+          "fecha": "2011-07-03",
+          "tipo": "Mundial - Clasificación - Primera Fase - Semifinales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_190",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 1,
+          "goles_visitante": 1,
+          "goleadores": [
+            {
+              "jugador": "Wadi H.",
+              "minuto": "12",
+              "equipo": "SEL_190"
+            },
+            {
+              "jugador": "Arezou B.",
+              "minuto": "63",
+              "equipo": "SEL_156"
+            }
+          ]
+        },
+        {
+          "id": "PART_1024",
+          "fecha": "2011-12-03",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_172",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 1,
+          "goles_visitante": 1,
+          "goleadores": [
+            {
+              "jugador": ".",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1025",
+          "fecha": "2011-12-05",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_193",
+          "goles_local": 3,
+          "goles_visitante": 1,
+          "goleadores": [
+            {
+              "jugador": ".",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1026",
+          "fecha": "2011-12-07",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_163",
+          "goles_local": 8,
+          "goles_visitante": 1,
+          "goleadores": [
+            {
+              "jugador": ".",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1027",
+          "fecha": "2023-11-16",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Catar",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 8,
+          "goles_visitante": 1,
+          "goleadores": [
+             {
+              "jugador": ".",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1764262393599_FRQVC",
+          "fecha": "2023-10-17",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Mongolia",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 0,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262409971_40GY1",
+          "fecha": "2023-10-12",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "Mongolia",
+          "goles_local": 1,
+          "goles_visitante": 0,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262426950_R74QY",
+          "fecha": "2023-09-12",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Filipinas",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 2,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262443265_W9UI5",
+          "fecha": "2023-09-07",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Bangladés",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 1,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262459639_LNO50",
+          "fecha": "2023-09-03",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Bangladés",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 0,
+          "goles_visitante": 0,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262475947_35ARH",
+          "fecha": "2023-06-13",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Irán",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 6,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262492260_PX2GB",
+          "fecha": "2023-06-10",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Kirguistán",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 3,
+          "goles_visitante": 0,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262508611_3HU9V",
+          "fecha": "2022-06-14",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "Camboya",
+          "goles_local": 2,
+          "goles_visitante": 2,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262524911_IRI6U",
+          "fecha": "2022-06-11",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "India",
+          "goles_local": 1,
+          "goles_visitante": 2,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262541264_3TUIL",
+          "fecha": "2022-06-08",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Hong Kong",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 2,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262557598_PM20M",
+          "fecha": "2022-06-01",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Vietnam",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 2,
+          "goles_visitante": 0,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262574229_N5Y60",
+          "fecha": "2022-03-29",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "Jordania Sub-23",
+          "goles_local": 0,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262590609_AXJX5",
+          "fecha": "2022-03-26",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "Kuwait Sub-23",
+          "goles_local": 3,
+          "goles_visitante": 0,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262606975_T39GU",
+          "fecha": "2021-11-16",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "Indonesia",
+          "goles_local": 1,
+          "goles_visitante": 0,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262623312_SFSCC",
+          "fecha": "2021-06-15",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "India",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 1,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262639702_ESU35",
+          "fecha": "2021-06-11",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "Omán",
+          "goles_local": 1,
+          "goles_visitante": 2,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262655991_FSJ0S",
+          "fecha": "2021-06-03",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Bangladés",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 1,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262672308_IH7XA",
+          "fecha": "2021-05-29",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Singapur",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 1,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262688658_AYSZU",
+          "fecha": "2021-05-25",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Indonesia",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 2,
+          "goles_visitante": 3,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262705022_CXP08",
+          "fecha": "2019-11-19",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "Catar",
+          "goles_local": 0,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262721318_KA86P",
+          "fecha": "2019-11-14",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "India",
+          "goles_local": 1,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262737667_FXTA3",
+          "fecha": "2019-10-10",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Omán",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 3,
+          "goles_visitante": 0,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262753995_QP57E",
+          "fecha": "2019-09-10",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "Bangladés",
+          "goles_local": 1,
+          "goles_visitante": 0,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262770448_72HGD",
+          "fecha": "2019-09-05",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Catar",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 6,
+          "goles_visitante": 0,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262786816_49TQK",
+          "fecha": "2019-06-07",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Tayikistán",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 1,
+          "goles_visitante": 1,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262803157_HJ1SA",
+          "fecha": "2019-03-23",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Afganistán",
+          "equipo_visitante": "Malasia",
+          "goles_local": 1,
+          "goles_visitante": 2,
+          "goleadores": []
+        },
+        {
+          "id": "PART_1764262819488_OJRFK",
+          "fecha": "2019-03-20",
+          "tipo": "Desconocida",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "Omán",
+          "equipo_visitante": "Afganistán",
+          "goles_local": 5,
+          "goles_visitante": 0,
+          "goleadores": []
         }
       ]
     },

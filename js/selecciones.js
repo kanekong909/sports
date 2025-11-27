@@ -105,6 +105,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // === FUNCIÓN PARA ABRIR EL MODAL DE PARTIDOS ===
 let partidosFiltrados = []; // Para guardar los partidos filtrados
+let seleccionIdActual = null; // Para usar en los filtros
 
 function abrirHistorialPartidos(seleccionId, nombre, escudoUrl) {
   const modal = document.getElementById("modalPartidos");
@@ -112,6 +113,9 @@ function abrirHistorialPartidos(seleccionId, nombre, escudoUrl) {
   const sinPartidos = document.getElementById("sinPartidos");
   const tituloEscudo = document.getElementById("escudoModalPartidos");
   const tituloNombre = document.getElementById("nombreEquipoModal");
+
+  // Guardar ID actual
+  seleccionIdActual = seleccionId;
 
   // Reset filtros
   document.getElementById("buscarPartido").value = "";
@@ -130,75 +134,53 @@ function abrirHistorialPartidos(seleccionId, nombre, escudoUrl) {
   partidosFiltrados = [...todosLosPartidos]
     .sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
 
-  // Actualizar contador total
   document.getElementById("contadorTotal").textContent = partidosFiltrados.length;
 
   function renderizarPartidos() {
     lista.innerHTML = "";
-    const texto = document.getElementById("buscarPartido").value.toLowerCase();
-    const tipo = document.getElementById("filtroTipo").value;
-    const resultado = document.getElementById("filtroResultado").value;
+    const texto = document.getElementById("buscarPartido").value.toLowerCase().trim();
+    const tipoFiltro = document.getElementById("filtroTipo").value;
+    const resultadoFiltro = document.getElementById("filtroResultado").value;
 
-    const filtrados = partidosFiltrados.filter(p => {
+    // === FILTRAR PARTIDOS ===
+    let filtrados = partidosFiltrados.filter(p => {
       const local = obtenerInfoEquipo(p.equipo_local);
       const visitante = obtenerInfoEquipo(p.equipo_visitante);
-      const rival = String(p.equipo_local) === String(seleccionId) ? visitante.nombre : local.nombre;
+      const rival = String(p.equipo_local) === String(seleccionIdActual) ? visitante.nombre : local.nombre;
 
-      // Filtro búsqueda
-      if (texto && !rival.toLowerCase().includes(texto) && 
-          !(p.estadio?.toLowerCase().includes(texto)) && 
-          !(p.ciudad?.toLowerCase().includes(texto))) return false;
+      // Búsqueda
+      if (texto) {
+        const searchable = `${rival} ${p.estadio || ""} ${p.ciudad || ""} ${p.tipo || ""}`.toLowerCase();
+        if (!searchable.includes(texto)) return false;
+      }
 
-      // FILTRO POR TIPO DE PARTIDO (inteligente)
-      if (tipo !== "TODOS") {
+      // Filtro por tipo (inteligente)
+      if (tipoFiltro !== "TODOS") {
         const tipoTexto = (p.tipo || "").toLowerCase();
         let coincide = false;
 
-        switch(tipo) {
-          case "Amistoso":
-            coincide = tipoTexto.includes("amistoso");
-            break;
-          case "Clasificación":
-            coincide = tipoTexto.includes("clasificación") || 
-                      tipoTexto.includes("eliminatoria") || 
-                      tipoTexto.includes("preliminar") || 
-                      tipoTexto.includes("qualifying");
-            break;
-          case "Nations League":
-            coincide = tipoTexto.includes("nations league") || 
-                      tipoTexto.includes("liga de naciones");
-            break;
-          case "Eurocopa":
-            coincide = tipoTexto.includes("eurocopa") || tipoTexto.includes("euro");
-            break;
-          case "Mundial":
-            coincide = tipoTexto.includes("mundial") || tipoTexto.includes("copa del mundo");
-            break;
-          case "Copa América":
-            coincide = tipoTexto.includes("copa américa") || tipoTexto.includes("copa america");
-            break;
-          case "Copa Africana":
-            coincide = tipoTexto.includes("africa") || tipoTexto.includes("afcon");
-            break;
-          case "Copa Asia":
-            coincide = tipoTexto.includes("asia") || tipoTexto.includes("afc");
-            break;
+        switch(tipoFiltro) {
+          case "Amistoso": coincide = tipoTexto.includes("amistoso"); break;
+          case "Clasificación": coincide = tipoTexto.includes("clasificación") || tipoTexto.includes("eliminatoria") || tipoTexto.includes("qualifying"); break;
+          case "Nations League": coincide = tipoTexto.includes("nations league") || tipoTexto.includes("liga de naciones"); break;
+          case "Eurocopa": coincide = tipoTexto.includes("eurocopa") || tipoTexto.includes("euro"); break;
+          case "Mundial": coincide = tipoTexto.includes("mundial") || tipoTexto.includes("copa del mundo"); break;
+          case "Copa América": coincide = tipoTexto.includes("copa américa") || tipoTexto.includes("copa america"); break;
         }
-
         if (!coincide) return false;
       }
 
-      // Filtro resultado
-      if (resultado !== "TODOS") {
-        const esLocal = String(p.equipo_local) === String(seleccionId);
+      // Filtro por resultado
+      if (resultadoFiltro !== "TODOS") {
+        const esLocal = String(p.equipo_local) === String(seleccionIdActual);
         const gLocal = p.goles_local || 0;
-        const gVisitante = p.goles_visitante || 0;
-        const gano = esLocal ? gLocal > gVisitante : gVisitante > gLocal;
-        const empato = gLocal === gVisitante;
+        const gVisit = p.goles_visitante || 0;
+        const gano = esLocal ? gLocal > gVisit : gVisit > gLocal;
+        const empato = gLocal === gVisit;
 
-        if (resultado === "V" && !gano) return false;
-        if (resultado === "E" && !empato) return false;
-        if (resultado === "D" && (gano || empato)) return false;
+        if (resultadoFiltro === "V" && !gano) return false;
+        if (resultadoFiltro === "E" && !empato) return false;
+        if (resultadoFiltro === "D" && (gano || empato)) return false;
       }
 
       return true;
@@ -210,63 +192,151 @@ function abrirHistorialPartidos(seleccionId, nombre, escudoUrl) {
       sinPartidos.style.display = "block";
       return;
     }
-
     sinPartidos.style.display = "none";
 
+    // === AGRUPAR POR COMPETENCIA ===
+    const grupos = {};
+
     filtrados.forEach(p => {
-      const local = obtenerInfoEquipo(p.equipo_local);
-      const visitante = obtenerInfoEquipo(p.equipo_visitante);
-      const esLocal = String(p.equipo_local) === String(seleccionId);
-      const resultado = `${p.goles_local || 0} - ${p.goles_visitante || 0}`;
+      let competicion = p.tipo || "Sin competencia";
 
-      // Goleadores alineados
-      const golesLocal = (p.goleadores || [])
-        .filter(g => g.jugador && String(g.equipo) === String(p.equipo_local))
-        .map(g => `<div class="goleador-item local"> ${g.jugador} ${g.minuto ? `<small>(${g.minuto}')</small>` : ""}</div>`)
-        .join("");
+      // 1. Eliminar todo lo que venga después de " - " (jornadas, grupos, fases, etc.)
+      if (competicion.includes(" - ")) {
+        competicion = competicion.split(" - ")[0];
+      }
 
-      const golesVisitante = (p.goleadores || [])
-        .filter(g => g.jugador && String(g.equipo) === String(p.equipo_visitante))
-        .map(g => `<div class="goleador-item visitante">${g.jugador} ${g.minuto ? `<small>(${g.minuto}')</small>` : ""} </div>`)
-        .join("");
+      // 2. Normalización manual de nombres conocidos
+      const lower = competicion.toLowerCase();
 
-      const goleadoresHTML = golesLocal || golesVisitante ? `
-        <div class="goleadores-container">
-          <div class="goleadores-local">${golesLocal}</div>
-          <div class="goleadores-visitante">${golesVisitante}</div>
-        </div>
-      ` : "";
+      if (lower.includes("amistoso")) {
+        competicion = "Amistosos Internacionales";
+      }
+      else if (lower.includes("nations league") || lower.includes("liga de naciones")) {
+        competicion = "UEFA Nations League";
+      }
+      else if (lower.includes("eurocopa") || lower.includes("euro")) {
+        competicion = "Eurocopa";
+      }
+      else if (lower.includes("mundial") || lower.includes("copa del mundo")) {
+        competicion = "Clasificación Mundial";
+      }
+      else if (lower.includes("copa américa") || lower.includes("copa america")) {
+        competicion = "Copa América";
+      }
+      else if (lower.includes("copa challenge afc")) {
+        competicion = "Copa Challenge AFC";
+      }
+      else if (lower.includes("afc asian cup") || lower.includes("copa asia")) {
+        competicion = "Copa Asia AFC";
+      }
+      else if (lower.includes("afcon") || lower.includes("copa africa") || lower.includes("copa africana")) {
+        competicion = "Copa Africana de Naciones";
+      }
+      // Puedes añadir más cuando quieras
 
-      const card = document.createElement("div");
-      card.className = "partido-card";
-      card.innerHTML = `
-        <div class="partido-header">
-          <div class="partido-fecha">${formatearFecha(p.fecha)}</div>
-          <div class="partido-tipo">${p.tipo || "Amistoso"}</div>
-        </div>
-        <div class="partido-equipos">
-          <div class="equipo-partido ${esLocal ? 'destacado' : ''}">
-            <img src="${local.escudo}" alt="${local.nombre}">
-            <span class="equipo-nombre">${local.nombre}</span>
-          </div>
-          <div class="resultado">${resultado}</div>
-          <div class="equipo-partido ${!esLocal ? 'destacado' : ''}">
-            <img src="${visitante.escudo}" alt="${visitante.nombre}">
-            <span class="equipo-nombre">${visitante.nombre}</span>
-          </div>
-        </div>
-        ${p.estadio ? `<div class="estadio-info">${p.estadio} • ${p.ciudad || ""}</div>` : ""}
-        ${goleadoresHTML}
-      `;
-      lista.appendChild(card);
+      if (!grupos[competicion]) grupos[competicion] = [];
+      grupos[competicion].push(p);
     });
+
+    // === MOSTRAR GRUPOS ORDENADOS (más reciente primero) ===
+    Object.keys(grupos)
+      .sort((a, b) => {
+        const fechaA = grupos[a][0].fecha;
+        const fechaB = grupos[b][0].fecha;
+        return new Date(fechaB) - new Date(fechaA);
+      })
+      .forEach(competicion => {
+        const section = document.createElement("div");
+        section.className = "competicion-section";
+
+        const titulo = document.createElement("h3");
+        titulo.className = "competicion-titulo";
+        titulo.innerHTML = `
+          <span class="competicion-nombre">${competicion}</span>
+          <span class="competicion-count">${grupos[competicion].length}</span>
+        `;
+        section.appendChild(titulo);
+
+        // Añadir partidos
+        grupos[competicion].forEach(p => {
+          const local = obtenerInfoEquipo(p.equipo_local);
+          const visitante = obtenerInfoEquipo(p.equipo_visitante);
+          const esLocal = String(p.equipo_local) === String(seleccionIdActual);
+          const resultado = `${p.goles_local || 0} - ${p.goles_visitante || 0}`;
+
+          const golesLocal = (p.goleadores || [])
+            .filter(g => g.jugador && String(g.equipo) === String(p.equipo_local))
+            .map(g => `
+                <div class="goleador-item local"> 
+                    <img class="icon-gol" src="./../assets/img/ball.svg" alt="goleador"/>
+                    ${g.jugador} 
+                    ${g.minuto ? 
+                    `
+                      <small>(${g.minuto}')</small>
+                    ` : ""
+                    }
+                </div>
+              `)
+            .join("");
+
+          const golesVisitante = (p.goleadores || [])
+            .filter(g => g.jugador && String(g.equipo) === String(p.equipo_visitante))
+            .map(g =>   
+                `
+                  <div class="goleador-item visitante">
+                      <img class="icon-gol" src="./../assets/img/ball.svg" alt="goleador"/>
+                      ${g.jugador} 
+                      ${g.minuto ? 
+                      `
+                        <small>(${g.minuto}')</small>
+                      ` : ""
+                      }
+                  </div>
+                `)
+            .join("");
+
+          const goleadoresHTML = golesLocal || golesVisitante ? `
+            <div class="goleadores-container">
+              <div class="goleadores-local">${golesLocal}</div>
+              <div class="goleadores-visitante">${golesVisitante}</div>
+            </div>
+          ` : "";
+
+          const card = document.createElement("div");
+          card.className = "partido-card";
+          card.innerHTML = `
+            <div class="partido-header">
+              <div class="partido-fecha">${formatearFecha(p.fecha)}</div>
+              <span class="partido-tipo">${p.tipo}</span>
+            </div>
+            <div class="partido-equipos">
+              <div class="equipo-partido ${esLocal ? 'destacado' : ''}">
+                <img src="${local.escudo}" alt="${local.nombre}">
+                <span class="equipo-nombre">${local.nombre}</span>
+              </div>
+              <div class="resultado">${resultado}</div>
+              <div class="equipo-partido ${!esLocal ? 'destacado' : ''}">
+                <img src="${visitante.escudo}" alt="${visitante.nombre}">
+                <span class="equipo-nombre">${visitante.nombre}</span>
+              </div>
+            </div>
+            ${p.estadio ? `<div class="estadio-info">${p.estadio} • ${p.ciudad || ""}</div>` : ""}
+            ${goleadoresHTML}
+          `;
+          section.appendChild(card);
+        });
+
+        lista.appendChild(section);
+      });
   }
 
-  // Eventos de filtros (en tiempo real)
+  // Eventos en tiempo real
   const inputs = ["buscarPartido", "filtroTipo", "filtroResultado"];
   inputs.forEach(id => {
     const el = document.getElementById(id);
-    el.oninput = el.onchange = renderizarPartidos;
+    if (el) {
+      el.oninput = el.onchange = renderizarPartidos;
+    }
   });
 
   renderizarPartidos();
@@ -298,8 +368,17 @@ function obtenerEscudoSeleccion(sel) {
 }
 
 function formatearFecha(str) {
-  const date = new Date(str);
-  return date.toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
+  // str viene como "2011-12-07" → YYYY-MM-DD
+  const [year, month, day] = str.split('-');
+  
+  const fecha = new Date(Date.UTC(year, month - 1, day)); // Forzamos UTC + día exacto
+  
+  return fecha.toLocaleDateString("es-ES", {
+    timeZone: "UTC",           // ← CLAVE: forzamos UTC para que no reste horas
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  });
 }
 
 // === CERRAR MODAL ===
