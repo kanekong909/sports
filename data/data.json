@@ -2867,232 +2867,557 @@
           ]
         },
         {
-          "id": "PART_1764262524911_IRI6U",
-          "fecha": "2022-06-11",
-          "tipo": "Desconocida",
+          "id": "PART_1036",
+          "fecha": "2013-09-06",
+          "tipo": "SAFF Championship",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "India",
-          "goles_local": 1,
-          "goles_visitante": 2,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262541264_3TUIL",
-          "fecha": "2022-06-08",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Hong Kong",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 2,
-          "goles_visitante": 1,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262557598_PM20M",
-          "fecha": "2022-06-01",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Vietnam",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 2,
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_185",
+          "goles_local": 0,
           "goles_visitante": 0,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "0",
+              "equipo": ""
+            }
+          ]
         },
         {
-          "id": "PART_1764262574229_N5Y60",
-          "fecha": "2022-03-29",
-          "tipo": "Desconocida",
+          "id": "PART_1037",
+          "fecha": "2013-09-08",
+          "tipo": "SAFF Championship - Playoffs - Semifinales",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "Jordania Sub-23",
+          "equipo_local": "SEL_187",
+          "equipo_visitante": "SEL_156",
           "goles_local": 0,
           "goles_visitante": 1,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Sandjar A.",
+              "minuto": "11",
+              "equipo": "SEL_156"
+            }
+          ]
         },
         {
-          "id": "PART_1764262590609_AXJX5",
-          "fecha": "2022-03-26",
-          "tipo": "Desconocida",
+          "id": "PART_1038",
+          "fecha": "2013-09-11",
+          "tipo": "SAFF Championship - Playoffs - Final",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "Kuwait Sub-23",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_172",
+          "goles_local": 2,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Azadzoy M.",
+              "minuto": "9",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Sandjar A.",
+              "minuto": "62",
+              "equipo": "SEL_156"
+            }
+          ]
+        },
+        {
+          "id": "PART_1039",
+          "fecha": "2014-05-20",
+          "tipo": "Copa Challenge AFC - Jornada 1",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_169",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 0,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": "0"
+            }
+          ]
+        },
+        {
+          "id": "PART_1040",
+          "fecha": "2014-05-22",
+          "tipo": "Copa Challenge AFC - Jornada 2",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_197",
           "goles_local": 3,
-          "goles_visitante": 0,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262606975_T39GU",
-          "fecha": "2021-11-16",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "Indonesia",
-          "goles_local": 1,
-          "goles_visitante": 0,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262623312_SFSCC",
-          "fecha": "2021-06-15",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "India",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 1,
           "goles_visitante": 1,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Fakhruddin H.",
+              "minuto": "45+1",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Hatifi A.",
+              "minuto": "61",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Muhadow S.",
+              "minuto": "64",
+              "equipo": "SEL_197"
+            },
+            {
+              "jugador": "Shayetesh F.",
+              "minuto": "86",
+              "equipo": "SEL_156"
+            }
+          ]
         },
         {
-          "id": "PART_1764262639702_ESU35",
-          "fecha": "2021-06-11",
-          "tipo": "Desconocida",
+          "id": "PART_1041",
+          "fecha": "2014-05-24",
+          "tipo": "Copa Challenge AFC - Jornada 3",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "Omán",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_181",
+          "goles_local": 0,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1042",
+          "fecha": "2014-05-27",
+          "tipo": "SAFF Championship - Playoffs - Semifinales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_190",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 2,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Nu'man A. (Penalti)",
+              "minuto": "43",
+              "equipo": "SEL_190"
+            },
+            {
+              "jugador": "Nu'man A.",
+              "minuto": "47",
+              "equipo": "SEL_190"
+            }
+          ]
+        },
+        {
+          "id": "PART_1043",
+          "fecha": "2014-05-29",
+          "tipo": "Copa Challenge AFC - Playoffs 3ra Posición",
+          "estadio": "(0 - 0)",
+          "ciudad": "Tras los penaltis",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_185",
           "goles_local": 1,
           "goles_visitante": 2,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Karimi H.",
+              "minuto": "114",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Fasir A.",
+              "minuto": "118",
+              "equipo": "SEL_185"
+            }
+          ]
         },
         {
-          "id": "PART_1764262655991_FSJ0S",
-          "fecha": "2021-06-03",
-          "tipo": "Desconocida",
+          "id": "PART_1044",
+          "fecha": "2015-02-06",
+          "tipo": "Amistosos Internacionales",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Bangladés",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 1,
-          "goles_visitante": 1,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262672308_IH7XA",
-          "fecha": "2021-05-29",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Singapur",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 1,
-          "goles_visitante": 1,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262688658_AYSZU",
-          "fecha": "2021-05-25",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Indonesia",
-          "equipo_visitante": "Afganistán",
+          "equipo_local": "SEL_189",
+          "equipo_visitante": "SEL_156",
           "goles_local": 2,
-          "goles_visitante": 3,
-          "goleadores": []
+          "goles_visitante": 1,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
         },
         {
-          "id": "PART_1764262705022_CXP08",
-          "fecha": "2019-11-19",
-          "tipo": "Desconocida",
+          "id": "PART_1045",
+          "fecha": "2015-05-29",
+          "tipo": "Amistosos Internacionales",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "Catar",
+          "equipo_local": "SEL_181",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 0,
+          "goles_visitante": 2,
+          "goleadores": [
+            {
+              "jugador": "",
+              "minuto": "",
+              "equipo": ""
+            }
+          ]
+        },
+        {
+          "id": "PART_1046",
+          "fecha": "2015-06-02",
+          "tipo": "Amistosos Internacionales",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_160",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 1,
+          "goles_visitante": 1,
+          "goleadores": [
+            {
+              "jugador": "Hasan Ameli M.",
+              "minuto": "4",
+              "equipo": "SEL_160"
+            },
+            {
+              "jugador": "Shanwary E.",
+              "minuto": "90+4",
+              "equipo": "SEL_156"
+            }
+          ]
+        },
+        {
+          "id": "PART_1047",
+          "fecha": "2015-06-11",
+          "tipo": "Mundial - Clasificación - Segunda Fase - Jornada 1",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_192",
+          "goles_local": 0,
+          "goles_visitante": 6,
+          "goleadores": [
+            {
+              "jugador": "Rafe R.",
+              "minuto": "19",
+              "equipo": "SEL_192"
+            },
+            {
+              "jugador": "Rafe R.",
+              "minuto": "35",
+              "equipo": "SEL_192"
+            },
+            {
+              "jugador": "Ajan M.",
+              "minuto": "42",
+              "equipo": "SEL_192"
+            },
+            {
+              "jugador": "Al hussain A.",
+              "minuto": "70",
+              "equipo": "SEL_192"
+            },
+            {
+              "jugador": "Maiki S",
+              "minuto": "75",
+              "equipo": "SEL_192"
+            },
+            {
+              "jugador": "Khribin O. M. (Penalti)",
+              "minuto": "90+4",
+              "equipo": "SEL_192"
+            }
+          ]
+        },
+        {
+          "id": "PART_1048",
+          "fecha": "2015-06-16",
+          "tipo": "Mundial - Clasificación - Segunda Fase - Jornada 2",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_164",
+          "equipo_visitante": "SEL_156",
           "goles_local": 0,
           "goles_visitante": 1,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Zazao M.",
+              "minuto": "86",
+              "equipo": "SEL_156"
+            }
+          ]
         },
         {
-          "id": "PART_1764262721318_KA86P",
-          "fecha": "2019-11-14",
-          "tipo": "Desconocida",
+          "id": "PART_1049",
+          "fecha": "2015-09-03",
+          "tipo": "Amistosos Internacionales",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "India",
-          "goles_local": 1,
-          "goles_visitante": 1,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262737667_FXTA3",
-          "fecha": "2019-10-10",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Omán",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 3,
+          "equipo_local": "SEL_194",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 2,
           "goles_visitante": 0,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Tossakai M.",
+              "minuto": "30",
+              "equipo": "SEL_194"
+            },
+            {
+              "jugador": "Dangda T.",
+              "minuto": "60",
+              "equipo": "SEL_194"
+            }
+          ]
         },
         {
-          "id": "PART_1764262753995_QP57E",
-          "fecha": "2019-09-10",
-          "tipo": "Desconocida",
+          "id": "PART_1050",
+          "fecha": "2015-09-08",
+          "tipo": "Mundial - Clasificación - Segunda Fase - Jornada 4",
+          "estadio": "Azadi Stadium",
+          "ciudad": "Teherán, Iran",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_176",
+          "goles_local": 0,
+          "goles_visitante": 6,
+          "goleadores": [
+            {
+              "jugador": "Kagawa S.",
+              "minuto": "10",
+              "equipo": "SEL_176"
+            },
+            {
+              "jugador": "Morishige M.",
+              "minuto": "35",
+              "equipo": "SEL_176"
+            },
+            {
+              "jugador": "Kagawa S.",
+              "minuto": "50",
+              "equipo": "SEL_176"
+            },
+            {
+              "jugador": "Okazaki S.",
+              "minuto": "57",
+              "equipo": "SEL_176"
+            },
+            {
+              "jugador": "Okazaki S.",
+              "minuto": "60",
+              "equipo": "SEL_176"
+            },
+            {
+              "jugador": "Honda K.",
+              "minuto": "74",
+              "equipo": "SEL_176"
+            }
+          ]
+        },
+        {
+          "id": "PART_1051",
+          "fecha": "2015-10-08",
+          "tipo": "Mundial - Clasificación - Segunda Fase - Jornada 5",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "Bangladés",
+          "equipo_local": "SEL_191",
+          "equipo_visitante": "SEL_156",
           "goles_local": 1,
           "goles_visitante": 0,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Amri K.",
+              "minuto": "72",
+              "equipo": "SEL_191"
+            }
+          ]
         },
         {
-          "id": "PART_1764262770448_72HGD",
-          "fecha": "2019-09-05",
-          "tipo": "Desconocida",
+          "id": "PART_1052",
+          "fecha": "2015-10-13",
+          "tipo": "Mundial - Clasificación - Segunda Fase - Jornada 6",
           "estadio": "",
           "ciudad": "",
-          "equipo_local": "Catar",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 6,
-          "goles_visitante": 0,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262786816_49TQK",
-          "fecha": "2019-06-07",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Tayikistán",
-          "equipo_visitante": "Afganistán",
-          "goles_local": 1,
-          "goles_visitante": 1,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262803157_HJ1SA",
-          "fecha": "2019-03-23",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Afganistán",
-          "equipo_visitante": "Malasia",
-          "goles_local": 1,
-          "goles_visitante": 2,
-          "goleadores": []
-        },
-        {
-          "id": "PART_1764262819488_OJRFK",
-          "fecha": "2019-03-20",
-          "tipo": "Desconocida",
-          "estadio": "",
-          "ciudad": "",
-          "equipo_local": "Omán",
-          "equipo_visitante": "Afganistán",
+          "equipo_local": "SEL_192",
+          "equipo_visitante": "SEL_156",
           "goles_local": 5,
+          "goles_visitante": 2,
+          "goleadores": [
+            {
+              "jugador": "Omari O.",
+              "minuto": "9",
+              "equipo": "SEL_192"
+            },
+            {
+              "jugador": "Omari O.",
+              "minuto": "21",
+              "equipo": "SEL_192"
+            },
+            {
+              "jugador": "Al Mawas M.",
+              "minuto": "32",
+              "equipo": "SEL_192"
+            },
+            {
+              "jugador": "Amiri N.",
+              "minuto": "44",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Omari O.",
+              "minuto": "83",
+              "equipo": "SEL_192"
+            },
+            {
+              "jugador": "Shayetesh F.",
+              "minuto": "78",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Al Mawas M.",
+              "minuto": "90",
+              "equipo": "SEL_192"
+            }
+          ]
+        },
+        {
+          "id": "PART_1053",
+          "fecha": "2015-11-12",
+          "tipo": "Mundial - Clasificación - Segunda Fase - Jornada 7",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_164",
+          "goles_local": 3,
           "goles_visitante": 0,
-          "goleadores": []
+          "goleadores": [
+            {
+              "jugador": "Zazai M.",
+              "minuto": "42",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Amiri N.",
+              "minuto": "78",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Amani K.",
+              "minuto": "90+4",
+              "equipo": "SEL_156"
+            }
+          ]
+        },
+        {
+          "id": "PART_1054",
+          "fecha": "2015-12-24",
+          "tipo": "SAFF Championship",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_160",
+          "goles_local": 4,
+          "goles_visitante": 0,
+          "goleadores": [
+            {
+              "jugador": "Saighani M.",
+              "minuto": "30",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Shayetesh F.",
+              "minuto": "32",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Amiri Z.",
+              "minuto": "40",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Amani K.",
+              "minuto": "69",
+              "equipo": "SEL_156"
+            }
+          ]
+        },
+        {
+          "id": "PART_1055",
+          "fecha": "2015-12-26",
+          "tipo": "SAFF Championship",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_163",
+          "equipo_visitante": "SEL_156",
+          "goles_local": 0,
+          "goles_visitante": 3,
+          "goleadores": [
+            {
+              "jugador": "Amani K.",
+              "minuto": "14",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Saighani M.",
+              "minuto": "43",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Amani K.",
+              "minuto": "51",
+              "equipo": "SEL_156"
+            }
+          ]
+        },
+        {
+          "id": "PART_1056",
+          "fecha": "2015-12-28",
+          "tipo": "SAFF Championship",
+          "estadio": "",
+          "ciudad": "",
+          "equipo_local": "SEL_156",
+          "equipo_visitante": "SEL_185",
+          "goles_local": 4,
+          "goles_visitante": 1,
+          "goleadores": [
+            {
+              "jugador": "Shayetesh F.",
+              "minuto": "20",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Fasir A.",
+              "minuto": "32",
+              "equipo": "SEL_185"
+            },
+            {
+              "jugador": "Popalzay O.",
+              "minuto": "34",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Hatifi A.",
+              "minuto": "51",
+              "equipo": "SEL_156"
+            },
+            {
+              "jugador": "Popalzay O.",
+              "minuto": "54",
+              "equipo": "SEL_156"
+            }
+          ]
         }
       ]
     },
