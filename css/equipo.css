@@ -115,6 +115,7 @@ main {
 }
 
 .card {
+    clip-path: polygon(0 9%, 8% 9%, 8% 0, 91% 0, 91% 9%, 100% 9%, 100% 91%, 90% 91%, 90% 100%, 9% 100%, 9% 91%, 0 91%);
     background: linear-gradient(145deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%);
     border-radius: 20px;
     padding: 2rem;
