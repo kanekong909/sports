@@ -125,7 +125,7 @@ header p {
   
   /* Estilos para la barra de scroll */
   scrollbar-width: thin;
-  scrollbar-color: var(--primary) var(--dark-light);
+  scrollbar-color: rgba(0, 255, 136, 0.4) var(--dark-light);
 }
 
 /* Estilos personalizados para navegadores webkit (Chrome, Safari) */
